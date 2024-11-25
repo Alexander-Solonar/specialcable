@@ -1,0 +1,30 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="ctrl-up" viewBox="0 0 32 32">
+<path d="M9 21c0.278 0 0.555-0.116 0.753-0.341l6.247-7.14 6.247 7.14c0.364 0.416 0.995 0.458 1.411 0.094s0.458-0.995 0.094-1.411l-7-8c-0.19-0.217-0.464-0.341-0.753-0.341s-0.563 0.124-0.753 0.341l-7 8c-0.364 0.416-0.322 1.047 0.094 1.411 0.19 0.166 0.424 0.247 0.658 0.247z"></path>
+</symbol>
+<symbol id="ctrl-down" viewBox="0 0 32 32">
+<path d="M9 11c0.278 0 0.555 0.116 0.753 0.341l6.247 7.14 6.247-7.14c0.364-0.416 0.995-0.458 1.411-0.094s0.458 0.995 0.094 1.411l-7 8c-0.19 0.217-0.464 0.341-0.753 0.341s-0.563-0.125-0.753-0.341l-7-8c-0.364-0.416-0.322-1.047 0.094-1.411 0.19-0.166 0.424-0.247 0.658-0.247z"></path>
+</symbol>
+<symbol id="ua" viewBox="0 0 43 32">
+<path fill="#ffd500" style="fill: var(--color1, #ffd500)" d="M0 0h42.667v32h-42.667z"></path>
+<path fill="#005bbb" style="fill: var(--color2, #005bbb)" d="M0 0h42.667v16h-42.667z"></path>
+</symbol>
+<symbol id="en" viewBox="0 0 43 32">
+<path fill="#012169" style="fill: var(--color1, #012169)" d="M0 0h42.667v32h-42.667z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M5 0l16.267 12.067 16.2-12.067h5.2v4.133l-16 11.933 16 11.867v4.067h-5.333l-16-11.933-15.933 11.933h-5.4v-4l15.933-11.867-15.933-11.867v-4.267h5z"></path>
+<path fill="#c8102e" style="fill: var(--color3, #c8102e)" d="M28.267 18.733l14.4 10.6v2.667l-18.067-13.267h3.667zM16 20.067l0.4 2.333-12.8 9.6h-3.6l16-11.933zM42.667 0v0.2l-16.6 12.533 0.133-2.933 13.133-9.8h3.333zM0 0l15.933 11.733h-4l-11.933-8.933v-2.8z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M16.067 0v32h10.667v-32h-10.667zM0 10.667v10.667h42.667v-10.667h-42.667z"></path>
+<path fill="#c8102e" style="fill: var(--color3, #c8102e)" d="M0 12.867v6.4h42.667v-6.4h-42.667zM18.2 0v32h6.4v-32h-6.4z"></path>
+</symbol>
+<symbol id="burger-menu" viewBox="0 0 58 32">
+<path d="M0 0h58.182v2.909h-58.182v-2.909z"></path>
+<path d="M0 14.545h58.182v2.909h-58.182v-2.909z"></path>
+<path d="M0 29.091h58.182v2.909h-58.182v-2.909z"></path>
+</symbol>
+<symbol id="close" viewBox="0 0 32 32">
+<path d="M1.882 0.002l30.116 30.116-1.882 1.882-30.116-30.116 1.882-1.882z"></path>
+<path d="M32 1.882l-30.116 30.116-1.882-1.882 30.116-30.116 1.882 1.882z"></path>
+</symbol>
+</defs>
+</svg>
