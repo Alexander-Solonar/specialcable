@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "about-us": "Про компанію",
+    "catalog": "Каталог",
+    "information": "Ітформація",
+    "contacts": "Контакти"
+  },
+  "mainBanner": {
+    "factory": "Кабельний завод",
+    "title": "СПЕЦРЕСУРС",
+    "safetyPercentage": "100%",
+    "safety": "БЕЗПЕКА",
+    "savingLives": "Рятуємо життя людей",
+    "buttonText": "Перейти до каталогу"
+  }
+}

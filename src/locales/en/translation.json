@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "about-us": "About-us",
+    "catalog": "Catalog",
+    "information": "Information",
+    "contacts": "Contacts"
+  },
+  "mainBanner": {
+    "factory": "Cable Factory",
+    "title": "SPECRESOURCE",
+    "safetyPercentage": "100%",
+    "safety": "SAFETY",
+    "savingLives": "Saving lives",
+    "buttonText": "Go to catalog"
+  }
+}
