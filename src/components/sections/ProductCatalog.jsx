@@ -13,6 +13,7 @@ const ProductCatalog = () => {
         <ul className="mb-12 mt-12 flex flex-wrap justify-center gap-5 sm:mt-10">
           <ProductCard />
           <ProductCard />
+          <ProductCard />
         </ul>
         <MainButton text="Смотреть всё" addStyles="mx-auto" />
       </Container>
