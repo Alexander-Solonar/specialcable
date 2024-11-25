@@ -16,6 +16,7 @@ const ProductCatalog = () => {
           <ProductCard />
           <ProductCard />
           <ProductCard />
+          <ProductCard />
         </ul>
         <MainButton text="Смотреть всё" addStyles="mx-auto" />
       </Container>
