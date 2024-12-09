@@ -1,4 +1,3 @@
-import React from 'react';
 import Container from './Container';
 import { ReactComponent as LogoIcon } from '../../assets/images/logo.svg';
 

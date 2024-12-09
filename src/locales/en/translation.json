@@ -12,5 +12,12 @@
     "safety": "SAFETY",
     "savingLives": "Saving lives",
     "buttonText": "Go to catalog"
+  },
+  "aboutUs": {
+    "title": "About Us",
+    "firstParagraph": "OOO Spetsresurs is a dynamically developing cable plant. Our main specialization is the production of fire-resistant cable for fire protection systems. We also manufacture heating wire (concrete heating), telephony, video surveillance.",
+    "secondParagraph": "We have assembled a team of qualified professionals in the electrical goods market to implement a key mission: saving people's lives by manufacturing high-tech and environmentally friendly cable and wire products that meet all operating and safety standards.",
+    "buttonMore": "Read more",
+    "buttonHide": "Hide"
   }
 }

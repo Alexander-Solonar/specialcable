@@ -5,7 +5,7 @@ module.exports = {
     screens: {
       xl: "1025px",
       ml: "769px",
-      sm: "480px",
+      sm: "481px",
     },
     fontFamily: {
       main: ["PT Sans Narrow", "sans-serif"],
@@ -21,6 +21,14 @@ module.exports = {
       "midnight-blue": "#0d233f",
       "space-blue": "#0C243E",
       "vivid-orange": "#FF7300",
+      gray: "#667592",
+    },
+
+    backgroundImage: {
+      "bg-aboutUs": "url('/src/assets/images/aboutUs/bg.webp')",
+    },
+    backgroundPosition: {
+      "position-aboutUs": "right 10px top 35px",
     },
     extend: {
       animation: {

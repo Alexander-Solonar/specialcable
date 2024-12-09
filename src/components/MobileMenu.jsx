@@ -1,7 +1,8 @@
-import React, { useContext, useRef } from 'react';
+import { useContext, useRef } from 'react';
 import { Context } from '../context/Context';
 import { useClickOutside } from '../hooks/useClickOutside';
 import { useCloseOnResize } from '../hooks/useCloseOnResize';
+
 import Navigation from './Navigation';
 import SpriteIcon from './common/SpriteIcon';
 import LangSwitcher from './buttons/LangSwitcher';
@@ -16,7 +17,7 @@ const MobileMenu = () => {
   });
 
   // Виклик хука для закриття меню при зміні розміру екрана
-  useCloseOnResize(menuOpen, () => setMenuOpen(false));
+  useCloseOnResize(setMenuOpen);
 
   const handleClickCloseMenu = () => {
     setMenuOpen(false);

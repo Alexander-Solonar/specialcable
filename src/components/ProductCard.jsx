@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 import cableXl from '../assets/images/cableXl.webp';
@@ -8,7 +7,7 @@ import cableSm from '../assets/images/cableSm.webp';
 const ProductCard = () => {
   return (
     <li className="relative w-[152px] ml:w-[160px] xl:w-[280px]">
-      <Link className="shadow-custom inline-block transition-transform duration-300 hover:scale-110">
+      <Link className="inline-block shadow-custom transition-transform duration-300 hover:scale-110">
         <picture>
           <source media="(max-width: 480px)" srcSet={cableSm} />
           <source media="(max-width: 768px)" srcSet={cableMl} />

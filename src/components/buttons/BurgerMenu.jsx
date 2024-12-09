@@ -1,6 +1,7 @@
-import React, { useContext } from "react";
-import { Context } from "../../context/Context";
-import SpriteIcon from "../common/SpriteIcon";
+import { useContext } from 'react';
+import { Context } from '../../context/Context';
+
+import SpriteIcon from '../common/SpriteIcon';
 
 const BurgerMenu = () => {
   const { setMenuOpen } = useContext(Context);
