@@ -8,13 +8,15 @@ const ProductCatalog = () => {
     <section className="pb-6 pt-6 sm:pb-12 sm:pt-32 ml:pb-14 xl:pb-[90px]">
       <Container>
         <SectionTitle text="наша продукция" />
-        <ul className="mb-12 mt-12 flex flex-wrap justify-center gap-5 sm:mt-10">
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-        </ul>
-        <MainButton text="Смотреть всё" addStyles="mx-auto" />
+        <div className="flex flex-col">
+          <ul className="mb-12 mt-12 flex flex-wrap justify-center gap-5 sm:mt-10">
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+          </ul>
+          <MainButton text="Смотреть всё" addStyles="mx-auto" />
+        </div>
       </Container>
     </section>
   );

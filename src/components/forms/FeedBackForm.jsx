@@ -1,34 +1,46 @@
-import { Form, Formik } from "formik";
-import FormikControl from "../formik/FormikControl";
-import MainButton from "../buttons/MainButton";
-import { useTranslation } from "react-i18next";
+import { Form, Formik } from 'formik';
+import FormikControl from '../formik/FormikControl';
+import { useTranslation } from 'react-i18next';
+import { feedbackSchema } from '../formik/schemas';
 
 const FeedBackForm = () => {
   const { t } = useTranslation();
 
   const initialValues = {
-    email: "",
-    text: "",
+    name: '',
+    phone: '1',
+  };
+
+  const handleSubmit = (values, actions) => {
+    console.log(values);
+    initialValues.phone = '';
+    actions.resetForm();
   };
 
   return (
-    <Formik initialValues={initialValues}>
-      <Form className="flex w-full max-w-[360px] flex-col items-center gap-y-3 text-black ml:items-start">
+    <Formik initialValues={initialValues} validationSchema={feedbackSchema} onSubmit={handleSubmit}>
+      <Form className="flex w-full flex-col gap-3 text-xs text-black sm:flex-row sm:text-sm ml:gap-5 ml:text-base">
         <FormikControl
           control="input"
-          type="email"
-          name="email"
-          placeholder={t("form.placeholderEmail")}
-          className="h-[42px] w-full border-none pl-[14px] pr-[30px] focus:outline focus:outline-2 focus:outline-vivid-red"
-        />
-        <FormikControl
-          control="textarea"
           type="text"
-          name="text"
-          placeholder={t("form.placeholderText")}
-          className="h-[81px] w-full resize-none py-3 pl-[14px] pr-[30px] outline-none focus:outline focus:outline-2 focus:outline-offset-0 focus:outline-vivid-red"
+          name="name"
+          className="relative h-9 sm:flex-grow ml:h-14"
+          placeholder="Ваше имя"
         />
-        <MainButton text={t("form.button")} addStyles=" bg-vivid-red" />
+
+        <FormikControl
+          control="phone"
+          type="text"
+          name="phone"
+          className="relative h-9 sm:flex-grow ml:h-14"
+          placeholder="+38(0XX) XXX-XXXX"
+        />
+        <button
+          type="submit"
+          className="ml-auto flex h-9 items-center justify-center bg-vivid-orange px-5 font-bold tracking-widest text-white transition-opacity duration-300 hover:opacity-85 sm:ml-0 ml:h-14 ml:flex-grow"
+        >
+          Заказать звонок
+        </button>
       </Form>
     </Formik>
   );

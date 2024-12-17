@@ -1,14 +1,14 @@
-import FormikInput from "./FormikInput";
-import FormikTextarea from "./FormikTextarea";
+import FormikInput from './FormikInput';
+import FormikMaskedInput from './FormikMaskedInput';
 
-const FormikControl = (props) => {
+const FormikControl = props => {
   const { control, ...rest } = props;
 
   switch (control) {
-    case "input":
+    case 'input':
       return <FormikInput {...rest} />;
-    case "textarea":
-      return <FormikTextarea {...rest} />;
+    case 'phone':
+      return <FormikMaskedInput {...rest} />;
     default:
       return null;
   }
