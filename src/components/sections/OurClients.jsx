@@ -13,7 +13,7 @@ import 'swiper/css/pagination';
 
 const SWIPER_SETTINGS = {
   loop: true,
-  spaceBetween: 20,
+  spaceBetween: 34,
   grabCursor: true,
   slidesPerView: 'auto',
   pagination: {

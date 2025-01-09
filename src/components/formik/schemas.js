@@ -1,4 +1,5 @@
-import { date, object, string } from 'yup';
+// import { date, object, string } from 'yup';
+import { object, string } from 'yup';
 
 // export const registerSchema = object({
 //   name: string().trim().required("Name is a required field"),
