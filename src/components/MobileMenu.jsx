@@ -47,7 +47,7 @@ const MobileMenu = () => {
           {/* Кнопка закриття меню */}
           <button
             onClick={handleClickCloseMenu}
-            className="group flex items-center justify-center transition-colors duration-300 ml:hidden xl:h-[55px] xl:min-w-[55px]"
+            className="group flex items-center justify-center ml:hidden xl:h-[55px] xl:min-w-[55px]"
           >
             <SpriteIcon
               icon="close"

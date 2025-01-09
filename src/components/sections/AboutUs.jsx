@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { useCloseOnResize } from '../../hooks/useCloseOnResize';
 import { useTranslation } from 'react-i18next';
+import { useCloseOnResize } from '../../hooks/useCloseOnResize';
 
 import image from '../../assets/images/aboutUs/copper.webp';
 import SectionTitle from '../common/SectionTitle';

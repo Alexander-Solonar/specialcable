@@ -1,7 +1,7 @@
 import { Form, Formik } from 'formik';
-import FormikControl from '../formik/FormikControl';
 import { useTranslation } from 'react-i18next';
 import { feedbackSchema } from '../formik/schemas';
+import FormikControl from '../formik/FormikControl';
 
 const FeedBackForm = () => {
   const { t } = useTranslation();
@@ -25,7 +25,7 @@ const FeedBackForm = () => {
           type="text"
           name="name"
           className="relative h-9 sm:flex-grow ml:h-14"
-          placeholder="Ваше имя"
+          placeholder={t('feedBack.input')}
         />
 
         <FormikControl
@@ -39,7 +39,7 @@ const FeedBackForm = () => {
           type="submit"
           className="ml-auto flex h-9 items-center justify-center bg-vivid-orange px-5 font-bold tracking-widest text-white transition-opacity duration-300 hover:opacity-85 sm:ml-0 ml:h-14 ml:flex-grow"
         >
-          Заказать звонок
+          {t('feedBack.button')}
         </button>
       </Form>
     </Formik>

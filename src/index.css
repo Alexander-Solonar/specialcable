@@ -82,3 +82,17 @@ h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
+.swiper-wrapper {
+  display: flex;
+  align-items: end;
+}
+.our-clients .swiper-slide {
+  transition:
+    transform 250ms linear,
+    opacity 250ms linear;
+}
+
+.our-clients .swiper-slide-active {
+  opacity: 1;
+  transform: scale(1.1);
+}

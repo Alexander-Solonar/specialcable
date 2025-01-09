@@ -25,5 +25,22 @@
     "macroDimensions": "macro dimensions",
     "cableKilometers": "kilometers of cable in stock",
     "deliveryDistance": "thousands of kilometers traveled by the delivery vehicle"
+  },
+  "feedBack": {
+    "title": "Request a Call",
+    "input": "Your Name",
+    "button": "Request a Call",
+    "text": "By clicking the 'Request a Call Back' button, I give full consent to the processing of personal data and confirm that I have read the privacy policy."
+  },
+
+  "specialOffer": {
+    "label": "Special Offer",
+    "title": "Warehouse Clearance Sale",
+    "description": "KVK-V-2 2×0.75 cable in various lengths from 13 RUB/m instead of 14 RUB/m"
+  },
+
+  "ourClients": {
+    "title": "Our Clients",
+    "description": "An individual approach, flexible production, and impeccable product and service quality allow us to gain clients who become loyal partners."
   }
 }

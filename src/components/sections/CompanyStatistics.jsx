@@ -1,13 +1,13 @@
 import { useTranslation } from 'react-i18next';
-import { data } from '../../data/companyStatistics';
 
+import { data } from '../../data/companyStatistics';
 import Container from '../common/Container';
 
 const CompanyStatistics = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-space-blue py-10 sm:py-11 ml:py-28">
+    <section className="bg-space-blue py-10 sm:py-11 ml:py-28">
       <Container>
         <ul className="flex flex-wrap justify-center gap-10 ml:justify-between ml:gap-0">
           {data.map(({ id, amount, text }) => (
@@ -20,7 +20,7 @@ const CompanyStatistics = () => {
           ))}
         </ul>
       </Container>
-    </div>
+    </section>
   );
 };
 
