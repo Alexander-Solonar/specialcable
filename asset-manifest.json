@@ -1,29 +1,32 @@
 {
   "files": {
-    "main.css": "/specialcable/static/css/main.38faf089.css",
-    "main.js": "/specialcable/static/js/main.1f3c6754.js",
+    "main.css": "/specialcable/static/css/main.d9ff246d.css",
+    "main.js": "/specialcable/static/js/main.21febb17.js",
     "static/js/811.de8dd0b8.chunk.js": "/specialcable/static/js/811.de8dd0b8.chunk.js",
+    "static/media/letterOfThanks.webp": "/specialcable/static/media/letterOfThanks.0854245f948530581d23.webp",
     "static/media/pt-sans-narrow-v18-cyrillic_latin-700.woff2": "/specialcable/static/media/pt-sans-narrow-v18-cyrillic_latin-700.9dec777f48150c86d1f0.woff2",
     "static/media/pt-sans-narrow-v18-cyrillic_latin-regular.woff2": "/specialcable/static/media/pt-sans-narrow-v18-cyrillic_latin-regular.f78ceabaf220d7c90394.woff2",
     "static/media/copper.webp": "/specialcable/static/media/copper.793781012e99644cb0e6.webp",
-    "static/media/image 68.webp": "/specialcable/static/media/image 68.acfc3ef55069584066b2.webp",
+    "static/media/promo-slide-xl.webp": "/specialcable/static/media/promo-slide-xl.acfc3ef55069584066b2.webp",
     "static/media/bannerXl.webp": "/specialcable/static/media/bannerXl.d137582a46130c9b66be.webp",
     "static/media/logo.svg": "/specialcable/static/media/logo.b3c4181f32e408afb8435821cb29ecdc.svg",
     "static/media/bg.webp": "/specialcable/static/media/bg.1bd9b3b581f7b522ff7b.webp",
+    "static/media/promo-slide-ml.webp": "/specialcable/static/media/promo-slide-ml.033b910457fc83a10c6b.webp",
     "static/media/bannerMl.webp": "/specialcable/static/media/bannerMl.497b0785b13da0ae3a6e.webp",
     "static/media/sprite.svg": "/specialcable/static/media/sprite.54562513b5385a489ddc61e235ef2828.svg",
     "static/media/cableXl.webp": "/specialcable/static/media/cableXl.e99893ba25c74b9797d7.webp",
     "static/media/bannerSm.webp": "/specialcable/static/media/bannerSm.24f8b0249d041f39037a.webp",
+    "static/media/promo-slide-sm.webp": "/specialcable/static/media/promo-slide-sm.7e2f8cb75513e1fcbea2.webp",
     "static/media/cableMl.webp": "/specialcable/static/media/cableMl.ca229ef81d6b97680b26.webp",
     "static/media/cableSm.webp": "/specialcable/static/media/cableSm.cb3a42dd745cbaed63c2.webp",
     "static/media/logoSmall.svg": "/specialcable/static/media/logoSmall.dbe5fcba58307868754dd48799a48140.svg",
     "index.html": "/specialcable/index.html",
-    "main.38faf089.css.map": "/specialcable/static/css/main.38faf089.css.map",
-    "main.1f3c6754.js.map": "/specialcable/static/js/main.1f3c6754.js.map",
+    "main.d9ff246d.css.map": "/specialcable/static/css/main.d9ff246d.css.map",
+    "main.21febb17.js.map": "/specialcable/static/js/main.21febb17.js.map",
     "811.de8dd0b8.chunk.js.map": "/specialcable/static/js/811.de8dd0b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38faf089.css",
-    "static/js/main.1f3c6754.js"
+    "static/css/main.d9ff246d.css",
+    "static/js/main.21febb17.js"
   ]
 }
