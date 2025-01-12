@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 
-import cableXl from '../assets/images/cableXl.webp';
-import cableMl from '../assets/images/cableMl.webp';
-import cableSm from '../assets/images/cableSm.webp';
+import cableXl from '../../assets/images/cableXl.webp';
+import cableMl from '../../assets/images/cableMl.webp';
+import cableSm from '../../assets/images/cableSm.webp';
 
 const ProductCard = () => {
   return (

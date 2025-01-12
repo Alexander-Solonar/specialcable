@@ -1,8 +1,8 @@
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { nameNav } from '../data/nameNav';
+import { nameNav } from '../../data/nameNav';
 
-const Navigation = ({ classNameNav, classNameList }) => {
+const Navigation = ({ closeMobileMenu = null, classNameNav, classNameList }) => {
   const { t } = useTranslation();
 
   const linkClassName = ({ isActive }) =>
@@ -15,7 +15,7 @@ const Navigation = ({ classNameNav, classNameList }) => {
       <ul className={classNameList}>
         {nameNav.map(({ id, path, text }) => (
           <li key={id}>
-            <NavLink to={path} className={linkClassName}>
+            <NavLink to={path} onClick={() => closeMobileMenu?.(false)} className={linkClassName}>
               {t(text)}
             </NavLink>
           </li>

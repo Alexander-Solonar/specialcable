@@ -4,15 +4,11 @@ import { Context } from '../../context/Context';
 import SpriteIcon from '../common/SpriteIcon';
 
 const BurgerMenu = () => {
-  const { setMenuOpen } = useContext(Context);
-
-  const handleClick = () => {
-    setMenuOpen(true);
-  };
+  const { setIsMenuOpen } = useContext(Context);
 
   return (
     <button
-      onClick={handleClick}
+      onClick={() => setIsMenuOpen(true)}
       className="group flex items-center justify-center rounded-2xl transition-colors duration-300 ml:hidden xl:h-[55px] xl:min-w-[55px]"
     >
       <SpriteIcon

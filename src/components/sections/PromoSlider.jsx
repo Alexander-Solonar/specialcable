@@ -1,13 +1,14 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
-import { data } from '../../data/promoSlide';
+import { sliderData } from '../../data/promoSlider';
 
-import PromoSlide from '../PromoSlide';
-import PromoSliderControls from '../PromoSliderControls';
+import PromoSlide from '../utils/PromoSlide';
+import PromoSliderControls from '../utils/PromoSliderControls';
 
 import 'swiper/css';
 
 const SWIPER_SETTINGS = {
+  loop: true,
   speed: 1500,
   autoplay: {
     delay: 2500,
@@ -28,14 +29,14 @@ const PromoSlider = () => {
   return (
     <section className="relative">
       <Swiper {...SWIPER_SETTINGS} className="mySwiper">
-        {data.map(slide => (
+        {sliderData.map(slide => (
           <SwiperSlide key={slide.id}>
             <PromoSlide {...slide} />
           </SwiperSlide>
         ))}
       </Swiper>
 
-      {/* Навигация */}
+      {/* Навігація Слайдера */}
       <PromoSliderControls />
     </section>
   );

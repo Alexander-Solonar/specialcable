@@ -1,44 +1,28 @@
-import { useContext, useRef } from 'react';
-import { Context } from '../context/Context';
-import { useClickOutside } from '../hooks/useClickOutside';
-import { useCloseOnResize } from '../hooks/useCloseOnResize';
+import { useContext } from 'react';
+import { Context } from '../../context/Context';
+import { useCloseOnResize } from '../../hooks/useCloseOnResize';
 
-import Navigation from './Navigation';
-import SpriteIcon from './common/SpriteIcon';
-import LangSwitcher from './buttons/LangSwitcher';
+import Navigation from '../common/Navigation';
+import Modal from '../common/Modal';
+import SpriteIcon from '../common/SpriteIcon';
+import LangSwitcher from '../buttons/LangSwitcher';
 
 const MobileMenu = () => {
-  const { menuOpen, setMenuOpen, setLangOpen } = useContext(Context);
-  const menuRef = useRef(null);
-
-  // Виклик хука для закриття меню при кліку за його межами
-  useClickOutside(menuRef, () => {
-    if (menuOpen) setMenuOpen(false);
-  });
+  const { isMenuOpen, setIsMenuOpen, setIsLangOpen } = useContext(Context);
 
   // Виклик хука для закриття меню при зміні розміру екрана
-  useCloseOnResize(setMenuOpen);
+  useCloseOnResize(setIsMenuOpen);
 
   const handleClickCloseMenu = () => {
-    setMenuOpen(false);
-    setLangOpen(false);
+    setIsMenuOpen(false);
+    setIsLangOpen(false);
   };
 
   return (
-    <>
-      {/* Задній фон, який з'являється при відкритті меню */}
-      <div
-        ref={menuRef}
-        className={`absolute z-[2] h-full w-full bg-backdrop ml:hidden ${
-          menuOpen ? 'scale-1' : 'scale-0'
-        }`}
-        aria-hidden={!menuOpen}
-      ></div>
-
-      {/* Контейнер меню */}
+    <Modal isOpen={isMenuOpen} setIsOpen={setIsMenuOpen}>
       <div
         className={`absolute right-0 z-[2] h-full w-48 bg-white p-4 transition-transform duration-300 ease-in-out sm:w-72 sm:pr-10 sm:pt-6 ml:hidden ${
-          menuOpen ? 'translate-x-0' : 'translate-x-[100%]'
+          isMenuOpen ? 'translate-x-0' : 'translate-x-[100%]'
         }`}
       >
         <div className="flex justify-between">
@@ -57,11 +41,12 @@ const MobileMenu = () => {
         </div>
 
         <Navigation
+          closeMobileMenu={setIsMenuOpen}
           classNameNav="flex justify-center mt-12"
           classNameList="flex flex-col gap-y-4"
         />
       </div>
-    </>
+    </Modal>
   );
 };
 

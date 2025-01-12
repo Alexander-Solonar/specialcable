@@ -1,4 +1,4 @@
-export const data = [
+export const statisticsData = [
   { id: 1, amount: '535', text: 'info.partners' },
   { id: 2, amount: '426', text: 'info.macroDimensions' },
   { id: 3, amount: '761', text: 'info.cableKilometers' },

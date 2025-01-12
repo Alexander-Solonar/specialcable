@@ -1,25 +1,30 @@
-import { createContext, useState } from "react";
+import { createContext, useState } from 'react';
 
 const initialContext = {
-  menuOpen: false,
-  setMenuOpen: () => {},
-  langOpen: false,
-  setLangOpen: () => {},
+  isMenuOpen: false,
+  setIsMenuOpen: () => {},
+  isLangOpen: false,
+  setIsLangOpen: () => {},
+  isModalOpen: false,
+  setIsModalOpen: () => {},
 };
 
 export const Context = createContext(initialContext);
 
 const ContextProvider = ({ children }) => {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [langOpen, setLangOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isLangOpen, setIsLangOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
     <Context.Provider
       value={{
-        menuOpen,
-        setMenuOpen,
-        langOpen,
-        setLangOpen,
+        isMenuOpen,
+        setIsMenuOpen,
+        isLangOpen,
+        setIsLangOpen,
+        isModalOpen,
+        setIsModalOpen,
       }}
     >
       {children}

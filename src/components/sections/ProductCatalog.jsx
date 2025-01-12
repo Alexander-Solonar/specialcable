@@ -1,6 +1,6 @@
 import SectionTitle from '../common/SectionTitle';
 import Container from '../common/Container';
-import ProductCard from '../ProductCard';
+import ProductCard from '../utils/ProductCard';
 import MainButton from '../buttons/MainButton';
 
 const ProductCatalog = () => {

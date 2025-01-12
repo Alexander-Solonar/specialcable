@@ -5,8 +5,8 @@ import ProductCatalog from '../components/sections/ProductCatalog';
 import PromoSlider from '../components/sections/PromoSlider';
 import AboutUs from '../components/sections/AboutUs';
 import CompanyStatistics from '../components/sections/CompanyStatistics';
+import OurPartners from '../components/sections/OurPartners';
 import CallbackOrder from '../components/sections/CallbackOrder';
-import OurClients from '../components/sections/OurClients';
 
 const HomePage = () => {
   return (
@@ -16,7 +16,7 @@ const HomePage = () => {
       <PromoSlider />
       <AboutUs />
       <CompanyStatistics />
-      <OurClients />
+      <OurPartners />
       <CallbackOrder />
     </>
   );

@@ -1,8 +1,8 @@
-import Container from '../components/common/Container';
-import imageXl from '../assets/images/promo-slide-xl.webp';
-import imageMl from '../assets/images/promo-slide-ml.webp';
-import imageSm from '../assets/images/promo-slide-sm.webp';
 import { useTranslation } from 'react-i18next';
+import Container from '../common/Container';
+import imageXl from '../../assets/images/promo-slide-xl.webp';
+import imageMl from '../../assets/images/promo-slide-ml.webp';
+import imageSm from '../../assets/images/promo-slide-xl.webp';
 
 const PromoSlide = ({ label, title, description, bgColor }) => {
   const { t } = useTranslation();

@@ -8,16 +8,12 @@ import Container from '../common/Container';
 import SpriteIcon from '../common/SpriteIcon';
 
 const AboutUs = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isReadMoreShown, setIsReadMoreShown] = useState(false);
   const { t } = useTranslation();
   const BREAKPOINT = 481;
 
   // Виклик хука для закриття меню при зміні розміру екрана
-  useCloseOnResize(setIsOpen, BREAKPOINT);
-
-  const toggleOpen = () => {
-    setIsOpen(prevState => !prevState);
-  };
+  useCloseOnResize(setIsReadMoreShown, BREAKPOINT);
 
   return (
     <section className="relative pb-8 pt-4 sm:pb-28 sm:pt-12 ml:pb-32 ml:pt-28">
@@ -28,13 +24,16 @@ const AboutUs = () => {
             <SectionTitle text={t('aboutUs.title')} />
             <p className="mb-4 mt-3 sm:mt-8">{t('aboutUs.firstParagraph')}</p>
             <p className="hidden sm:block">{t('aboutUs.secondParagraph')}</p>
-            {isOpen && <p className="sm:hidden">{t('aboutUs.secondParagraph')}</p>}
-            <button onClick={toggleOpen} className="ml-auto flex items-center gap-x-1 sm:hidden">
+            {isReadMoreShown && <p className="sm:hidden">{t('aboutUs.secondParagraph')}</p>}
+            <button
+              onClick={() => setIsReadMoreShown(!isReadMoreShown)}
+              className="ml-auto flex items-center gap-x-1 sm:hidden"
+            >
               <span className="underline">
-                {isOpen ? t('aboutUs.buttonHide') : t('aboutUs.buttonMore')}
+                {isReadMoreShown ? t('aboutUs.buttonHide') : t('aboutUs.buttonMore')}
               </span>
               <SpriteIcon
-                icon={isOpen ? 'rectangle-up' : 'rectangle-down'}
+                icon={isReadMoreShown ? 'rectangle-up' : 'rectangle-down'}
                 className="h-2.5 w-2.5"
               />
             </button>

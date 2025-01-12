@@ -1,4 +1,4 @@
-import SpriteIcon from './common/SpriteIcon';
+import SpriteIcon from '../common/SpriteIcon';
 
 const PromoSliderControls = () => {
   return (

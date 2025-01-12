@@ -5,7 +5,7 @@ import { Context } from '../../context/Context';
 import SpriteIcon from '../common/SpriteIcon';
 
 const LangSwitcher = ({ className }) => {
-  const { langOpen, setLangOpen } = useContext(Context);
+  const { isLangOpen, setIsLangOpen } = useContext(Context);
   const { i18n } = useTranslation();
   const { language, languages } = i18n;
 
@@ -16,7 +16,7 @@ const LangSwitcher = ({ className }) => {
 
   const switchLanguage = lang => {
     i18n.changeLanguage(lang);
-    setLangOpen(false);
+    setIsLangOpen(false);
   };
 
   return (
@@ -24,16 +24,16 @@ const LangSwitcher = ({ className }) => {
       <div>
         <button
           aria-haspopup="true"
-          aria-expanded={langOpen}
-          onClick={() => setLangOpen(!langOpen)}
+          aria-expanded={isLangOpen}
+          onClick={() => setIsLangOpen(!isLangOpen)}
           className="flex items-center p-2 focus:outline-none"
         >
           <SpriteIcon icon={language} width={22} height={15} />
-          <SpriteIcon icon={langOpen ? 'ctrl-up' : 'ctrl-down'} width={22} height={15} />
+          <SpriteIcon icon={isLangOpen ? 'ctrl-up' : 'ctrl-down'} width={22} height={15} />
         </button>
       </div>
 
-      {langOpen && (
+      {isLangOpen && (
         <div className="absolute right-0 z-10 mt-2 w-40 bg-white shadow-lg">
           {languages.map(lang => (
             <button
