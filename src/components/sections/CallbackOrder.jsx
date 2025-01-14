@@ -14,7 +14,6 @@ const CallbackOrder = () => {
         <SectionTitle text={t('feedBack.title')} />
         <div className="mt-4 flex flex-col items-center sm:mt-7 ml:mt-12">
           <FeedBackForm />
-          <p className="mt-4 text-xs sm:text-sm ml:text-base">{t('feedBack.text')}</p>
         </div>
       </Container>
     </section>

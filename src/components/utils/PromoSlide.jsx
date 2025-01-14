@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import Container from '../common/Container';
 import imageXl from '../../assets/images/promo-slide-xl.webp';
 import imageMl from '../../assets/images/promo-slide-ml.webp';
-import imageSm from '../../assets/images/promo-slide-xl.webp';
+import imageSm from '../../assets/images/promo-slide-sm.webp';
 
 const PromoSlide = ({ label, title, description, bgColor }) => {
   const { t } = useTranslation();
@@ -10,7 +10,7 @@ const PromoSlide = ({ label, title, description, bgColor }) => {
   return (
     <div className={`overflow-x-hidden bg-${bgColor}`}>
       <Container>
-        <div className="max-w-44 pb-10 pt-10 sm:max-w-60 sm:pb-[90px] sm:pt-20 ml:max-w-[500px] ml:pb-28 ml:pt-32">
+        <div className="max-w-32 pb-10 pt-10 sm:max-w-60 sm:pb-[90px] sm:pt-20 ml:max-w-[500px] ml:pb-28 ml:pt-32">
           <p className="absolute left-0 top-1.5 bg-midnight-blue px-3 text-xs font-bold uppercase leading-[1.5] tracking-widest text-white sm:left-4 sm:top-10 ml:top-8">
             {t(label)}
           </p>

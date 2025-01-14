@@ -22,8 +22,8 @@ const OurPartners = () => {
             {t('ourClients.description')}
           </p>
         </div>
+        <PartnerLettersSlider setImage={setImage} />
       </Container>
-      <PartnerLettersSlider setImage={setImage} />
       <FullScreenLetter image={image} />
     </section>
   );

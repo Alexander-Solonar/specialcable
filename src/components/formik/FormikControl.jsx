@@ -1,3 +1,4 @@
+import FormikCheckbox from './FormikCheckbox';
 import FormikInput from './FormikInput';
 import FormikMaskedInput from './FormikMaskedInput';
 
@@ -9,6 +10,8 @@ const FormikControl = props => {
       return <FormikInput {...rest} />;
     case 'phone':
       return <FormikMaskedInput {...rest} />;
+    case 'checkbox':
+      return <FormikCheckbox {...rest} />;
     default:
       return null;
   }

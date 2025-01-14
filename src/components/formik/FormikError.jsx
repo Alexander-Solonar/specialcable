@@ -6,9 +6,7 @@ const FormikError = ({ name }) => {
     <ErrorMessage
       name={name}
       render={message => (
-        <p className="absolute -top-6 text-base font-bold tracking-wider text-vivid-orange">
-          {message}
-        </p>
+        <p className="absolute -top-5 text-sm font-bold tracking-wider text-vivid-red">{message}</p>
       )}
     />
   );

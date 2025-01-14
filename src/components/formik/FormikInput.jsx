@@ -10,7 +10,7 @@ const FormikInput = props => {
         id={name}
         name={name}
         {...rest}
-        className="h-full w-full border-none px-3 focus:outline focus:outline-2 focus:outline-vivid-red"
+        className="h-full w-full border-2 border-space-blue px-3 focus:border-vivid-red"
       />
     </label>
   );

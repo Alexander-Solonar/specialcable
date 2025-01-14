@@ -89,10 +89,12 @@ h6 {
 .our-clients .swiper-slide {
   transition:
     transform 250ms linear,
-    opacity 250ms linear;
+    opacity 250ms linear,
+    filter 250ms linear;
+  filter: blur(2px);
 }
 
 .our-clients .swiper-slide-active {
-  opacity: 1;
+  filter: none;
   transform: scale(1.2);
 }
