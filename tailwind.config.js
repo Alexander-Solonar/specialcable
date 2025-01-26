@@ -22,10 +22,12 @@ module.exports = {
       "space-blue": "#0C243E",
       "vivid-orange": "#FF7300",
       gray: "#667592",
+      "soft-blue": "#BBC7D5",
     },
 
     backgroundImage: {
       "bg-aboutUs": "url('/src/assets/images/aboutUs/bg.webp')",
+      "bg-footer": "url('/src/assets/images/bg-footer.webp')",
     },
     backgroundPosition: {
       "position-aboutUs": "right 10px top 35px",

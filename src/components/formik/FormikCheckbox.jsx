@@ -8,7 +8,7 @@ const FormikCheckbox = props => {
       id={name}
       name={name}
       {...rest}
-      className="flex h-4 w-4 appearance-none items-center justify-center border-2 checked:after:text-xs checked:after:content-['✓']"
+      className="flex h-4 w-4 min-w-4 cursor-pointer appearance-none items-center justify-center border-2 checked:after:text-xs checked:after:content-['✓']"
     />
   );
 };

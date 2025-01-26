@@ -45,7 +45,7 @@ const FeedBackForm = () => {
               {t('feedBack.button')}
             </button>
           </div>
-          <div className="mt-4 inline-flex items-start gap-3">
+          <div className="mt-4 flex items-start gap-3">
             <FormikControl control="checkbox" type="checkbox" name="checkbox" />
             <p className="max-w-[599px] text-xs !leading-none sm:text-sm ml:text-base">
               {t('feedBack.text')}

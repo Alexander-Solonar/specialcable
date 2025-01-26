@@ -10,10 +10,10 @@ import 'swiper/css';
 const SWIPER_SETTINGS = {
   loop: true,
   speed: 1500,
-  // autoplay: {
-  //   delay: 2500,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
   pagination: {
     type: 'fraction',
     el: '.custom-pagination',
