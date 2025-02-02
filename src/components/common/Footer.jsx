@@ -1,11 +1,13 @@
+import { useTranslation } from 'react-i18next';
+import { footerNav } from '../../data/footerNav';
 import FooterBlock from '../utils/FooterBlock';
 import Container from './Container';
-import { footerNav } from '../../data/footerNav';
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer className="flex justify-center border-t-4 border-t-vivid-red bg-space-blue text-white">
-      <div className="sm:bg-bg-footer bg-left w-full max-w-[1600px] bg-no-repeat pb-4 pt-10 ml:pb-20 ml:pt-14">
+      <div className="bg-left w-full max-w-[1600px] bg-no-repeat pb-4 pt-10 sm:bg-bg-footer ml:pb-20 ml:pt-14">
         <Container>
           <div className="flex flex-col gap-x-9 gap-y-4 ml:flex-row">
             {footerNav.map((section, index) => (
@@ -17,7 +19,7 @@ const Footer = () => {
               className="text-[11px] underline opacity-50 sm:uppercase sm:tracking-widest sm:opacity-100 ml:max-w-[250px] ml:text-base ml:normal-case ml:tracking-normal"
               href="##"
             >
-              Политика конфиденциальности и обработки персональных данных
+              {t('footer.privacyPolicy')}
             </a>
           </div>
         </Container>

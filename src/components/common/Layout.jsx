@@ -2,6 +2,7 @@ import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 
 import Header from './Header';
+import CallbackOrder from '../sections/CallbackOrder';
 import Footer from './Footer';
 
 const Layout = () => {
@@ -12,6 +13,7 @@ const Layout = () => {
         <Suspense>
           <Outlet />
         </Suspense>
+        <CallbackOrder />
       </main>
       <Footer />
     </div>

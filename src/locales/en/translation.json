@@ -42,5 +42,50 @@
   "ourClients": {
     "title": "Our Clients",
     "description": "An individual approach, flexible production, and impeccable product and service quality allow us to gain clients who become loyal partners."
+  },
+  "footer": {
+    "sections": {
+      "about": {
+        "title": "About the company",
+        "items": {
+          "aboutUs": "About us",
+          "news": "News",
+          "gallery": "Gallery",
+          "vacancies": "Vacancies",
+          "articles": "Articles",
+          "partners": "Partners"
+        }
+      },
+      "catalog": {
+        "title": "Catalog",
+        "items": {
+          "phoneAndBroadcastWires": "Telephone, broadcast, and distribution wires",
+          "heatingCables": "Heating cables",
+          "securityFireCables": "Cables for security and fire alarm systems",
+          "videoSurveillanceCables": "Combined cables for video surveillance"
+        }
+      },
+      "information": {
+        "title": "Information",
+        "items": {
+          "contractorRequirements": "Contractor requirements",
+          "paymentTerms": "Payment terms",
+          "certificates": "Certificates",
+          "storageConditions": "Storage conditions",
+          "supplierInfo": "Supplier information"
+        }
+      },
+      "contacts": {
+        "title": "Contacts",
+        "items": {
+          "phone": "+7 (499)350-64-13",
+          "email": "info@resurscable.com",
+          "warehouse": "Warehouse: MO, Krasnogorsky District, Svetlye Gory, vl.29",
+          "office": "Office: Moscow, Sculptor Mukhina Street, bld. 7, fl. 1, room II, office 5B",
+          "factory": "Factory: Republic of Mordovia, Kemlya, Saranskcable Territory St., bld. 17G"
+        }
+      }
+    },
+    "privacyPolicy": "Privacy Policy and Personal Data Processing"
   }
 }

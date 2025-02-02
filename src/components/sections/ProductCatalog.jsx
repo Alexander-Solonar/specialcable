@@ -2,6 +2,7 @@ import SectionTitle from '../common/SectionTitle';
 import Container from '../common/Container';
 import ProductCard from '../utils/ProductCard';
 import MainButton from '../buttons/MainButton';
+import { products } from '../../data/products';
 
 const ProductCatalog = () => {
   return (
@@ -10,10 +11,9 @@ const ProductCatalog = () => {
         <SectionTitle text="наша продукция" />
         <div className="flex flex-col">
           <ul className="mb-12 mt-12 flex flex-wrap justify-center gap-5 sm:mt-10">
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            {products.map(product => (
+              <ProductCard key={product.id} {...product} />
+            ))}
           </ul>
           <MainButton text="Смотреть всё" addStyles="mx-auto" />
         </div>

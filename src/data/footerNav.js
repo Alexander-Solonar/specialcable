@@ -1,62 +1,53 @@
 export const footerNav = [
   {
-    title: 'О компании',
+    title: 'footer.sections.about.title',
     items: [
-      [{ text: 'О нас', href: '##' }],
-      [{ text: 'Новости', href: '##' }],
-      [{ text: 'Галерея', href: '##' }],
-      [{ text: 'Вакансии', href: '##' }],
-      [{ text: 'Статьи', href: '##' }],
-      [{ text: 'Партнеры', href: '##' }],
+      [{ text: 'footer.sections.about.items.aboutUs', href: '##' }],
+      [{ text: 'footer.sections.about.items.news', href: '##' }],
+      [{ text: 'footer.sections.about.items.gallery', href: '##' }],
+      [{ text: 'footer.sections.about.items.vacancies', href: '##' }],
+      [{ text: 'footer.sections.about.items.articles', href: '##' }],
+      [{ text: 'footer.sections.about.items.partners', href: '##' }],
     ],
   },
   {
-    title: 'Каталог',
+    title: 'footer.sections.catalog.title',
     items: [
       [
-        {
-          text: 'Провода телефонные, радиотрансляционные и распределительные',
-          href: '##',
-        },
-        { text: 'Прогревочный кабели', href: '##' },
+        { text: 'footer.sections.catalog.items.phoneAndBroadcastWires', href: '##' },
+        { text: 'footer.sections.catalog.items.heatingCables', href: '##' },
       ],
       [
-        { text: 'Кабели для систем охранно- пожарной сигнализации', href: '##' },
-        { text: 'Кабели комбинированные для видеонаблюдения', href: '##' },
-      ],
-    ],
-  },
-  {
-    title: 'Информация',
-    items: [
-      [
-        { text: 'Требования к контрагентам', href: '##' },
-        { text: 'Условия оплаты', href: '##' },
-        { text: 'Сертификаты', href: '##' },
-      ],
-      [
-        { text: 'Условия хранения', href: '##' },
-        { text: 'Информация поставщикам', href: '##' },
+        { text: 'footer.sections.catalog.items.securityFireCables', href: '##' },
+        { text: 'footer.sections.catalog.items.videoSurveillanceCables', href: '##' },
       ],
     ],
   },
   {
-    title: 'Контакты',
+    title: 'footer.sections.information.title',
     items: [
       [
-        { text: '+7 (499)350-64-13', href: '##' },
-        { text: 'info@resurscable.com', href: '##' },
-        { text: 'Склад: МО, Красногорский район, п. Светлые Горы, вл.29', href: '##' },
+        { text: 'footer.sections.information.items.contractorRequirements', href: '##' },
+        { text: 'footer.sections.information.items.paymentTerms', href: '##' },
+        { text: 'footer.sections.information.items.certificates', href: '##' },
       ],
       [
-        {
-          text: 'Офис: Москва, ул Скульптора Мухиной, дом № 7, эт 1, пом II, ком 5Б',
-          href: '##',
-        },
-        {
-          text: 'Завод: Республика Мордовия, с.Кемля, ул.Территория Сарансккабель, д.17Г',
-          href: '##',
-        },
+        { text: 'footer.sections.information.items.storageConditions', href: '##' },
+        { text: 'footer.sections.information.items.supplierInfo', href: '##' },
+      ],
+    ],
+  },
+  {
+    title: 'footer.sections.contacts.title',
+    items: [
+      [
+        { text: 'footer.sections.contacts.items.phone', href: '##' },
+        { text: 'footer.sections.contacts.items.email', href: '##' },
+        { text: 'footer.sections.contacts.items.warehouse', href: '##' },
+      ],
+      [
+        { text: 'footer.sections.contacts.items.office', href: '##' },
+        { text: 'footer.sections.contacts.items.factory', href: '##' },
       ],
     ],
   },
