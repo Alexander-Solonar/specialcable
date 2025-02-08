@@ -4,7 +4,7 @@ import FormikError from './FormikError';
 
 const FormikMaskedInput = props => {
   const { name, className, ...rest } = props;
-  const [_, meta] = useField(name);
+  const [, meta] = useField(name);
   const isError = meta.touched && meta.error;
 
   const borderColor = isError ? 'border-vivid-red' : 'border-space-blue';

@@ -6,7 +6,7 @@ import AnimatedNumber from '../utils/AnimatedNumber';
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 
-const CompanyStatistics = () => {
+const StatisticsSection = () => {
   const { t } = useTranslation();
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, { amount: 0.9, once: true });
@@ -31,4 +31,4 @@ const CompanyStatistics = () => {
   );
 };
 
-export default CompanyStatistics;
+export default StatisticsSection;

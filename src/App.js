@@ -4,8 +4,9 @@ import ContextProvider from './context/Context';
 
 import Layout from './components/common/Layout';
 import HomePage from './pages/HomePage';
+import AboutUsDetailsSection from './components/sections/AboutUsDetailsSection';
 
-const AboutUs = lazy(() => import('./pages/AboutUsPage'));
+const AboutCompanyPage = lazy(() => import('./pages/AboutCompanyPage'));
 
 function App() {
   return (
@@ -13,9 +14,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
-          <Route path="/about-us" element={<AboutUs />}>
+          <Route path="/about-us" element={<AboutCompanyPage />}>
             <Route index element={<Navigate to="us" replace />} />
-            <Route path="us" element={<h2>Про нас</h2>} />
+            <Route path="us" element={<AboutUsDetailsSection />} />
             <Route path="news" element={<h2>Новини</h2>} />
             <Route path="gallery" element={<h2>Галерея</h2>} />
             <Route path="jobs" element={<h2>Вакансії</h2>} />

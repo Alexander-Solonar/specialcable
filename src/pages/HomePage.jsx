@@ -3,9 +3,9 @@ import React from 'react';
 import MainBanner from '../components/sections/MainBaner';
 import ProductCatalog from '../components/sections/ProductCatalog';
 import PromoSlider from '../components/sections/PromoSlider';
-import AboutUs from '../components/sections/AboutUs';
-import CompanyStatistics from '../components/sections/CompanyStatistics';
-import OurPartners from '../components/sections/OurPartners';
+import AboutUsPreviewSection from '../components/sections/AboutUsPreviewSection';
+import StatisticsSection from '../components/sections/StatisticsSection';
+import ClientTrustSection from '../components/sections/ClientTrustSection';
 
 const HomePage = () => {
   return (
@@ -13,9 +13,9 @@ const HomePage = () => {
       <MainBanner />
       <ProductCatalog />
       <PromoSlider />
-      <AboutUs />
-      <CompanyStatistics />
-      <OurPartners />
+      <AboutUsPreviewSection />
+      <StatisticsSection />
+      <ClientTrustSection />
     </>
   );
 };

@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const FooterBlock = ({ title, items }) => {
   const { t } = useTranslation();
@@ -11,13 +12,13 @@ const FooterBlock = ({ title, items }) => {
         {items.map((column, index) => (
           <li key={index} className="flex w-1/2 flex-col gap-y-3 ml:w-full">
             {column.map((link, idx) => (
-              <a
+              <Link
                 key={idx}
                 className="w-fit transition-colors duration-300 hover:text-vivid-orange"
-                href={link.href}
+                to={link.href}
               >
-                {t(link.text)}
-              </a>
+                {t(link.label)}
+              </Link>
             ))}
           </li>
         ))}

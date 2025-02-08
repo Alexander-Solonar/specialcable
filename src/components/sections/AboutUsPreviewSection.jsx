@@ -7,7 +7,7 @@ import SectionTitle from '../common/SectionTitle';
 import Container from '../common/Container';
 import SpriteIcon from '../common/SpriteIcon';
 
-const AboutUs = () => {
+const AboutUsPreviewSection = () => {
   const [isReadMoreShown, setIsReadMoreShown] = useState(false);
   const { t } = useTranslation();
   const BREAKPOINT = 481;
@@ -47,4 +47,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default AboutUsPreviewSection;
