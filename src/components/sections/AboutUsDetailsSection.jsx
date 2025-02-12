@@ -8,7 +8,7 @@ const AboutUsDetailsSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="relative pb-8 sm:pb-28 ml:pb-32">
+    <section className="pb-8 sm:pb-28 ml:pb-32">
       <Container>
         <SectionTitle text={t('aboutUs.title')} />
         <div className="mt-3 flex flex-wrap items-start justify-center gap-x-5 sm:mt-7 xl:flex-nowrap xl:justify-between">

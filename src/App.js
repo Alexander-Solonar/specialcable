@@ -4,9 +4,12 @@ import ContextProvider from './context/Context';
 
 import Layout from './components/common/Layout';
 import HomePage from './pages/HomePage';
-import AboutUsDetailsSection from './components/sections/AboutUsDetailsSection';
 
 const AboutCompanyPage = lazy(() => import('./pages/AboutCompanyPage'));
+
+const AboutUsDetailsSection = lazy(() => import('./components/sections/AboutUsDetailsSection'));
+const NewsSection = lazy(() => import('./components/sections/NewsSection'));
+const JobsSection = lazy(() => import('./components/sections/JobsSection'));
 
 function App() {
   return (
@@ -17,9 +20,9 @@ function App() {
           <Route path="/about-us" element={<AboutCompanyPage />}>
             <Route index element={<Navigate to="us" replace />} />
             <Route path="us" element={<AboutUsDetailsSection />} />
-            <Route path="news" element={<h2>Новини</h2>} />
+            <Route path="news" element={<NewsSection />} />
             <Route path="gallery" element={<h2>Галерея</h2>} />
-            <Route path="jobs" element={<h2>Вакансії</h2>} />
+            <Route path="jobs" element={<JobsSection />} />
             <Route path="articles" element={<h2>Статті</h2>} />
             <Route path="partners" element={<h2>Партнери</h2>} />
           </Route>

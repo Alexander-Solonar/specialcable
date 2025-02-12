@@ -104,5 +104,14 @@
     "jobs": "Jobs",
     "articles": "Articles",
     "partners": "Partners"
+  },
+  "news": {
+    "title": "News",
+    "text": "This section is under development."
+  },
+
+  "jobs": {
+    "title": "Vacancies",
+    "text": "We currently have no active vacancies."
   }
 }
