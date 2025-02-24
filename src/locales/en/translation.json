@@ -101,7 +101,7 @@
     "about-us": "About Us",
     "news": "News",
     "gallery": "Gallery",
-    "jobs": "Jobs",
+    "vacancies": "Vacancies",
     "articles": "Articles",
     "partners": "Partners"
   },
@@ -110,7 +110,7 @@
     "text": "This section is under development."
   },
 
-  "jobs": {
+  "vacancies": {
     "title": "Vacancies",
     "text": "We currently have no active vacancies."
   }

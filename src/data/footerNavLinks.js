@@ -2,10 +2,10 @@ export const footerNavLinks = [
   {
     title: 'footer.sections.about.title',
     items: [
-      [{ label: 'footer.sections.about.items.aboutUs', href: '/about-us' }],
-      [{ label: 'footer.sections.about.items.news', href: '##' }],
-      [{ label: 'footer.sections.about.items.gallery', href: '##' }],
-      [{ label: 'footer.sections.about.items.vacancies', href: '##' }],
+      [{ label: 'footer.sections.about.items.aboutUs', href: '/about-us/us' }],
+      [{ label: 'footer.sections.about.items.news', href: '/about-us/news' }],
+      [{ label: 'footer.sections.about.items.gallery', href: '/about-us/gallery' }],
+      [{ label: 'footer.sections.about.items.vacancies', href: '/about-us/vacancies' }],
       [{ label: 'footer.sections.about.items.articles', href: '##' }],
       [{ label: 'footer.sections.about.items.partners', href: '##' }],
     ],

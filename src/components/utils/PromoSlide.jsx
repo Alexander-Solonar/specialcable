@@ -1,34 +1,34 @@
 import { useTranslation } from 'react-i18next';
 import Container from '../common/Container';
-import imageXl from '../../assets/images/promo-slide-xl.webp';
-import imageMl from '../../assets/images/promo-slide-ml.webp';
-import imageSm from '../../assets/images/promo-slide-sm.webp';
 
-const PromoSlide = ({ label, title, description, bgColor }) => {
+const PromoSlide = ({ label, title, description, bgColor, imageXl, imageMl, imageSm }) => {
   const { t } = useTranslation();
 
   return (
-    <div className={`overflow-x-hidden bg-${bgColor}`}>
-      <Container>
-        <div className="max-w-32 pb-10 pt-10 sm:max-w-60 sm:pb-[90px] sm:pt-20 ml:max-w-[500px] ml:pb-28 ml:pt-32">
-          <p className="absolute left-0 top-1.5 bg-midnight-blue px-3 text-xs font-bold uppercase leading-[1.5] tracking-widest text-white sm:left-4 sm:top-10 ml:top-8">
-            {t(label)}
-          </p>
-          <h2 className="text-sm uppercase leading-tight tracking-[0.2em] text-white sm:text-2xl ml:text-6xl">
-            {t(title)}
-          </h2>
-          <p className="mt-3 text-xs text-white sm:mt-5 sm:text-base ml:mt-10 ml:text-3xl ml:uppercase ml:tracking-[0.27em]">
-            {t(description)}
-          </p>
-        </div>
-        <div className="absolute right-0 top-1/2 -translate-y-1/2 sm:-right-16 sm:pl-[280px] ml:-right-64 ml:pl-[470px]">
-          <picture>
-            <source media="(max-width: 481px)" srcSet={imageSm} />
-            <source media="(max-width: 769px)" srcSet={imageMl} />
-            <img src={imageXl} alt="cable" loading="lazy" />
-          </picture>
-        </div>
-      </Container>
+    <div className={`py-9 pl-[15px] ml:py-11 bg-${bgColor} h-full`}>
+      <div className="relative mx-auto h-full max-w-[1600px] overflow-x-hidden">
+        <Container>
+          <div className="flex h-full items-center justify-between gap-x-10 xl:gap-x-32">
+            <div className="min-w-[200px] max-w-[300px] pb-10 pt-10 ml:min-w-[350px] ml:max-w-[500px]">
+              <p className="absolute top-0 inline-block bg-midnight-blue px-3 text-[10px] font-bold uppercase leading-[1.5] tracking-widest text-white sm:text-xs">
+                {t(label)}
+              </p>
+              <h2 className="text uppercase leading-tight tracking-[0.2em] text-white sm:text-2xl ml:text-3xl xl:text-6xl">
+                {t(title)}
+              </h2>
+              <p className="mt-3 text-xs tracking-wide text-white sm:mt-5 sm:text-base ml:mt-10 ml:text-xl ml:uppercase ml:tracking-[0.27em] xl:text-3xl">
+                {t(description)}
+              </p>
+            </div>
+
+            <picture className="-mr-4 xl:-mr-48">
+              <source media="(max-width: 481px)" srcSet={imageSm} />
+              <source media="(max-width: 769px)" srcSet={imageMl} />
+              <img src={imageXl} alt="cable" loading="lazy" className="h-auto w-auto" />
+            </picture>
+          </div>
+        </Container>
+      </div>
     </div>
   );
 };

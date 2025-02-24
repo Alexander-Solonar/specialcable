@@ -9,7 +9,7 @@ const AboutCompanyPage = lazy(() => import('./pages/AboutCompanyPage'));
 
 const AboutUsDetailsSection = lazy(() => import('./components/sections/AboutUsDetailsSection'));
 const NewsSection = lazy(() => import('./components/sections/NewsSection'));
-const JobsSection = lazy(() => import('./components/sections/JobsSection'));
+const VacanciesSection = lazy(() => import('./components/sections/VacanciesSection'));
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
             <Route path="us" element={<AboutUsDetailsSection />} />
             <Route path="news" element={<NewsSection />} />
             <Route path="gallery" element={<h2>Галерея</h2>} />
-            <Route path="jobs" element={<JobsSection />} />
+            <Route path="vacancies" element={<VacanciesSection />} />
             <Route path="articles" element={<h2>Статті</h2>} />
             <Route path="partners" element={<h2>Партнери</h2>} />
           </Route>

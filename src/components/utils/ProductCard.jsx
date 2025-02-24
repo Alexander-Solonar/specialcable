@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const ProductCard = ({ imageSm, imageMl, imageXl, text }) => {
   return (
     <li className="relative flex w-[152px] flex-col ml:w-[160px] xl:w-[280px]">
-      <Link className="inline-block flex-grow shadow-custom transition-transform duration-300 hover:scale-110">
+      <Link className="inline-block shadow-custom transition-transform duration-300 hover:scale-105">
         <picture>
           <source media="(max-width: 480px)" srcSet={imageSm} />
           <source media="(max-width: 768px)" srcSet={imageMl} />

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "bgColor": "vivid-orange",
+    "imageSm": "src/assets/images/promo-slide-sm.webp",
+    "imageMl": "src/assets/images/promo-slide-ml.webp",
+    "imageXl": "src/assets/images/promo-slide-xl.webp",
+    "label": "Спеціальна пропозиція",
+    "title": "Продаж від однієї бухти",
+    "description": "КВК-В-2 2×0.75 кабель різні довжини від 13 грн/м замість 14 грн/м"
+  },
+  {
+    "id": 2,
+    "bgColor": "deep-blue",
+    "imageSm": "src/assets/images/promo-slide-sm.webp",
+    "imageMl": "src/assets/images/promo-slide-ml.webp",
+    "imageXl": "src/assets/images/promo-slide-xl.webp",
+    "label": "Спеціальна пропозиція",
+    "title": "Безкоштовна доставка",
+    "description": "По Україні при замовленн від 20 000 грн"
+  },
+  {
+    "id": 3,
+    "bgColor": "gray",
+    "imageSm": "src/assets/images/promo-slide-sm.webp",
+    "imageMl": "src/assets/images/promo-slide-ml.webp",
+    "imageXl": "src/assets/images/promo-slide-xl.webp",
+    "label": "Спеціальна пропозиція",
+    "title": "Гнучка система знижок",
+    "description": ""
+  }
+]

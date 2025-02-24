@@ -82,10 +82,11 @@ h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
-.swiper-wrapper {
-  display: flex;
-  align-items: end;
+
+.swiper-slide {
+  height: unset !important;
 }
+
 .our-clients .swiper-slide {
   transition:
     transform 250ms linear,

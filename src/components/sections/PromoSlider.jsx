@@ -4,16 +4,17 @@ import { sliderData } from '../../data/promoSlider';
 
 import PromoSlide from '../utils/PromoSlide';
 import PromoSliderControls from '../utils/PromoSliderControls';
-
 import 'swiper/css';
 
 const SWIPER_SETTINGS = {
   loop: true,
   speed: 1500,
+
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
   },
+
   pagination: {
     type: 'fraction',
     el: '.custom-pagination',
