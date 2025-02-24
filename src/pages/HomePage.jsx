@@ -14,6 +14,8 @@ const HomePage = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  console.log(isLoading, error);
+
   const { i18n } = useTranslation();
   const lng = i18n.resolvedLanguage;
 
