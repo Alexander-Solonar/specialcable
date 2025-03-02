@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import * as APIFirebase from '../services/APIFirebase';
+import { useTranslation } from 'react-i18next';
 
 import MainBanner from '../components/sections/MainBaner';
-import ProductCatalog from '../components/sections/ProductCatalog';
+import OurProductsSection from '../components/sections/OurProductsSection';
 import PromoSlider from '../components/sections/PromoSlider';
 import AboutUsPreviewSection from '../components/sections/AboutUsPreviewSection';
 import StatisticsSection from '../components/sections/StatisticsSection';
 import ClientTrustSection from '../components/sections/ClientTrustSection';
-import { useTranslation } from 'react-i18next';
 
 const HomePage = () => {
   const [productsList, setProductsList] = useState([]);
@@ -34,7 +34,7 @@ const HomePage = () => {
   return (
     <>
       <MainBanner />
-      <ProductCatalog productsList={productsList} />
+      <OurProductsSection productsList={productsList} />
       <PromoSlider />
       <AboutUsPreviewSection />
       <StatisticsSection />

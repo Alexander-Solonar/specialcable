@@ -20,7 +20,7 @@ const VacanciesSection = () => {
             <p className="text-xs uppercase tracking-widest sm:text-sm">{t('vacancies.text')}</p>
           </div>
 
-          <img src={image} alt="copper" />
+          <img src={image} alt="copper" loading="lazy" />
         </div>
       </Container>
     </section>

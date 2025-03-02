@@ -9,7 +9,7 @@ const BurgerMenu = () => {
   return (
     <button
       onClick={() => setIsMenuOpen(true)}
-      className="group flex items-center justify-center rounded-2xl transition-colors duration-300 ml:hidden xl:h-[55px] xl:min-w-[55px]"
+      className="group flex items-center justify-center rounded-2xl transition-colors duration-300 xl:hidden xl:h-[55px] xl:min-w-[55px]"
     >
       <SpriteIcon
         icon="burger-menu"

@@ -23,16 +23,16 @@ const Header = () => {
             </Link>
 
             <a className="ml-7 mr-7 flex-shrink-0" href="tel:+380963506413">
-              <span className="font-main text-lg font-bold ml:text-sm">
+              <span className="font-main text-lg font-bold xl:text-sm">
                 8 <span className="text-vivid-orange"> 096</span> 350 64 13
               </span>
             </a>
 
             <Navigation
-              classNameNav="mr-2 w-full hidden max-w-[450px] xl:max-w-[580px] ml:flex"
+              classNameNav="mr-2 w-full hidden max-w-[450px] xl:max-w-[580px] xl:flex"
               classNameList="w-full justify-between gap-x-[8px] ml:flex"
             />
-            <LangSwitcher className="relative hidden text-left ml:inline-block" />
+            <LangSwitcher className="relative hidden text-left xl:inline-block" />
             <BurgerMenu />
           </div>
         </Container>

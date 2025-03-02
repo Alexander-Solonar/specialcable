@@ -13,7 +13,7 @@ const MobileMenu = () => {
   // Виклик хука для закриття меню при зміні розміру екрана
   useCloseOnResize(setIsMenuOpen);
 
-  const handleClickCloseMenu = () => {
+  const handleClose = () => {
     setIsMenuOpen(false);
     setIsLangOpen(false);
   };
@@ -21,21 +21,22 @@ const MobileMenu = () => {
   return (
     <Modal isOpen={isMenuOpen} setIsOpen={setIsMenuOpen}>
       <div
-        className={`absolute right-0 z-[2] h-full w-48 bg-white p-4 transition-transform duration-300 ease-in-out sm:w-72 sm:pr-10 sm:pt-6 ml:hidden ${
-          isMenuOpen ? 'translate-x-0' : 'translate-x-[100%]'
+        className={`absolute right-0 z-[2] h-full w-48 bg-white p-4 transition-transform duration-300 ease-in-out sm:w-72 sm:pr-10 sm:pt-6 xl:hidden ${
+          isMenuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         <div className="flex justify-between">
-          <LangSwitcher className="relative inline-block text-left" />
+          <LangSwitcher className="relative" />
 
           {/* Кнопка закриття меню */}
           <button
-            onClick={handleClickCloseMenu}
-            className="group flex items-center justify-center ml:hidden xl:h-[55px] xl:min-w-[55px]"
+            onClick={handleClose}
+            className="group flex items-center justify-center xl:h-[55px] xl:min-w-[55px]"
+            aria-label="Close menu"
           >
             <SpriteIcon
               icon="close"
-              className="h-[24px] w-[24px] fill-deep-blue transition-colors duration-300 group-hover:fill-vivid-orange sm:h-[29px] sm:w-[29px]"
+              className="h-5 w-5 fill-deep-blue transition-colors duration-300 group-hover:fill-vivid-orange"
             />
           </button>
         </div>

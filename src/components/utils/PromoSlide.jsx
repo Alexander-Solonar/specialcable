@@ -1,11 +1,13 @@
+import PropTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
+import clsx from 'clsx';
 import Container from '../common/Container';
 
 const PromoSlide = ({ label, title, description, bgColor, imageXl, imageMl, imageSm }) => {
   const { t } = useTranslation();
 
   return (
-    <div className={`py-9 pl-[15px] ml:py-11 bg-${bgColor} h-full`}>
+    <div className={clsx('h-full py-9 pl-[15px] ml:py-11', `bg-${bgColor}`)}>
       <div className="relative mx-auto h-full max-w-[1600px] overflow-x-hidden">
         <Container>
           <div className="flex h-full items-center justify-between gap-x-10 xl:gap-x-32">
@@ -24,7 +26,7 @@ const PromoSlide = ({ label, title, description, bgColor, imageXl, imageMl, imag
             <picture className="-mr-4 xl:-mr-48">
               <source media="(max-width: 481px)" srcSet={imageSm} />
               <source media="(max-width: 769px)" srcSet={imageMl} />
-              <img src={imageXl} alt="cable" loading="lazy" className="h-auto w-auto" />
+              <img src={imageXl} alt="promo-image" loading="lazy" className="h-auto w-auto" />
             </picture>
           </div>
         </Container>
@@ -34,3 +36,13 @@ const PromoSlide = ({ label, title, description, bgColor, imageXl, imageMl, imag
 };
 
 export default PromoSlide;
+
+PromoSlide.propTypes = {
+  label: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  bgColor: PropTypes.string,
+  imageXl: PropTypes.string.isRequired,
+  imageMl: PropTypes.string.isRequired,
+  imageSm: PropTypes.string.isRequired,
+};

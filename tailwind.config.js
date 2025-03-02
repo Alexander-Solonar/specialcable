@@ -3,9 +3,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
-      xl: "1025px",
-      ml: "769px",
-      sm: "481px",
+      lg: "1200px",
+      xl: "1024px",
+      ml: "768px",
+      sm: "425px",
     },
     fontFamily: {
       main: ["PT Sans Narrow", "sans-serif"],

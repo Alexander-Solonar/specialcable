@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next';
 import { statisticsData } from '../../data/companyStatistics';
-
 import Container from '../common/Container';
 import AnimatedNumber from '../utils/AnimatedNumber';
 import { motion, useInView } from 'framer-motion';
@@ -14,16 +13,25 @@ const StatisticsSection = () => {
   return (
     <section ref={sectionRef} className="bg-space-blue py-10 sm:py-11 ml:py-28">
       <Container>
-        <motion.ul className="flex flex-wrap justify-center gap-10 ml:justify-between ml:gap-0">
+        <motion.ul
+          className="flex flex-wrap justify-center gap-10 ml:justify-between ml:gap-0"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: isInView ? 1 : 0 }}
+          transition={{ duration: 0.5 }}
+        >
           {statisticsData.map(({ id, amount, text }) => (
-            <li key={id} className="flex w-36 flex-col items-center gap-y-2 ml:w-40">
-              <p className="text-lg tracking-[0.27em] text-vivid-orange sm:text-4xl">
-                {isInView ? <AnimatedNumber targetNumber={amount} duration={2000} /> : '0'}
-              </p>
+            <motion.li
+              key={id}
+              className="flex w-36 flex-col items-center gap-y-2 ml:w-40"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 * id }}
+            >
+              {isInView ? <AnimatedNumber targetNumber={amount} /> : '0'}
               <p className="text-center text-xs font-bold uppercase tracking-widest text-white ml:text-sm">
                 {t(text)}
               </p>
-            </li>
+            </motion.li>
           ))}
         </motion.ul>
       </Container>

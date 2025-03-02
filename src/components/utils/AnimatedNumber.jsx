@@ -1,34 +1,43 @@
 import { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 
-const AnimatedNumber = ({ targetNumber, duration = 2000 }) => {
+const AnimatedNumber = ({ targetNumber }) => {
   const [currentNumber, setCurrentNumber] = useState(0);
-  const isArrow = targetNumber.includes('>');
 
-  if (isArrow) {
-    targetNumber = targetNumber.slice(1);
-  }
+  const isArrow = typeof targetNumber === 'string' && targetNumber.startsWith('>');
+  const parsedNumber = parseInt(targetNumber.toString().replace('>', ''), 10) || 0;
+  const duration = 2000;
+
   useEffect(() => {
-    const stepTime = duration / targetNumber;
-    let current = 0;
+    setCurrentNumber(0);
+    if (parsedNumber <= 0) return;
 
-    const interval = setInterval(() => {
-      current += 1;
-      setCurrentNumber(current);
+    let startTime = performance.now();
 
-      if (current >= targetNumber) {
-        clearInterval(interval);
+    const updateNumber = timestamp => {
+      const elapsed = timestamp - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      setCurrentNumber(Math.floor(progress * parsedNumber));
+
+      if (progress < 1) {
+        requestAnimationFrame(updateNumber);
       }
-    }, stepTime);
+    };
 
-    return () => clearInterval(interval);
-  }, [targetNumber, duration]);
+    const animationFrame = requestAnimationFrame(updateNumber);
+    return () => cancelAnimationFrame(animationFrame);
+  }, [parsedNumber, duration]);
 
   return (
-    <span>
+    <p className="text-lg tracking-[0.27em] text-vivid-orange sm:text-4xl">
       {isArrow && '>'}
       {currentNumber}
-    </span>
+    </p>
   );
 };
 
 export default AnimatedNumber;
+
+AnimatedNumber.propTypes = {
+  targetNumber: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+};

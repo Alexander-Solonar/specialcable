@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 
 import Container from '../common/Container';
-import MainButton from '../buttons/MainButton';
+import PageLinkButton from '../buttons/PageLinkButton';
 import bannerXl from '../../assets/images/hero/bannerXl.webp';
 import bannerMl from '../../assets/images/hero/bannerMl.webp';
 import bannerSm from '../../assets/images/hero/bannerSm.webp';
@@ -34,12 +34,15 @@ const MainBanner = () => {
             </div>
           </div>
 
-          <MainButton text={t('mainBanner.buttonText')} ariaLabel={t('mainBanner.buttonText')} />
+          <PageLinkButton
+            text={t('mainBanner.buttonText')}
+            ariaLabel={t('mainBanner.buttonText')}
+          />
 
           {/* Зображення баннера */}
           <picture className="absolute right-0 top-0 -z-[1]">
-            <source media="(max-width: 480px)" srcSet={bannerSm} />
-            <source media="(max-width: 1024px)" srcSet={bannerMl} />
+            <source media="(max-width: 424px)" srcSet={bannerSm} />
+            <source media="(max-width: 1023px)" srcSet={bannerMl} />
             <img src={bannerXl} alt="Responsive Banner" className="h-auto w-full" />
           </picture>
 
