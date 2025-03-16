@@ -4,7 +4,7 @@ const SpriteIcon = props => {
   const { icon, ...rest } = props;
 
   return (
-    <svg {...rest}>
+    <svg {...rest} fill="currentColor">
       <use href={`${sprite}#${icon}`}></use>
     </svg>
   );

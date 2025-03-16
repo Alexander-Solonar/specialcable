@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import Container from '../common/Container';
-import SectionTitle from '../common/SectionTitle';
 import { useTranslation } from 'react-i18next';
+import Container from '../../common/Container';
+import SectionTitle from '../../common/SectionTitle';
 
 const NewsSection = () => {
   const { t } = useTranslation();

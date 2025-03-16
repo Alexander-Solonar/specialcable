@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next';
 
-import image from '../../assets/images/aboutUs/copper.webp';
-import SectionTitle from '../common/SectionTitle';
-import Container from '../common/Container';
+import image from '../../../assets/images/aboutUs/copper.webp';
+import SectionTitle from '../../common/SectionTitle';
+import Container from '../../common/Container';
 import { useEffect } from 'react';
 
 const PARAGRAPHS = [

@@ -1,8 +1,8 @@
-import { useTranslation } from 'react-i18next';
-import Container from '../common/Container';
-import SectionTitle from '../common/SectionTitle';
-import image from '../../assets/images/aboutUs/jobs.webp';
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import Container from '../../common/Container';
+import SectionTitle from '../../common/SectionTitle';
+import image from '../../../assets/images/aboutUs/jobs.webp';
 
 const VacanciesSection = () => {
   const { t } = useTranslation();

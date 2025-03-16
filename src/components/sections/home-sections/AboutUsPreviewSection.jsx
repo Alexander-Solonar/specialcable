@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useCloseOnResize } from '../../hooks/useCloseOnResize';
+import { useCloseOnResize } from '../../../hooks/useCloseOnResize';
 
-import image from '../../assets/images/aboutUs/copper.webp';
-import SectionTitle from '../common/SectionTitle';
-import Container from '../common/Container';
-import SpriteIcon from '../common/SpriteIcon';
+import image from '../../../assets/images/aboutUs/copper.webp';
+import SectionTitle from '../../common/SectionTitle';
+import Container from '../../common/Container';
+import SpriteIcon from '../../common/SpriteIcon';
 
 const AboutUsPreviewSection = () => {
   const [isReadMoreShown, setIsReadMoreShown] = useState(false);

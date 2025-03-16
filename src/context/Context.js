@@ -15,6 +15,8 @@ const ContextProvider = ({ children }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [productList, setProductList] = useState([]);
+  const [articleList, setArticleList] = useState([]);
 
   return (
     <Context.Provider
@@ -25,6 +27,10 @@ const ContextProvider = ({ children }) => {
         setIsLangOpen,
         isModalOpen,
         setIsModalOpen,
+        productList,
+        setProductList,
+        articleList,
+        setArticleList,
       }}
     >
       {children}

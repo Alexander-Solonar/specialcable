@@ -110,8 +110,18 @@
     "text": "This section is under development."
   },
 
+  "gallery": {
+    "title": "Gallery",
+    "text": "This section is under development."
+  },
+
   "vacancies": {
     "title": "Vacancies",
+    "text": "We currently have no active vacancies."
+  },
+
+  "partners": {
+    "title": "Partners",
     "text": "We currently have no active vacancies."
   }
 }

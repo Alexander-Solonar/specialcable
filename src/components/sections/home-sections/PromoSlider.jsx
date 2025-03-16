@@ -1,9 +1,9 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
-import { sliderData } from '../../data/promoSlider';
+import { sliderData } from '../../../data/promoSlider';
 
-import PromoSlide from '../utils/PromoSlide';
-import PromoSliderControls from '../utils/PromoSliderControls';
+import PromoSlide from '../../utils/PromoSlide';
+import PromoSliderControls from '../../utils/PromoSliderControls';
 import 'swiper/css';
 
 const SWIPER_SETTINGS = {

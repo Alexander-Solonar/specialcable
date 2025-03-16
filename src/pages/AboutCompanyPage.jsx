@@ -1,37 +1,45 @@
-import React, { useEffect } from 'react';
-import { NavLink, Outlet } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
-import { aboutUsPageNavLinks } from '../data/aboutUsPageNavLinks';
+import React, { useContext, useEffect, useState } from 'react';
+import { Outlet } from 'react-router-dom';
+import { Context } from '../context/Context';
+import * as APIFirebase from '../services/APIFirebase';
 import Container from '../components/common/Container';
+import AboutNav from '../components/utils/AboutNav';
 
 const AboutCompanyPage = () => {
-  const { t } = useTranslation();
+  const { setArticleList } = useContext(Context);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-  const linkClassName = ({ isActive }) =>
-    `flex justify-center items-center h-[30px] transition-colors duration-300 hover:bg-vivid-orange hover:text-white ${
-      isActive && 'bg-vivid-orange text-white'
-    } `;
+  console.log(isLoading, error);
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, []);
+    (async () => {
+      try {
+        setArticleList(await APIFirebase.getArticleList());
+      } catch (error) {
+        setError(error.message);
+      } finally {
+        setIsLoading(false);
+      }
+    })();
+  }, [setArticleList]);
+
+  // if (isLoading) {
+  //   return (
+  //     <div className="h-full">
+  //       <Container>
+  //         <p>Загрузка...</p>
+  //       </Container>
+  //     </div>
+  //   );
+  // }
 
   return (
     <div className="h-full">
       <Container>
-        <nav className="pb-12 pt-10 text-sm font-bold uppercase tracking-widest">
-          <ul className="grid grid-cols-3 gap-4 text-center ml:grid-cols-6">
-            {aboutUsPageNavLinks.map(({ path, label }) => (
-              <li key={path}>
-                <NavLink to={path} className={linkClassName}>
-                  {t(label)}
-                </NavLink>
-              </li>
-            ))}
-          </ul>
-        </nav>
-        <Outlet />
+        <AboutNav />
       </Container>
+      <Outlet />
     </div>
   );
 };

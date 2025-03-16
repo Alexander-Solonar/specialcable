@@ -1,40 +1,37 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
+import { Context } from '../context/Context';
 import * as APIFirebase from '../services/APIFirebase';
-import { useTranslation } from 'react-i18next';
 
-import MainBanner from '../components/sections/MainBaner';
-import OurProductsSection from '../components/sections/OurProductsSection';
-import PromoSlider from '../components/sections/PromoSlider';
-import AboutUsPreviewSection from '../components/sections/AboutUsPreviewSection';
-import StatisticsSection from '../components/sections/StatisticsSection';
-import ClientTrustSection from '../components/sections/ClientTrustSection';
+import MainBanner from '../components/sections/home-sections/MainBaner';
+import OurProductsSection from '../components/sections/home-sections/OurProductsSection';
+import PromoSlider from '../components/sections/home-sections/PromoSlider';
+import AboutUsPreviewSection from '../components/sections/home-sections/AboutUsPreviewSection';
+import StatisticsSection from '../components/sections/home-sections/StatisticsSection';
+import ClientTrustSection from '../components/sections/home-sections/ClientTrustSection';
 
 const HomePage = () => {
-  const [productsList, setProductsList] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+  const { setProductList } = useContext(Context);
 
   console.log(isLoading, error);
-
-  const { i18n } = useTranslation();
-  const lng = i18n.resolvedLanguage;
 
   useEffect(() => {
     (async () => {
       try {
-        setProductsList(await APIFirebase.getProductsList(lng));
+        setProductList(await APIFirebase.getProductList());
       } catch (error) {
         setError(error.message);
       } finally {
         setIsLoading(false);
       }
     })();
-  }, [lng]);
+  }, [setProductList]);
 
   return (
     <>
       <MainBanner />
-      <OurProductsSection productsList={productsList} />
+      <OurProductsSection />
       <PromoSlider />
       <AboutUsPreviewSection />
       <StatisticsSection />

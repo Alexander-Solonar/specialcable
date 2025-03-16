@@ -6,11 +6,19 @@ import Layout from './components/common/Layout';
 import HomePage from './pages/HomePage';
 
 const AboutCompanyPage = lazy(() => import('./pages/AboutCompanyPage'));
-
-const AboutUsDetailsSection = lazy(() => import('./components/sections/AboutUsDetailsSection'));
-const NewsSection = lazy(() => import('./components/sections/NewsSection'));
-const VacanciesSection = lazy(() => import('./components/sections/VacanciesSection'));
-const ArticlesSection = lazy(() => import('./components/sections/ArticlesSection'));
+const AboutUsDetailsSection = lazy(
+  () => import('./components/sections/about-sections/AboutUsDetailsSection')
+);
+const NewsSection = lazy(() => import('./components/sections/about-sections/NewsSection'));
+const VacanciesSection = lazy(
+  () => import('./components/sections/about-sections/VacanciesSection')
+);
+const ArticlesSection = lazy(() => import('./components/sections/about-sections/ArticlesSection'));
+const GallerySection = lazy(() => import('./components/sections/about-sections/GallerySection'));
+const PartnersSection = lazy(() => import('./components/sections/about-sections/PartnersSection'));
+const ArticleDetailsSection = lazy(
+  () => import('./components/sections/about-sections/ArticleDetailsSection')
+);
 
 function App() {
   return (
@@ -22,10 +30,11 @@ function App() {
             <Route index element={<Navigate to="us" replace />} />
             <Route path="us" element={<AboutUsDetailsSection />} />
             <Route path="news" element={<NewsSection />} />
-            <Route path="gallery" element={<h2>Галерея</h2>} />
+            <Route path="gallery" element={<GallerySection />} />
             <Route path="vacancies" element={<VacanciesSection />} />
             <Route path="articles" element={<ArticlesSection />} />
-            <Route path="partners" element={<h2>Партнери</h2>} />
+            <Route path="articles/article/:articleId" element={<ArticleDetailsSection />} />
+            <Route path="partners" element={<PartnersSection />} />
           </Route>
         </Route>
         <Route path="*" element={<Navigate to="/" />} />

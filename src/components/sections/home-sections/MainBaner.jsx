@@ -1,10 +1,10 @@
 import { useTranslation } from 'react-i18next';
 
-import Container from '../common/Container';
-import PageLinkButton from '../buttons/PageLinkButton';
-import bannerXl from '../../assets/images/hero/bannerXl.webp';
-import bannerMl from '../../assets/images/hero/bannerMl.webp';
-import bannerSm from '../../assets/images/hero/bannerSm.webp';
+import Container from '../../common/Container';
+import PageLinkButton from '../../buttons/PageLinkButton';
+import bannerXl from '../../../assets/images/hero/bannerXl.webp';
+import bannerMl from '../../../assets/images/hero/bannerMl.webp';
+import bannerSm from '../../../assets/images/hero/bannerSm.webp';
 
 const MainBanner = () => {
   const { t } = useTranslation();

@@ -2,12 +2,12 @@ import { useContext, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
-import { Context } from '../../context/Context';
-import { sliderData } from '../../data/partnerLettersSlider';
+import { Context } from '../../../context/Context';
+import { sliderData } from '../../../data/partnerLettersSlider';
 
-import Container from '../common/Container';
-import SectionTitle from '../common/SectionTitle';
-import FullScreenLetter from '../utils/FullScreenLetter';
+import Container from '../../common/Container';
+import SectionTitle from '../../common/SectionTitle';
+import FullScreenLetter from '../../utils/FullScreenLetter';
 
 import 'swiper/css';
 import 'swiper/css/pagination';

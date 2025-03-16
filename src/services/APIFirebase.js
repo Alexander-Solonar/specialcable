@@ -13,7 +13,12 @@ const firebaseConfig = {
 
 const databaseURL = firebaseConfig.databaseURL;
 
-export const getProductsList = async lng => {
-  const response = await axios.get(`${databaseURL}/${lng}/products.json`);
+export const getProductList = async () => {
+  const response = await axios.get(`${databaseURL}/products.json`);
+  return response.data;
+};
+
+export const getArticleList = async () => {
+  const response = await axios.get(`${databaseURL}/articles.json`);
   return response.data;
 };
