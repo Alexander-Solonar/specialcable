@@ -5,20 +5,22 @@ import ContextProvider from './context/Context';
 import Layout from './components/common/Layout';
 import HomePage from './pages/HomePage';
 
+import {
+  AboutUsDetailsSection,
+  NewsSection,
+  VacanciesSection,
+  ArticlesSection,
+  GallerySection,
+  PartnersSection,
+  ArticleDetailsSection,
+  ContractorRulesSection,
+  PaymentRulesSection,
+  StorageRulesSection,
+  SupplierInfoSection,
+} from './components/sections';
+
 const AboutCompanyPage = lazy(() => import('./pages/AboutCompanyPage'));
-const AboutUsDetailsSection = lazy(
-  () => import('./components/sections/about-sections/AboutUsDetailsSection')
-);
-const NewsSection = lazy(() => import('./components/sections/about-sections/NewsSection'));
-const VacanciesSection = lazy(
-  () => import('./components/sections/about-sections/VacanciesSection')
-);
-const ArticlesSection = lazy(() => import('./components/sections/about-sections/ArticlesSection'));
-const GallerySection = lazy(() => import('./components/sections/about-sections/GallerySection'));
-const PartnersSection = lazy(() => import('./components/sections/about-sections/PartnersSection'));
-const ArticleDetailsSection = lazy(
-  () => import('./components/sections/about-sections/ArticleDetailsSection')
-);
+const InformationPage = lazy(() => import('./pages/InformationPage'));
 
 function App() {
   return (
@@ -35,6 +37,18 @@ function App() {
             <Route path="articles" element={<ArticlesSection />} />
             <Route path="articles/article/:articleId" element={<ArticleDetailsSection />} />
             <Route path="partners" element={<PartnersSection />} />
+          </Route>
+          <Route path="/information" element={<InformationPage />}>
+            <Route index element={<Navigate to="contractor-rules" replace />} />
+            <Route path="contractor-rules" element={<ContractorRulesSection />} />
+            <Route path="payment-rules" element={<PaymentRulesSection />} />
+            <Route path="storage-rules" element={<StorageRulesSection />} />
+            <Route path="supplier-info" element={<SupplierInfoSection />} />
+            <Route path="certificates" element={<ArticlesSection />} />
+            <Route
+              path="certificates/certificate/:certificateId"
+              element={<ArticleDetailsSection />}
+            />
           </Route>
         </Route>
         <Route path="*" element={<Navigate to="/" />} />

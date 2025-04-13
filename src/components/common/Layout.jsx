@@ -9,7 +9,7 @@ const Layout = () => {
   return (
     <div className="relative flex min-h-full flex-col overflow-x-hidden">
       <Header />
-      <main className="flex-auto">
+      <main className="flex flex-auto flex-col">
         <Suspense>
           <Outlet />
         </Suspense>

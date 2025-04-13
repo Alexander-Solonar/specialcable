@@ -1,5 +1,20 @@
 [
   {
+    "id": 0,
+    "title": {
+      "ua": "Переріз кабелю та діаметр: у чому різниця?",
+      "en": "Cable Cross-Section and Diameter: What's the Difference?"
+    },
+    "text": {
+      "ua": "Займаючись електромонтажем на власній ділянці або у власній квартирі, можна швидко помітити, що кабелі та дроти, які використовуються в монтажі, переважно мідні, рідше алюмінієві.",
+      "en": "When dealing with electrical installation on your own property or in your apartment, you will soon notice that the cables and wires used in the installation are mostly copper, with aluminum being less common."
+    },
+    "imgPreviewSm": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-sm%2FimagePreview-sm.webp?alt=media&token=d7f730aa-9052-4ab2-99b8-6b0869d4529d",
+    "imgPreviewMl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-ml%2FimagePreview-ml.webp?alt=media&token=61bdec67-f6f7-42df-bce0-924af21fffc5",
+    "imgPreviewXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimagePreview-xl.webp?alt=media&token=dc175d15-b604-40b0-94fa-456744a53dcb",
+    "imgFullXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimageFull-xl.webp.webp?alt=media&token=9ac72d7b-79a9-4f6b-a69a-546bcecd53c8"
+  },
+  {
     "id": 1,
     "title": {
       "ua": "Переріз кабелю та діаметр: у чому різниця?",
@@ -12,8 +27,7 @@
     "imgPreviewSm": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-sm%2FimagePreview-sm.webp?alt=media&token=d7f730aa-9052-4ab2-99b8-6b0869d4529d",
     "imgPreviewMl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-ml%2FimagePreview-ml.webp?alt=media&token=61bdec67-f6f7-42df-bce0-924af21fffc5",
     "imgPreviewXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimagePreview-xl.webp?alt=media&token=dc175d15-b604-40b0-94fa-456744a53dcb",
-    "imgFullXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimageFull-xl.webp?alt=media&token=9af7b0dd-ccb0-457c-9c69-e0485f0a724e",
-    "imgFullMl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-ml%2FimageFull-ml.webp?alt=media&token=e838f834-0098-47bf-bfcf-bcb82178d395"
+    "imgFullXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimageFull-xl.webp.webp?alt=media&token=9ac72d7b-79a9-4f6b-a69a-546bcecd53c8"
   },
   {
     "id": 2,
@@ -28,8 +42,7 @@
     "imgPreviewSm": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-sm%2FimagePreview-sm.webp?alt=media&token=d7f730aa-9052-4ab2-99b8-6b0869d4529d",
     "imgPreviewMl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-ml%2FimagePreview-ml.webp?alt=media&token=61bdec67-f6f7-42df-bce0-924af21fffc5",
     "imgPreviewXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimagePreview-xl.webp?alt=media&token=dc175d15-b604-40b0-94fa-456744a53dcb",
-    "imgFullXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimageFull-xl.webp?alt=media&token=9af7b0dd-ccb0-457c-9c69-e0485f0a724e",
-    "imgFullMl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-ml%2FimageFull-ml.webp?alt=media&token=e838f834-0098-47bf-bfcf-bcb82178d395"
+    "imgFullXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimageFull-xl.webp.webp?alt=media&token=9ac72d7b-79a9-4f6b-a69a-546bcecd53c8"
   },
   {
     "id": 3,
@@ -44,8 +57,7 @@
     "imgPreviewSm": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-sm%2FimagePreview-sm.webp?alt=media&token=d7f730aa-9052-4ab2-99b8-6b0869d4529d",
     "imgPreviewMl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-ml%2FimagePreview-ml.webp?alt=media&token=61bdec67-f6f7-42df-bce0-924af21fffc5",
     "imgPreviewXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimagePreview-xl.webp?alt=media&token=dc175d15-b604-40b0-94fa-456744a53dcb",
-    "imgFullXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimageFull-xl.webp?alt=media&token=9af7b0dd-ccb0-457c-9c69-e0485f0a724e",
-    "imgFullMl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-ml%2FimageFull-ml.webp?alt=media&token=e838f834-0098-47bf-bfcf-bcb82178d395"
+    "imgFullXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimageFull-xl.webp.webp?alt=media&token=9ac72d7b-79a9-4f6b-a69a-546bcecd53c8"
   },
   {
     "id": 4,
@@ -60,8 +72,7 @@
     "imgPreviewSm": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-sm%2FimagePreview-sm.webp?alt=media&token=d7f730aa-9052-4ab2-99b8-6b0869d4529d",
     "imgPreviewMl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-ml%2FimagePreview-ml.webp?alt=media&token=61bdec67-f6f7-42df-bce0-924af21fffc5",
     "imgPreviewXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimagePreview-xl.webp?alt=media&token=dc175d15-b604-40b0-94fa-456744a53dcb",
-    "imgFullXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimageFull-xl.webp?alt=media&token=9af7b0dd-ccb0-457c-9c69-e0485f0a724e",
-    "imgFullMl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-ml%2FimageFull-ml.webp?alt=media&token=e838f834-0098-47bf-bfcf-bcb82178d395"
+    "imgFullXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimageFull-xl.webp.webp?alt=media&token=9ac72d7b-79a9-4f6b-a69a-546bcecd53c8"
   },
   {
     "id": 5,
@@ -76,8 +87,7 @@
     "imgPreviewSm": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-sm%2FimagePreview-sm.webp?alt=media&token=d7f730aa-9052-4ab2-99b8-6b0869d4529d",
     "imgPreviewMl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-ml%2FimagePreview-ml.webp?alt=media&token=61bdec67-f6f7-42df-bce0-924af21fffc5",
     "imgPreviewXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimagePreview-xl.webp?alt=media&token=dc175d15-b604-40b0-94fa-456744a53dcb",
-    "imgFullXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimageFull-xl.webp?alt=media&token=9af7b0dd-ccb0-457c-9c69-e0485f0a724e",
-    "imgFullMl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-ml%2FimageFull-ml.webp?alt=media&token=e838f834-0098-47bf-bfcf-bcb82178d395"
+    "imgFullXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimageFull-xl.webp.webp?alt=media&token=9ac72d7b-79a9-4f6b-a69a-546bcecd53c8"
   },
   {
     "id": 6,
@@ -92,8 +102,7 @@
     "imgPreviewSm": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-sm%2FimagePreview-sm.webp?alt=media&token=d7f730aa-9052-4ab2-99b8-6b0869d4529d",
     "imgPreviewMl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-ml%2FimagePreview-ml.webp?alt=media&token=61bdec67-f6f7-42df-bce0-924af21fffc5",
     "imgPreviewXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimagePreview-xl.webp?alt=media&token=dc175d15-b604-40b0-94fa-456744a53dcb",
-    "imgFullXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimageFull-xl.webp?alt=media&token=9af7b0dd-ccb0-457c-9c69-e0485f0a724e",
-    "imgFullMl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-ml%2FimageFull-ml.webp?alt=media&token=e838f834-0098-47bf-bfcf-bcb82178d395"
+    "imgFullXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimageFull-xl.webp.webp?alt=media&token=9ac72d7b-79a9-4f6b-a69a-546bcecd53c8"
   },
   {
     "id": 7,
@@ -108,7 +117,6 @@
     "imgPreviewSm": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-sm%2FimagePreview-sm.webp?alt=media&token=d7f730aa-9052-4ab2-99b8-6b0869d4529d",
     "imgPreviewMl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-ml%2FimagePreview-ml.webp?alt=media&token=61bdec67-f6f7-42df-bce0-924af21fffc5",
     "imgPreviewXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimagePreview-xl.webp?alt=media&token=dc175d15-b604-40b0-94fa-456744a53dcb",
-    "imgFullXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimageFull-xl.webp?alt=media&token=9af7b0dd-ccb0-457c-9c69-e0485f0a724e",
-    "imgFullMl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-ml%2FimageFull-ml.webp?alt=media&token=e838f834-0098-47bf-bfcf-bcb82178d395"
+    "imgFullXl": "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Faricle-images%2Fimage-xl%2FimageFull-xl.webp.webp?alt=media&token=9ac72d7b-79a9-4f6b-a69a-546bcecd53c8"
   }
 ]

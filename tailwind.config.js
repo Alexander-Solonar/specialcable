@@ -29,10 +29,13 @@ module.exports = {
     backgroundImage: {
       "bg-aboutUs": "url('/src/assets/images/aboutUs/bg.webp')",
       "bg-footer": "url('/src/assets/images/bg-footer.webp')",
+      "bg-information": "url('/src/assets/images/logo-bg.webp')",
     },
     backgroundPosition: {
       "position-aboutUs": "right 10px top 35px",
+      "position-information": "left 0 bottom 0",
     },
+
     extend: {
       animation: {
         "spin-slow": "spin 2s linear infinite",

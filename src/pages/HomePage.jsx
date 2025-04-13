@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { Context } from '../context/Context';
 import * as APIFirebase from '../services/APIFirebase';
 
@@ -10,20 +10,18 @@ import StatisticsSection from '../components/sections/home-sections/StatisticsSe
 import ClientTrustSection from '../components/sections/home-sections/ClientTrustSection';
 
 const HomePage = () => {
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState(null);
+  // const [isLoading, setIsLoading] = useState(true);
+  // const [error, setError] = useState(null);
   const { setProductList } = useContext(Context);
-
-  console.log(isLoading, error);
 
   useEffect(() => {
     (async () => {
       try {
         setProductList(await APIFirebase.getProductList());
       } catch (error) {
-        setError(error.message);
+        // setError(error.message);
       } finally {
-        setIsLoading(false);
+        // setIsLoading(false);
       }
     })();
   }, [setProductList]);

@@ -109,19 +109,61 @@
     "title": "News",
     "text": "This section is under development."
   },
-
   "gallery": {
     "title": "Gallery",
     "text": "This section is under development."
   },
-
   "vacancies": {
     "title": "Vacancies",
     "text": "We currently have no active vacancies."
   },
-
   "partners": {
     "title": "Partners",
     "text": "We currently have no active vacancies."
+  },
+  "articles": {
+    "btnReadArticle": "Read Article",
+    "btnShowAllArticles": "Show All Articles",
+    "btnBack": "Back",
+    "btnHide": "Hide"
+  },
+
+  "informationPageNav": {
+    "contractor-rules": "Contractor Requirements",
+    "payment-rules": "Payment Terms",
+    "storage-rules": "Storage Conditions",
+    "supplier-info": "Supplier Information",
+    "certificates": "Certificates"
+  },
+  "contractor-rules": {
+    "title": "Requirements for contractors",
+    "description": "In order to implement LLC 'Spetsresurs' the rights granted by Article 312 of the Civil Code of the Russian Federation, the evidence that the conclusion of the supply contract and the execution of its obligations, in the form of subsequent execution and realization of transactions, is accepted by the person authorized to sign, we kindly ask you to provide properly certified copies of the following documents with a stamp.",
+    "document1": "Charter;",
+    "document2": "Certificate of INN, OGRN/OGRNIP;",
+    "document3": "Extract from the Unified State Register of Legal Entities (EGRUL)/Individual Entrepreneurs (EGRIP);",
+    "document4": "Lease agreement at the actual location;",
+    "document5": "Decision on appointment to the position of the head (protocol of the general meeting of participants or board of directors (shareholders) or the decision of the sole participant (founder, shareholder));",
+    "document6": "Order on appointment to the position of the head;",
+    "document7": "Copy of the passport of the head;",
+    "document8": "Order or power of attorney for persons authorized to sign contracts and invoices.",
+    "thankYou": "Thank you for your understanding!"
+  },
+
+  "payment-rules": {
+    "title": "Payment Terms",
+    "paragraph1": "Payment is made only via bank transfer.",
+    "paragraph2": "Product shipment is carried out upon 100% advance payment. You can always confirm the amount, terms, and payment procedure with your personal manager.",
+    "paragraph3": "Please note that after the expiration of the specified period on the invoice, the price and availability of products in stock may change. Before paying an invoice with an expired term, please call your manager and ask them to reissue the invoice with updated details. Partial payment invoices are not accepted."
+  },
+  "storage-rules": {
+    "title": "Storage Conditions",
+    "paragraph1": "Dear customers!",
+    "paragraph2": "We offer the service of free storage at our warehouse.",
+    "paragraph3": "Free storage is available for up to 10 days inclusive from the date of payment. After this period, you can use the delivery service or pick up the product yourself.",
+    "paragraph4": "By purchasing the product in advance, you can be sure that all the necessary materials will be available on time, and by using the free storage service, you won’t have to worry about where to temporarily store the product."
+  },
+  "supplier-info": {
+    "title": "Supplier Information",
+    "text": "This section is under development."
   }
 }

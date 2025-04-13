@@ -22,3 +22,8 @@ export const getArticleList = async () => {
   const response = await axios.get(`${databaseURL}/articles.json`);
   return response.data;
 };
+
+export const getArticle = async projectId => {
+  const response = await axios.get(`${databaseURL}/articles/${projectId}.json`);
+  return response.data;
+};
