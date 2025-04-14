@@ -17,11 +17,11 @@
 
   "aboutUs": {
     "title": "About Us",
-    "firstParagraph": "OOO Spetsresurs is a dynamically developing cable plant. Our main specialization is the production of fire-resistant cable for fire protection systems. We also manufacture heating wire (concrete heating), telephony, video surveillance.",
-    "secondParagraph": "We have assembled a team of qualified professionals in the electrical goods market to implement a key mission: saving people's lives by manufacturing high-tech and environmentally friendly cable and wire products that meet all operating and safety standards.",
-    "thirdParagraph": "The main principles of the company are: honest business practices, an individual approach to each client, affordable cable prices, and control over every stage of production.",
-    "fourthParagraph": "Caring about the quality of our products, we purchase raw materials only from large suppliers of copper, steel, and plastic.",
-    "fifthParagraph": "Our own laboratory and multi-stage quality control ensure that the products comply with GOST standards.",
+    "paragraph1": "OOO Spetsresurs is a dynamically developing cable plant. Our main specialization is the production of fire-resistant cable for fire protection systems. We also manufacture heating wire (concrete heating), telephony, video surveillance.",
+    "paragraph2": "We have assembled a team of qualified professionals in the electrical goods market to implement a key mission: saving people's lives by manufacturing high-tech and environmentally friendly cable and wire products that meet all operating and safety standards.",
+    "paragraph3": "The main principles of the company are: honest business practices, an individual approach to each client, affordable cable prices, and control over every stage of production.",
+    "paragraph4": "Caring about the quality of our products, we purchase raw materials only from large suppliers of copper, steel, and plastic.",
+    "paragraph5": "Our own laboratory and multi-stage quality control ensure that the products comply with GOST standards.",
     "buttonMore": "Read more",
     "buttonHide": "Hide"
   },
@@ -165,5 +165,9 @@
   "supplier-info": {
     "title": "Supplier Information",
     "text": "This section is under development."
+  },
+  "certificates": {
+    "title": "Certificates",
+    "text": "Данний розділ знаходиться в розробці."
   }
 }

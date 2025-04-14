@@ -1,13 +1,12 @@
-import React, { useContext, useEffect } from 'react';
-import { Context } from '../context/Context';
-import * as APIFirebase from '../services/APIFirebase';
-
-import MainBanner from '../components/sections/home-sections/MainBaner';
-import OurProductsSection from '../components/sections/home-sections/OurProductsSection';
-import PromoSlider from '../components/sections/home-sections/PromoSlider';
-import AboutUsPreviewSection from '../components/sections/home-sections/AboutUsPreviewSection';
-import StatisticsSection from '../components/sections/home-sections/StatisticsSection';
-import ClientTrustSection from '../components/sections/home-sections/ClientTrustSection';
+import { useContext, useEffect } from 'react';
+import { Context } from 'context/Context';
+import * as APIFirebase from 'services/APIFirebase';
+import MainBanner from 'components/sections/home-sections/MainBanner';
+import OurProductsSection from 'components/sections/home-sections/OurProductsSection';
+import PromoSlider from 'components/sections/home-sections/PromoSlider';
+import AboutUsPreviewSection from 'components/sections/home-sections/AboutUsPreviewSection';
+import StatisticsSection from 'components/sections/home-sections/StatisticsSection';
+import ClientTrustSection from 'components/sections/home-sections/ClientTrustSection';
 
 const HomePage = () => {
   // const [isLoading, setIsLoading] = useState(true);

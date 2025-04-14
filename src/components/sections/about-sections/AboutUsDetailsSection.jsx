@@ -1,16 +1,15 @@
-import { useTranslation } from 'react-i18next';
-
-import image from '../../../assets/images/aboutUs/copper.webp';
-import SectionTitle from '../../common/SectionTitle';
-import Container from '../../common/Container';
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import Container from 'components/common/Container';
+import SectionTitle from 'components/common/SectionTitle';
+import image from 'assets/images/aboutUs/copper.webp';
 
 const PARAGRAPHS = [
-  'aboutUs.firstParagraph',
-  'aboutUs.secondParagraph',
-  'aboutUs.thirdParagraph',
-  'aboutUs.fourthParagraph',
-  'aboutUs.fifthParagraph',
+  'aboutUs.paragraph1',
+  'aboutUs.paragraph2',
+  'aboutUs.paragraph3',
+  'aboutUs.paragraph4',
+  'aboutUs.paragraph5',
 ];
 
 const AboutUsDetailsSection = () => {

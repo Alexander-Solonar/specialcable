@@ -1,8 +1,12 @@
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { headerNavLinks } from '../../data/headerNavLinks';
+import { headerNavLinks } from 'data/headerNavLinks';
 
-const Navigation = ({ closeMobileMenu = null, classNameNav, classNameList }) => {
+const Navigation = ({
+  closeMobileMenu = null,
+  classNameNav,
+  classNameList,
+}) => {
   const { t } = useTranslation();
 
   const linkClassName = ({ isActive }) =>
@@ -15,7 +19,11 @@ const Navigation = ({ closeMobileMenu = null, classNameNav, classNameList }) => 
       <ul className={classNameList}>
         {headerNavLinks.map(({ path, label }) => (
           <li key={path}>
-            <NavLink to={path} onClick={() => closeMobileMenu?.(false)} className={linkClassName}>
+            <NavLink
+              to={path}
+              onClick={() => closeMobileMenu?.(false)}
+              className={linkClassName}
+            >
               {t(label)}
             </NavLink>
           </li>

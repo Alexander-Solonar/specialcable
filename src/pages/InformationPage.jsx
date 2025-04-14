@@ -1,8 +1,8 @@
 import { Outlet } from 'react-router-dom';
-import { informationPageNavLinks } from '../data/informationPageNavLinks';
-import Container from '../components/common/Container';
-import PageNavigation from '../components/common/PageNavigation';
-import BackgroundWrapper from '../components/utils/BackgroundWrapper';
+import { informationPageNavLinks } from 'data/informationPageNavLinks';
+import Container from 'components/common/Container';
+import PageNavigation from 'components/common/PageNavigation';
+import BackgroundWrapper from 'components/utils/BackgroundWrapper';
 
 const InformationPage = () => {
   return (

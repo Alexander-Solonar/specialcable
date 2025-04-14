@@ -1,7 +1,7 @@
-import ProductList from '../../utils/ProductList';
-import Container from '../../common/Container';
-import PageLinkButton from '../../buttons/PageLinkButton';
-import SectionTitle from '../../common/SectionTitle';
+import ProductList from 'components/utils/ProductList';
+import Container from 'components/common/Container';
+import PageLinkButton from 'components/buttons/PageLinkButton';
+import SectionTitle from 'components/common/SectionTitle';
 
 const OurProductsSection = () => {
   return (

@@ -1,11 +1,10 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import * as APIFirebase from '../../../services/APIFirebase';
-
-import Container from '../../common/Container';
-import SpriteIcon from '../../common/SpriteIcon';
-import { localArticle } from '../../../data/localArticle.js';
+import { localArticle } from 'data/localArticle.js';
+import * as APIFirebase from 'services/APIFirebase';
+import Container from 'components/common/Container';
+import SpriteIcon from 'components/common/SpriteIcon';
 
 const ArticleDetailsSection = () => {
   const [article, setArticle] = useState([]);
@@ -46,7 +45,10 @@ const ArticleDetailsSection = () => {
       <Container>
         <Link
           to={backLinkHref.current}
-          state={{ scroll: scrollPosition, showAllArticles: location.state?.showAllArticles }}
+          state={{
+            scroll: scrollPosition,
+            showAllArticles: location.state?.showAllArticles,
+          }}
           className="inline-flex items-center gap-2 rounded-sm border border-vivid-orange px-4 py-1 text-sm font-bold uppercase tracking-wide text-vivid-orange transition-colors duration-300 hover:bg-vivid-orange hover:text-white focus:outline-none focus:ring-2 focus:ring-vivid-orange focus:ring-offset-2"
         >
           <SpriteIcon icon="icon-back" className="h-[20px] w-[20px]" />
@@ -60,7 +62,12 @@ const ArticleDetailsSection = () => {
                 {title[lng]}
               </h2>
 
-              <img className="float-right mb-2 ml-8" src={imgFullXl} alt="copper" loading="lazy" />
+              <img
+                className="float-right mb-2 ml-8"
+                src={imgFullXl}
+                alt="copper"
+                loading="lazy"
+              />
 
               <p className="indent-7 text-sm ml:text-base">{text[lng]}</p>
             </div>

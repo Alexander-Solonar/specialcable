@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import SectionTitle from '../../common/SectionTitle';
+import SectionTitle from 'components/common/SectionTitle';
 
 const StorageRulesSection = () => {
   const { t } = useTranslation();
@@ -12,7 +12,6 @@ const StorageRulesSection = () => {
   return (
     <section>
       <SectionTitle text={t('storage-rules.title')} />
-
       <ul className="mt-8 flex max-w-[700px] flex-col gap-8 text-sm ml:text-base">
         <li>{t('storage-rules.paragraph1')}</li>
         <li>{t('storage-rules.paragraph2')}</li>

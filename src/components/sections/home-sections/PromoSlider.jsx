@@ -1,13 +1,11 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
-import { sliderData } from '../../../data/promoSlider';
-
-import PromoSlide from '../../utils/PromoSlide';
-import PromoSliderControls from '../../utils/PromoSliderControls';
+import { sliderData } from 'data/promoSlider';
+import PromoSlide from 'components/utils/PromoSlide';
+import PromoSliderControls from 'components/utils/PromoSliderControls';
 import 'swiper/css';
 
 const SWIPER_SETTINGS = {
-  loop: true,
   speed: 1500,
 
   autoplay: {

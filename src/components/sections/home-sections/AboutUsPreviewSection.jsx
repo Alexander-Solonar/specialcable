@@ -1,11 +1,10 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useCloseOnResize } from '../../../hooks/useCloseOnResize';
-
-import image from '../../../assets/images/aboutUs/copper.webp';
-import SectionTitle from '../../common/SectionTitle';
-import Container from '../../common/Container';
-import SpriteIcon from '../../common/SpriteIcon';
+import { useCloseOnResize } from 'hooks/useCloseOnResize';
+import Container from 'components/common/Container';
+import SectionTitle from 'components/common/SectionTitle';
+import SpriteIcon from 'components/common/SpriteIcon';
+import image from 'assets/images/aboutUs/copper.webp';
 
 const AboutUsPreviewSection = () => {
   const [isReadMoreShown, setIsReadMoreShown] = useState(false);
@@ -24,13 +23,17 @@ const AboutUsPreviewSection = () => {
             <SectionTitle text={t('aboutUs.title')} />
             <p className="mb-4 mt-3 sm:mt-8">{t('aboutUs.firstParagraph')}</p>
             <p className="hidden sm:block">{t('aboutUs.secondParagraph')}</p>
-            {isReadMoreShown && <p className="sm:hidden">{t('aboutUs.secondParagraph')}</p>}
+            {isReadMoreShown && (
+              <p className="sm:hidden">{t('aboutUs.secondParagraph')}</p>
+            )}
             <button
               onClick={() => setIsReadMoreShown(!isReadMoreShown)}
               className="ml-auto flex items-center gap-x-1 sm:hidden"
             >
               <span className="underline">
-                {isReadMoreShown ? t('aboutUs.buttonHide') : t('aboutUs.buttonMore')}
+                {isReadMoreShown
+                  ? t('aboutUs.buttonHide')
+                  : t('aboutUs.buttonMore')}
               </span>
               <SpriteIcon
                 icon={isReadMoreShown ? 'rectangle-up' : 'rectangle-down'}

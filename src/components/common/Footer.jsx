@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
-import { footerNavLinks } from '../../data/footerNavLinks';
-import FooterBlock from '../utils/FooterBlock';
+import { footerNavLinks } from 'data/footerNavLinks';
 import Container from './Container';
+import FooterBlock from '../utils/FooterBlock';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -11,7 +11,11 @@ const Footer = () => {
         <Container>
           <div className="flex flex-col gap-x-9 gap-y-4 ml:flex-row">
             {footerNavLinks.map((section, index) => (
-              <FooterBlock key={index} title={section.title} items={section.items} />
+              <FooterBlock
+                key={index}
+                title={section.title}
+                items={section.items}
+              />
             ))}
           </div>
           <div className="mt-8 flex justify-center ml:mt-16 ml:justify-end">

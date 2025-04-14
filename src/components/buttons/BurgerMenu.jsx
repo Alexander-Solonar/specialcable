@@ -1,6 +1,5 @@
 import { useContext } from 'react';
-import { Context } from '../../context/Context';
-
+import { Context } from 'context/Context';
 import SpriteIcon from '../common/SpriteIcon';
 
 const BurgerMenu = () => {

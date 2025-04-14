@@ -1,10 +1,10 @@
-import React, { useContext, useEffect } from 'react';
+import { useContext, useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
-import { Context } from '../context/Context';
-import { aboutUsPageNavLinks } from '../data/aboutUsPageNavLinks';
-import * as APIFirebase from '../services/APIFirebase';
-import Container from '../components/common/Container';
-import PageNavigation from '../components/common/PageNavigation';
+import { Context } from 'context/Context';
+import { aboutUsPageNavLinks } from 'data/aboutUsPageNavLinks';
+import * as APIFirebase from 'services/APIFirebase';
+import Container from 'components/common/Container';
+import PageNavigation from 'components/common/PageNavigation';
 
 const AboutCompanyPage = () => {
   const { setArticleList } = useContext(Context);

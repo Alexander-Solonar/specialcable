@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import SectionTitle from '../../common/SectionTitle';
+import SectionTitle from 'components/common/SectionTitle';
 
 const SupplierInfoSection = () => {
   const { t } = useTranslation();
@@ -10,10 +10,12 @@ const SupplierInfoSection = () => {
   }, []);
 
   return (
-    <section className="pb-8 sm:pb-28 ml:pb-32">
+    <section>
       <SectionTitle text={t('supplier-info.title')} />
       <div className="mt-3 sm:mt-7">
-        <p className="text-xs uppercase tracking-widest sm:text-sm">{t('supplier-info.text')}</p>
+        <p className="text-xs uppercase tracking-widest sm:text-sm">
+          {t('supplier-info.text')}
+        </p>
       </div>
     </section>
   );

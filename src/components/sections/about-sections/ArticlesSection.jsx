@@ -1,14 +1,16 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import SectionTitle from '../../common/SectionTitle';
-import ArticleList from '../../utils/ArticleList';
-import { localArticle } from '../../../data/localArticle.js';
-import Container from '../../common/Container';
 import { useTranslation } from 'react-i18next';
+import { localArticle } from 'data/localArticle.js';
+import Container from 'components/common/Container';
+import SectionTitle from 'components/common/SectionTitle';
+import ArticleList from 'components/utils/ArticleList';
 
 const ArticlesSection = () => {
   const location = useLocation();
-  const [showAllArticles, setShowAllArticles] = useState(location.state?.showAllArticles ?? false);
+  const [showAllArticles, setShowAllArticles] = useState(
+    location.state?.showAllArticles ?? false
+  );
   const { t, i18n } = useTranslation();
   const lng = i18n.resolvedLanguage;
 
@@ -47,7 +49,9 @@ const ArticlesSection = () => {
             className="bg-vivid-orange px-5 py-1 text-xs uppercase tracking-widest text-white transition duration-300 hover:brightness-90 sm:text-sm"
             onClick={toggleArticles}
           >
-            {t(`articles.${showAllArticles ? 'btnHide' : 'btnShowAllArticles'}`)}
+            {t(
+              `articles.${showAllArticles ? 'btnHide' : 'btnShowAllArticles'}`
+            )}
           </button>
         </div>
       </Container>

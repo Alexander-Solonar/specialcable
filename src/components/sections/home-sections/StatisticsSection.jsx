@@ -1,6 +1,6 @@
 import { useRef } from 'react';
-import Container from '../../common/Container';
-import StatisticsList from '../../utils/StatisticsList';
+import Container from 'components/common/Container';
+import StatisticsList from 'components/utils/StatisticsList';
 
 const StatisticsSection = () => {
   const sectionRef = useRef(null);

@@ -1,9 +1,9 @@
 export const sliderData = [
   {
     id: 1,
-    label: 'promoSlider.firstSlide.label',
-    title: 'promoSlider.firstSlide.title',
-    description: 'promoSlider.firstSlide.description',
+    label: 'promoSlider.slide1.label',
+    title: 'promoSlider.slide1.title',
+    description: 'promoSlider.slide1.description',
     bgColor: 'vivid-orange',
     imageSm: require('../assets/images/promoSlide/cable-reel-sm.webp'),
     imageMl: require('../assets/images/promoSlide/cable-reel-ml.webp'),
@@ -11,9 +11,9 @@ export const sliderData = [
   },
   {
     id: 2,
-    label: 'promoSlider.secondSlide.label',
-    title: 'promoSlider.secondSlide.title',
-    description: 'promoSlider.secondSlide.description',
+    label: 'promoSlider.slide2.label',
+    title: 'promoSlider.slide2.title',
+    description: 'promoSlider.slide2.description',
     bgColor: 'deep-blue',
     imageSm: require('../assets/images/promoSlide/van-sm.webp'),
     imageMl: require('../assets/images/promoSlide/van-ml.webp'),
@@ -21,9 +21,9 @@ export const sliderData = [
   },
   {
     id: 3,
-    label: 'promoSlider.thirdSlide.label',
-    title: 'promoSlider.thirdSlide.title',
-    description: 'promoSlider.thirdSlide.description',
+    label: 'promoSlider.slide3.label',
+    title: 'promoSlider.slide3.title',
+    description: 'promoSlider.slide3.description',
     bgColor: 'gray',
     imageSm: require('../assets/images/promoSlide/cable-sm.webp'),
     imageMl: require('../assets/images/promoSlide/cable-ml.webp'),

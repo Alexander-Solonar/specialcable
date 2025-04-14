@@ -17,6 +17,7 @@ import {
   PaymentRulesSection,
   StorageRulesSection,
   SupplierInfoSection,
+  CertificatesSection,
 } from './components/sections';
 
 const AboutCompanyPage = lazy(() => import('./pages/AboutCompanyPage'));
@@ -44,7 +45,7 @@ function App() {
             <Route path="payment-rules" element={<PaymentRulesSection />} />
             <Route path="storage-rules" element={<StorageRulesSection />} />
             <Route path="supplier-info" element={<SupplierInfoSection />} />
-            <Route path="certificates" element={<ArticlesSection />} />
+            <Route path="certificates" element={<CertificatesSection />} />
             <Route
               path="certificates/certificate/:certificateId"
               element={<ArticleDetailsSection />}

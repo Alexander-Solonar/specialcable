@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
-
-import { ReactComponent as LogoIcon } from '../../assets/images/logo.svg';
-import { ReactComponent as LogoIconSmall } from '../../assets/images/logoSmall.svg';
+import { ReactComponent as LogoIcon } from 'assets/images/logo.svg';
+import { ReactComponent as LogoIconSmall } from 'assets/images/logoSmall.svg';
 import Container from './Container';
 import Navigation from './Navigation';
 import MobileMenu from '../utils/MobileMenu';

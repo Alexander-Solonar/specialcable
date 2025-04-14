@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import SectionTitle from '../../common/SectionTitle';
+import SectionTitle from 'components/common/SectionTitle';
 
 const ContractorRulesSection = () => {
   const { t } = useTranslation();

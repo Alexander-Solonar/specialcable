@@ -1,10 +1,9 @@
 import { useTranslation } from 'react-i18next';
-
-import Container from '../../common/Container';
-import PageLinkButton from '../../buttons/PageLinkButton';
-import bannerXl from '../../../assets/images/hero/bannerXl.webp';
-import bannerMl from '../../../assets/images/hero/bannerMl.webp';
-import bannerSm from '../../../assets/images/hero/bannerSm.webp';
+import PageLinkButton from 'components/buttons/PageLinkButton';
+import Container from 'components/common/Container';
+import bannerXl from 'assets/images/hero/bannerXl.webp';
+import bannerMl from 'assets/images/hero/bannerMl.webp';
+import bannerSm from 'assets/images/hero/bannerSm.webp';
 
 const MainBanner = () => {
   const { t } = useTranslation();
@@ -29,8 +28,12 @@ const MainBanner = () => {
               {t('mainBanner.safetyPercentage')}
             </p>
             <div>
-              <p className="text-lg font-bold tracking-[0.1em]">{t('mainBanner.safety')}</p>
-              <p className="text-xs font-bold tracking-[0.06em]">{t('mainBanner.savingLives')}</p>
+              <p className="text-lg font-bold tracking-[0.1em]">
+                {t('mainBanner.safety')}
+              </p>
+              <p className="text-xs font-bold tracking-[0.06em]">
+                {t('mainBanner.savingLives')}
+              </p>
             </div>
           </div>
 
@@ -43,7 +46,11 @@ const MainBanner = () => {
           <picture className="absolute right-0 top-0 -z-[1]">
             <source media="(max-width: 424px)" srcSet={bannerSm} />
             <source media="(max-width: 1023px)" srcSet={bannerMl} />
-            <img src={bannerXl} alt="Responsive Banner" className="h-auto w-full" />
+            <img
+              src={bannerXl}
+              alt="Responsive Banner"
+              className="h-auto w-full"
+            />
           </picture>
 
           {/* Фоновий блок */}

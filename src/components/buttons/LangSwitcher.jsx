@@ -1,7 +1,6 @@
 import { useContext } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Context } from '../../context/Context';
-
+import { Context } from 'context/Context';
 import SpriteIcon from '../common/SpriteIcon';
 
 const LangSwitcher = ({ className }) => {
@@ -29,7 +28,11 @@ const LangSwitcher = ({ className }) => {
           className="flex items-center p-2 focus:outline-none"
         >
           <SpriteIcon icon={language} width={22} height={15} />
-          <SpriteIcon icon={isLangOpen ? 'ctrl-up' : 'ctrl-down'} width={22} height={15} />
+          <SpriteIcon
+            icon={isLangOpen ? 'ctrl-up' : 'ctrl-down'}
+            width={22}
+            height={15}
+          />
         </button>
       </div>
 

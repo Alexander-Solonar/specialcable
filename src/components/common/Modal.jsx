@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { useClickOutside } from '../../hooks/useClickOutside';
+import { useClickOutside } from 'hooks/useClickOutside';
 
 const Modal = ({ children, isOpen, setIsOpen }) => {
   const menuRef = useRef(null);
@@ -13,7 +13,9 @@ const Modal = ({ children, isOpen, setIsOpen }) => {
     <div
       ref={menuRef}
       className={`fixed inset-0 z-20 flex items-center justify-center bg-black/50 backdrop-blur-sm transition-opacity duration-500 ${
-        isOpen ? 'opacity-1 pointer-events-auto' : 'pointer-events-none opacity-0'
+        isOpen
+          ? 'opacity-1 pointer-events-auto'
+          : 'pointer-events-none opacity-0'
       }`}
     >
       {children}
