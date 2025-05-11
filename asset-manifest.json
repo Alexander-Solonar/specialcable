@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/specialcable/static/css/main.10ad7d6e.css",
-    "main.js": "/specialcable/static/js/main.b334edd1.js",
+    "main.css": "/specialcable/static/css/main.0c6dd802.css",
+    "main.js": "/specialcable/static/js/main.a6941831.js",
     "static/js/649.6251ef8d.chunk.js": "/specialcable/static/js/649.6251ef8d.chunk.js",
-    "static/js/899.9055f15c.chunk.js": "/specialcable/static/js/899.9055f15c.chunk.js",
+    "static/js/710.f96bb735.chunk.js": "/specialcable/static/js/710.f96bb735.chunk.js",
+    "static/js/806.49faa7ba.chunk.js": "/specialcable/static/js/806.49faa7ba.chunk.js",
     "static/js/505.e2058205.chunk.js": "/specialcable/static/js/505.e2058205.chunk.js",
     "static/js/947.9fcc30ce.chunk.js": "/specialcable/static/js/947.9fcc30ce.chunk.js",
     "static/js/143.ccd43d39.chunk.js": "/specialcable/static/js/143.ccd43d39.chunk.js",
@@ -15,7 +16,7 @@
     "static/js/782.6a8e0b06.chunk.js": "/specialcable/static/js/782.6a8e0b06.chunk.js",
     "static/js/647.b41e6c95.chunk.js": "/specialcable/static/js/647.b41e6c95.chunk.js",
     "static/js/627.a42a047b.chunk.js": "/specialcable/static/js/627.a42a047b.chunk.js",
-    "static/js/979.0387e319.chunk.js": "/specialcable/static/js/979.0387e319.chunk.js",
+    "static/js/625.8cb016e2.chunk.js": "/specialcable/static/js/625.8cb016e2.chunk.js",
     "static/media/letterOfThanks.webp": "/specialcable/static/media/letterOfThanks.0854245f948530581d23.webp",
     "static/media/pt-sans-narrow-v18-cyrillic_latin-700.woff2": "/specialcable/static/media/pt-sans-narrow-v18-cyrillic_latin-700.9dec777f48150c86d1f0.woff2",
     "static/media/pt-sans-narrow-v18-cyrillic_latin-regular.woff2": "/specialcable/static/media/pt-sans-narrow-v18-cyrillic_latin-regular.f78ceabaf220d7c90394.woff2",
@@ -28,6 +29,8 @@
     "static/media/logo.svg": "/specialcable/static/media/logo.b3c4181f32e408afb8435821cb29ecdc.svg",
     "static/media/bg.webp": "/specialcable/static/media/bg.1bd9b3b581f7b522ff7b.webp",
     "static/media/bg-footer.webp": "/specialcable/static/media/bg-footer.5b25e2e8f653d848a4a3.webp",
+    "static/media/certificate_1.webp": "/specialcable/static/media/certificate_1.949a3fb2a20a4219069a.webp",
+    "static/media/certificate_2.webp": "/specialcable/static/media/certificate_2.cf0895c105329db39991.webp",
     "static/media/imageFull-xl.webp": "/specialcable/static/media/imageFull-xl.7d6d01372c1b4a927fd2.webp",
     "static/media/cable-reel-ml.webp": "/specialcable/static/media/cable-reel-ml.033b910457fc83a10c6b.webp",
     "static/media/imageFull-ml.webp": "/specialcable/static/media/imageFull-ml.c12d94b7a0f786ef3d5d.webp",
@@ -42,10 +45,11 @@
     "static/media/van-sm.webp": "/specialcable/static/media/van-sm.34b1fc3f61ec7578593d.webp",
     "static/media/logoSmall.svg": "/specialcable/static/media/logoSmall.dbe5fcba58307868754dd48799a48140.svg",
     "index.html": "/specialcable/index.html",
-    "main.10ad7d6e.css.map": "/specialcable/static/css/main.10ad7d6e.css.map",
-    "main.b334edd1.js.map": "/specialcable/static/js/main.b334edd1.js.map",
+    "main.0c6dd802.css.map": "/specialcable/static/css/main.0c6dd802.css.map",
+    "main.a6941831.js.map": "/specialcable/static/js/main.a6941831.js.map",
     "649.6251ef8d.chunk.js.map": "/specialcable/static/js/649.6251ef8d.chunk.js.map",
-    "899.9055f15c.chunk.js.map": "/specialcable/static/js/899.9055f15c.chunk.js.map",
+    "710.f96bb735.chunk.js.map": "/specialcable/static/js/710.f96bb735.chunk.js.map",
+    "806.49faa7ba.chunk.js.map": "/specialcable/static/js/806.49faa7ba.chunk.js.map",
     "505.e2058205.chunk.js.map": "/specialcable/static/js/505.e2058205.chunk.js.map",
     "947.9fcc30ce.chunk.js.map": "/specialcable/static/js/947.9fcc30ce.chunk.js.map",
     "143.ccd43d39.chunk.js.map": "/specialcable/static/js/143.ccd43d39.chunk.js.map",
@@ -57,10 +61,10 @@
     "782.6a8e0b06.chunk.js.map": "/specialcable/static/js/782.6a8e0b06.chunk.js.map",
     "647.b41e6c95.chunk.js.map": "/specialcable/static/js/647.b41e6c95.chunk.js.map",
     "627.a42a047b.chunk.js.map": "/specialcable/static/js/627.a42a047b.chunk.js.map",
-    "979.0387e319.chunk.js.map": "/specialcable/static/js/979.0387e319.chunk.js.map"
+    "625.8cb016e2.chunk.js.map": "/specialcable/static/js/625.8cb016e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10ad7d6e.css",
-    "static/js/main.b334edd1.js"
+    "static/css/main.0c6dd802.css",
+    "static/js/main.a6941831.js"
   ]
 }
