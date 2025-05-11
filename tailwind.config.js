@@ -3,10 +3,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
-      lg: "1200px",
-      xl: "1024px",
-      ml: "768px",
       sm: "425px",
+      ml: "768px",
+      xl: "1024px",
+      lg: "1200px",
     },
     fontFamily: {
       main: ["PT Sans Narrow", "sans-serif"],
@@ -33,6 +33,7 @@ module.exports = {
     },
     backgroundPosition: {
       "position-aboutUs": "right 10px top 35px",
+      "position-contacts": "right 550px bottom -350px",
       "position-information": "left 0 bottom 0",
     },
 

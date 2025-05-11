@@ -87,7 +87,7 @@ export const footerNavLinks = [
       [
         { label: 'footer.sections.contacts.items.phone', href: '##' },
         { label: 'footer.sections.contacts.items.email', href: '##' },
-        { label: 'footer.sections.contacts.items.warehouse', href: '##' },
+        { label: 'footer.sections.contacts.items.storage', href: '##' },
       ],
       [
         { label: 'footer.sections.contacts.items.office', href: '##' },

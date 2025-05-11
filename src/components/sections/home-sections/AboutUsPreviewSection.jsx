@@ -21,10 +21,10 @@ const AboutUsPreviewSection = () => {
         <div className="flex items-center justify-between gap-x-5">
           <div className="indent-7 text-xs sm:max-w-[600px] sm:text-base ml:min-w-[400px] ml:max-w-[582px]">
             <SectionTitle text={t('aboutUs.title')} />
-            <p className="mb-4 mt-3 sm:mt-8">{t('aboutUs.firstParagraph')}</p>
-            <p className="hidden sm:block">{t('aboutUs.secondParagraph')}</p>
+            <p className="mb-4 mt-3 sm:mt-8">{t('aboutUs.paragraph1')}</p>
+            <p className="hidden sm:block">{t('aboutUs.paragraph2')}</p>
             {isReadMoreShown && (
-              <p className="sm:hidden">{t('aboutUs.secondParagraph')}</p>
+              <p className="sm:hidden">{t('aboutUs.paragraph2')}</p>
             )}
             <button
               onClick={() => setIsReadMoreShown(!isReadMoreShown)}

@@ -1,8 +1,6 @@
-const BackgroundWrapper = ({ children }) => {
+const BackgroundWrapper = ({ addStyle, children }) => {
   return (
-    <div className="flex-auto bg-bg-information bg-contain bg-position-information bg-no-repeat pb-44">
-      {children}
-    </div>
+    <div className={`flex-auto bg-no-repeat ${addStyle} `}>{children}</div>
   );
 };
 

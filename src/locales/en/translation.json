@@ -88,9 +88,9 @@
         "items": {
           "phone": "+7 (499)350-64-13",
           "email": "info@resurscable.com",
-          "warehouse": "Warehouse: MO, Krasnogorsky District, Svetlye Gory, vl.29",
-          "office": "Office: Moscow, Sculptor Mukhina Street, bld. 7, fl. 1, room II, office 5B",
-          "factory": "Factory: Republic of Mordovia, Kemlya, Saranskcable Territory St., bld. 17G"
+          "storage": "Storage: 13 Novikova Street, Odesa, Odesa Oblast, 65000, Ukraine",
+          "office": "Office: 15 Pushkinska Street, Odesa, Odesa Oblast, 65026, Ukraine",
+          "factory": "Factory: 140 Mykolaivska Road, Odesa, Odesa Oblast, 65000, Ukraine"
         }
       }
     },
@@ -169,5 +169,12 @@
   "certificates": {
     "title": "Certificates",
     "text": "Данний розділ знаходиться в розробці."
+  },
+
+  "contactsPageNav": {
+    "title": "Contacts",
+    "office": "Office",
+    "storage": "Storage",
+    "factory": "Factory"
   }
 }

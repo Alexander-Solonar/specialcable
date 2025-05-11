@@ -1,22 +1,68 @@
-import { useEffect } from 'react';
+import { useContext, useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { Context } from 'context/Context';
+import { certificates } from 'data/certificates.js';
 import SectionTitle from 'components/common/SectionTitle';
+import FullScreenLetter from 'components/utils/FullScreenLetter';
 
 const CertificatesSection = () => {
+  const { isModalOpen, setIsModalOpen } = useContext(Context);
+  const { certificateId } = useParams();
+  const [selectedId, setSelectedId] = useState(Number(certificateId) || 1);
+  const [certificate, setCertificate] = useState(certificates[0]);
+  const [modalImage, setModalImage] = useState(null);
   const { t } = useTranslation();
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, []);
 
+  const handleCertificateSelect = id => {
+    setSelectedId(id);
+    setCertificate(certificates.find(certificate => certificate.id === id));
+  };
+
+  const handleImageClick = imageSrc => {
+    setModalImage(imageSrc);
+    setIsModalOpen(!isModalOpen);
+  };
+
   return (
-    <section className="pb-8 sm:pb-28 ml:pb-32">
+    <section>
       <SectionTitle text={t('certificates.title')} />
-      <div className="mt-3 sm:mt-7">
-        <p className="text-xs uppercase tracking-widest sm:text-sm">
-          {t('certificates.text')}
-        </p>
+      <div className="mt-3 flex justify-center gap-x-20 sm:mt-7 ml:justify-start xl:gap-x-32">
+        <div className="flex flex-col ml:flex-row">
+          <img
+            onClick={() => handleImageClick(certificate.certificate1)}
+            src={certificate.certificate1}
+            alt="certificate"
+            className="cursor-pointer"
+            width={380}
+          />
+          <img
+            onClick={() => handleImageClick(certificate.certificate2)}
+            src={certificate.certificate2}
+            alt="certificate"
+            className="cursor-pointer"
+            width={380}
+          />
+        </div>
+        <ul className="flex flex-col justify-between text-sm font-bold tracking-widest">
+          {certificates.map(({ id, name }) => (
+            <li
+              key={id}
+              onClick={() => handleCertificateSelect(id)}
+              className={`cursor-pointer ${
+                selectedId === id ? 'underline' : 'no-underline'
+              }`}
+            >
+              {name}
+            </li>
+          ))}
+        </ul>
       </div>
+      <FullScreenLetter image={modalImage} />
     </section>
   );
 };

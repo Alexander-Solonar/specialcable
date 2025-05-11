@@ -12,7 +12,7 @@ const InformationPage = () => {
           links={informationPageNavLinks}
           classNameList="flex flex-wrap  gap-4 justify-center ml:flex-nowrap ml:justify-between"
         />
-        <BackgroundWrapper>
+        <BackgroundWrapper addStyle="bg-bg-information  bg-contain bg-position-information pb-44">
           <Outlet />
         </BackgroundWrapper>
       </Container>

@@ -22,6 +22,7 @@ import {
 
 const AboutCompanyPage = lazy(() => import('./pages/AboutCompanyPage'));
 const InformationPage = lazy(() => import('./pages/InformationPage'));
+const ContactsPage = lazy(() => import('./pages/ContactsPage'));
 
 function App() {
   return (
@@ -36,12 +37,18 @@ function App() {
             <Route path="gallery" element={<GallerySection />} />
             <Route path="vacancies" element={<VacanciesSection />} />
             <Route path="articles" element={<ArticlesSection />} />
-            <Route path="articles/article/:articleId" element={<ArticleDetailsSection />} />
+            <Route
+              path="articles/article/:articleId"
+              element={<ArticleDetailsSection />}
+            />
             <Route path="partners" element={<PartnersSection />} />
           </Route>
           <Route path="/information" element={<InformationPage />}>
             <Route index element={<Navigate to="contractor-rules" replace />} />
-            <Route path="contractor-rules" element={<ContractorRulesSection />} />
+            <Route
+              path="contractor-rules"
+              element={<ContractorRulesSection />}
+            />
             <Route path="payment-rules" element={<PaymentRulesSection />} />
             <Route path="storage-rules" element={<StorageRulesSection />} />
             <Route path="supplier-info" element={<SupplierInfoSection />} />
@@ -51,6 +58,7 @@ function App() {
               element={<ArticleDetailsSection />}
             />
           </Route>
+          <Route path="/contacts" element={<ContactsPage />} />
         </Route>
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>

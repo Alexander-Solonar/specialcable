@@ -1,0 +1,92 @@
+export const certificates = [
+  {
+    id: 1,
+    name: 'КВК',
+    certificate1: require('../assets/images/certificate_1.webp'),
+    certificate2: require('../assets/images/certificate_2.webp'),
+  },
+  {
+    id: 2,
+    name: 'КПСВВ',
+    certificate1: require('../assets/images/certificate_1.webp'),
+    certificate2: require('../assets/images/certificate_2.webp'),
+  },
+  {
+    id: 3,
+    name: 'КСВВ',
+    certificate1: require('../assets/images/certificate_1.webp'),
+    certificate2: require('../assets/images/certificate_2.webp'),
+  },
+  {
+    id: 4,
+    name: 'КСПВ',
+    certificate1: require('../assets/images/certificate_1.webp'),
+    certificate2: require('../assets/images/certificate_2.webp'),
+  },
+  {
+    id: 5,
+    name: 'КСПЭВ',
+    certificate1: require('../assets/images/certificate_1.webp'),
+    certificate2: require('../assets/images/certificate_2.webp'),
+  },
+  {
+    id: 6,
+    name: 'КПС',
+    certificate1: require('../assets/images/certificate_1.webp'),
+    certificate2: require('../assets/images/certificate_2.webp'),
+  },
+  {
+    id: 7,
+    name: 'КПСВЭВ',
+    certificate1: require('../assets/images/certificate_1.webp'),
+    certificate2: require('../assets/images/certificate_2.webp'),
+  },
+  {
+    id: 8,
+    name: 'КСВЭВ',
+    certificate1: require('../assets/images/certificate_1.webp'),
+    certificate2: require('../assets/images/certificate_2.webp'),
+  },
+  {
+    id: 9,
+    name: 'КМВВ',
+    certificate1: require('../assets/images/certificate_1.webp'),
+    certificate2: require('../assets/images/certificate_2.webp'),
+  },
+  {
+    id: 10,
+    name: 'ПКСВ',
+    certificate1: require('../assets/images/certificate_1.webp'),
+    certificate2: require('../assets/images/certificate_2.webp'),
+  },
+  {
+    id: 11,
+    name: 'ПНСВ',
+    certificate1: require('../assets/images/certificate_1.webp'),
+    certificate2: require('../assets/images/certificate_2.webp'),
+  },
+  {
+    id: 12,
+    name: 'ПРППМ',
+    certificate1: require('../assets/images/certificate_1.webp'),
+    certificate2: require('../assets/images/certificate_2.webp'),
+  },
+  {
+    id: 13,
+    name: 'ПТПЖ',
+    certificate1: require('../assets/images/certificate_1.webp'),
+    certificate2: require('../assets/images/certificate_2.webp'),
+  },
+  {
+    id: 14,
+    name: 'ТРВ',
+    certificate1: require('../assets/images/certificate_1.webp'),
+    certificate2: require('../assets/images/certificate_2.webp'),
+  },
+  {
+    id: 15,
+    name: 'ТРП',
+    certificate1: require('../assets/images/certificate_1.webp'),
+    certificate2: require('../assets/images/certificate_2.webp'),
+  },
+];

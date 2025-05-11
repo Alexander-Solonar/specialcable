@@ -15,10 +15,8 @@ const FullScreenLetter = ({ image }) => {
   return (
     <Modal isOpen={isModalOpen} setIsOpen={setIsModalOpen}>
       <div className="relative scale-100 transform transition-transform duration-300">
-        {/* Контент модалки */}
         <img src={image} className="max-h-screen w-auto" alt="document" />
 
-        {/* Кнопка закрытия */}
         <button
           onClick={() => setIsModalOpen(!isModalOpen)}
           className="group absolute right-5 top-5 flex items-center justify-center transition-colors duration-300"
