@@ -34,7 +34,7 @@ const AboutCompanyPage = () => {
   // }
 
   return (
-    <div className="flex flex-auto flex-col">
+    <div>
       <Container>
         <PageNavigation
           links={aboutUsPageNavLinks}

@@ -1,9 +1,69 @@
 {
   "nav": {
-    "about-us": "About-us",
-    "catalog": "Catalog",
-    "information": "Information",
-    "contacts": "Contacts"
+    "headerNav": {
+      "aboutUs": "About the Company",
+      "catalog": "Catalog",
+      "information": "Information",
+      "contacts": "Contacts"
+    },
+    "aboutUsNav": {
+      "aboutUs": "About Us",
+      "news": "News",
+      "gallery": "Gallery",
+      "vacancies": "Vacancies",
+      "articles": "Articles",
+      "partners": "Partners"
+    },
+    "catalogNav": {
+      "phoneAndBroadcastWires": "Telephone, Radio Broadcast and Distribution Wires",
+      "heatingCables": "Heating Cables",
+      "securityFireCables": "Cables for Security and Fire Alarm Systems",
+      "videoSurveillanceCables": "Combined Cables for Video Surveillance"
+    },
+    "infoNav": {
+      "contractorRequirements": "Contractor Requirements",
+      "paymentTerms": "Payment Terms",
+      "certificates": "Certificates",
+      "storageConditions": "Storage Conditions",
+      "supplierInfo": "Information for Suppliers"
+    },
+    "contactsNav": {
+      "office": "Office",
+      "storage": "Warehouse",
+      "factory": "Factory"
+    }
+  },
+
+  "footer": {
+    "sections": {
+      "about": {
+        "title": "About the Company"
+      },
+      "catalog": {
+        "title": "Catalog"
+      },
+      "information": {
+        "title": "Information"
+      },
+      "contacts": {
+        "title": "Contacts",
+        "items": {
+          "phone": "+7 (499)350-64-13",
+          "email": "info@resurscable.com",
+          "storage": "Warehouse: Novikov Street, Odessa, Odessa Region, 65000",
+          "office": "Office: Pushkinskaya Street, 15, Odessa, Odessa Region, 65026",
+          "factory": "Factory: Mykolaivska Road, 140, Odessa, Odessa Region, 65000"
+        }
+      }
+    },
+    "privacyPolicy": "Privacy Policy and Personal Data Processing"
+  },
+
+  "feedBackForm": {
+    "title": "Request a Call",
+    "input": "Your Name",
+    "button": "Request a Call",
+    "text": "By clicking the “Request a Callback” button, I give full consent to the processing of personal data and confirm that I have read the privacy policy."
   },
 
   "mainBanner": {
@@ -11,170 +71,112 @@
     "title": "SPECRESOURCE",
     "safetyPercentage": "100%",
     "safety": "SAFETY",
-    "savingLives": "Saving lives",
-    "buttonText": "Go to catalog"
+    "savingLives": "Saving People's Lives",
+    "buttonText": "Go to Catalog"
   },
 
-  "aboutUs": {
+  "promoSlider": {
+    "slide1": {
+      "label": "Special Offer",
+      "title": "Sale from One Coil",
+      "description": "KVK-V-2 2×0.75 cable various lengths from 13 UAH/m instead of 14 UAH/m"
+    },
+    "slide2": {
+      "label": "Special Offer",
+      "title": "Free Delivery",
+      "description": "Across Ukraine for orders over 20,000 UAH"
+    },
+    "slide3": {
+      "label": "Special Offer",
+      "title": "Flexible Discount System",
+      "description": ""
+    }
+  },
+
+  "aboutUsSection": {
     "title": "About Us",
-    "paragraph1": "OOO Spetsresurs is a dynamically developing cable plant. Our main specialization is the production of fire-resistant cable for fire protection systems. We also manufacture heating wire (concrete heating), telephony, video surveillance.",
-    "paragraph2": "We have assembled a team of qualified professionals in the electrical goods market to implement a key mission: saving people's lives by manufacturing high-tech and environmentally friendly cable and wire products that meet all operating and safety standards.",
-    "paragraph3": "The main principles of the company are: honest business practices, an individual approach to each client, affordable cable prices, and control over every stage of production.",
-    "paragraph4": "Caring about the quality of our products, we purchase raw materials only from large suppliers of copper, steel, and plastic.",
-    "paragraph5": "Our own laboratory and multi-stage quality control ensure that the products comply with GOST standards.",
-    "buttonMore": "Read more",
+    "paragraph1": "LLC “Specresource” is a dynamically developing cable factory. Our main specialization is the production of fire-resistant cables for fire protection systems. We also manufacture heating wire (concrete heating), telephony, and video surveillance.",
+    "paragraph2": "We have assembled a team of qualified professionals in the electrical goods market to implement our key mission: saving lives by producing high-tech and environmentally friendly cable products that meet all safety and operational standards.",
+    "paragraph3": "The main principles of our company are: honest business practices, an individual approach to each client, affordable cable prices, and quality control at every production stage.",
+    "paragraph4": "Caring about product quality, we purchase raw materials only from large suppliers of copper, steel, and plasticizers.",
+    "paragraph5": "Our own laboratory and multi-stage quality control ensure compliance of products with DSTU standards.",
+    "buttonMore": "Read More",
     "buttonHide": "Hide"
   },
 
-  "info": {
+  "statisticSection": {
     "partners": "partners in Ukraine and neighboring countries",
-    "macroDimensions": "macro dimensions",
+    "macroDimensions": "macro sizes",
     "cableKilometers": "kilometers of cable in stock",
-    "deliveryDistance": "thousands of kilometers traveled by the delivery vehicle"
+    "deliveryDistance": "thousand kilometers driven by delivery vehicles"
   },
 
-  "feedBack": {
-    "title": "Request a Call",
-    "input": "Your Name",
-    "button": "Request a Call",
-    "text": "By clicking the 'Request a Call Back' button, I give full consent to the processing of personal data and confirm that I have read the privacy policy."
+  "clientTrustSection": {
+    "title": "Trusted by",
+    "description": "Individual approach, flexible production, impeccable product and service quality allow us to gain clients who become long-term partners."
   },
 
-  "specialOffer": {
-    "label": "Special Offer",
-    "title": "Warehouse Clearance Sale",
-    "description": "KVK-V-2 2×0.75 cable in various lengths from 13 RUB/m instead of 14 RUB/m"
-  },
-
-  "ourClients": {
-    "title": "Our Clients",
-    "description": "An individual approach, flexible production, and impeccable product and service quality allow us to gain clients who become loyal partners."
-  },
-
-  "footer": {
-    "sections": {
-      "about": {
-        "title": "About the company",
-        "items": {
-          "aboutUs": "About us",
-          "news": "News",
-          "gallery": "Gallery",
-          "vacancies": "Vacancies",
-          "articles": "Articles",
-          "partners": "Partners"
-        }
-      },
-      "catalog": {
-        "title": "Catalog",
-        "items": {
-          "phoneAndBroadcastWires": "Telephone, broadcast, and distribution wires",
-          "heatingCables": "Heating cables",
-          "securityFireCables": "Cables for security and fire alarm systems",
-          "videoSurveillanceCables": "Combined cables for video surveillance"
-        }
-      },
-      "information": {
-        "title": "Information",
-        "items": {
-          "contractorRequirements": "Contractor requirements",
-          "paymentTerms": "Payment terms",
-          "certificates": "Certificates",
-          "storageConditions": "Storage conditions",
-          "supplierInfo": "Supplier information"
-        }
-      },
-      "contacts": {
-        "title": "Contacts",
-        "items": {
-          "phone": "+7 (499)350-64-13",
-          "email": "info@resurscable.com",
-          "storage": "Storage: 13 Novikova Street, Odesa, Odesa Oblast, 65000, Ukraine",
-          "office": "Office: 15 Pushkinska Street, Odesa, Odesa Oblast, 65026, Ukraine",
-          "factory": "Factory: 140 Mykolaivska Road, Odesa, Odesa Oblast, 65000, Ukraine"
-        }
-      }
-    },
-    "privacyPolicy": "Privacy Policy and Personal Data Processing"
-  },
-
-  "aboutUsPageNav": {
-    "about-us": "About Us",
-    "news": "News",
-    "gallery": "Gallery",
-    "vacancies": "Vacancies",
-    "articles": "Articles",
-    "partners": "Partners"
-  },
-  "news": {
+  "newsSection": {
     "title": "News",
     "text": "This section is under development."
   },
-  "gallery": {
+  "gallerySection": {
     "title": "Gallery",
     "text": "This section is under development."
   },
-  "vacancies": {
+  "vacanciesSection": {
     "title": "Vacancies",
-    "text": "We currently have no active vacancies."
+    "text": "Currently, there are no active vacancies."
   },
-  "partners": {
+  "partnersSection": {
     "title": "Partners",
-    "text": "We currently have no active vacancies."
+    "text": "Currently, there are no active vacancies."
   },
-  "articles": {
+  "articlesSection": {
     "btnReadArticle": "Read Article",
     "btnShowAllArticles": "Show All Articles",
     "btnBack": "Back",
     "btnHide": "Hide"
   },
 
-  "informationPageNav": {
-    "contractor-rules": "Contractor Requirements",
-    "payment-rules": "Payment Terms",
-    "storage-rules": "Storage Conditions",
-    "supplier-info": "Supplier Information",
-    "certificates": "Certificates"
-  },
-  "contractor-rules": {
-    "title": "Requirements for contractors",
-    "description": "In order to implement LLC 'Spetsresurs' the rights granted by Article 312 of the Civil Code of the Russian Federation, the evidence that the conclusion of the supply contract and the execution of its obligations, in the form of subsequent execution and realization of transactions, is accepted by the person authorized to sign, we kindly ask you to provide properly certified copies of the following documents with a stamp.",
+  "contractorRules": {
+    "title": "Contractor Requirements",
+    "description": "For the implementation of LLC “Specresource”'s rights under Article 312 of the Civil Code of the Russian Federation regarding the conclusion and execution of supply contracts, we ask you to provide duly certified copies of the following documents with company seal:",
     "document1": "Charter;",
-    "document2": "Certificate of INN, OGRN/OGRNIP;",
-    "document3": "Extract from the Unified State Register of Legal Entities (EGRUL)/Individual Entrepreneurs (EGRIP);",
-    "document4": "Lease agreement at the actual location;",
-    "document5": "Decision on appointment to the position of the head (protocol of the general meeting of participants or board of directors (shareholders) or the decision of the sole participant (founder, shareholder));",
-    "document6": "Order on appointment to the position of the head;",
-    "document7": "Copy of the passport of the head;",
+    "document2": "TIN certificate, OGRN/OGRNIP;",
+    "document3": "Extract from the Unified State Register of Legal Entities (USRLE)/Individual Entrepreneurs (USREI);",
+    "document4": "Lease agreement for the actual location;",
+    "document5": "Decision on appointment of the head (minutes of general meeting of participants or board of directors (shareholders) or decision of sole participant (founder, shareholder));",
+    "document6": "Order on appointment of the head;",
+    "document7": "Copy of head's passport;",
     "document8": "Order or power of attorney for persons authorized to sign contracts and invoices.",
     "thankYou": "Thank you for your understanding!"
   },
 
-  "payment-rules": {
+  "paymentRulesSection": {
     "title": "Payment Terms",
-    "paragraph1": "Payment is made only via bank transfer.",
-    "paragraph2": "Product shipment is carried out upon 100% advance payment. You can always confirm the amount, terms, and payment procedure with your personal manager.",
-    "paragraph3": "Please note that after the expiration of the specified period on the invoice, the price and availability of products in stock may change. Before paying an invoice with an expired term, please call your manager and ask them to reissue the invoice with updated details. Partial payment invoices are not accepted."
-  },
-  "storage-rules": {
-    "title": "Storage Conditions",
-    "paragraph1": "Dear customers!",
-    "paragraph2": "We offer the service of free storage at our warehouse.",
-    "paragraph3": "Free storage is available for up to 10 days inclusive from the date of payment. After this period, you can use the delivery service or pick up the product yourself.",
-    "paragraph4": "By purchasing the product in advance, you can be sure that all the necessary materials will be available on time, and by using the free storage service, you won’t have to worry about where to temporarily store the product."
-  },
-  "supplier-info": {
-    "title": "Supplier Information",
-    "text": "This section is under development."
-  },
-  "certificates": {
-    "title": "Certificates",
-    "text": "Данний розділ знаходиться в розробці."
+    "paragraph1": "Payment is made only by non-cash transfer.",
+    "paragraph2": "Product shipment occurs only upon 100% prepayment. You can always clarify the amount, terms, and procedure of payment with your personal manager.",
+    "paragraph3": "Please note that after the expiration of the specified term, the price and availability of products in stock may change. Before paying an overdue invoice, please call your manager and ask for a reissued invoice with up-to-date information. Partial payment invoices are not accepted."
   },
 
-  "contactsPageNav": {
-    "title": "Contacts",
-    "office": "Office",
-    "storage": "Storage",
-    "factory": "Factory"
+  "storageRulesSection": {
+    "title": "Storage Conditions",
+    "paragraph1": "Dear customers!",
+    "paragraph2": "We offer a free storage service at our warehouse.",
+    "paragraph3": "Free storage is possible for 10 days including the day of payment. After the specified period, you may use the delivery service or pick up the goods yourself.",
+    "paragraph4": "By purchasing products in advance, you can be sure that all necessary materials will arrive on time, and by using the free storage service, you don't need to worry about temporary storage."
+  },
+
+  "supplierInfoSection": {
+    "title": "Information for Suppliers",
+    "text": "This section is under development."
+  },
+  "certificatesSection": {
+    "title": "Certificates",
+    "text": "This section is under development."
+  },
+  "contactsPage": {
+    "title": "Contacts"
   }
 }

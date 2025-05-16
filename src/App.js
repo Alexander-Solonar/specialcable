@@ -21,6 +21,7 @@ import {
 } from './components/sections';
 
 const AboutCompanyPage = lazy(() => import('./pages/AboutCompanyPage'));
+const CatalogPage = lazy(() => import('./pages/CatalogPage'));
 const InformationPage = lazy(() => import('./pages/InformationPage'));
 const ContactsPage = lazy(() => import('./pages/ContactsPage'));
 
@@ -29,7 +30,10 @@ function App() {
     <ContextProvider>
       <Routes>
         <Route path="/" element={<Layout />}>
+          {/* HomePage */}
           <Route index element={<HomePage />} />
+
+          {/* AboutCompanyPage */}
           <Route path="/about-us" element={<AboutCompanyPage />}>
             <Route index element={<Navigate to="us" replace />} />
             <Route path="us" element={<AboutUsDetailsSection />} />
@@ -43,6 +47,22 @@ function App() {
             />
             <Route path="partners" element={<PartnersSection />} />
           </Route>
+
+          {/* CatalogPage */}
+          <Route path="/catalog" element={<CatalogPage />}>
+            <Route index element={<Navigate to="sec-fire-cables" replace />} />
+            <Route path="sec-fire-cables" element={<h1>Hello</h1>} />
+            <Route path="heating-cables" element={<h1>Hello1</h1>} />
+            <Route path="telecom-wires" element={<h1>Hello2</h1>} />
+            <Route path="cctv-cables" element={<h1>Hello3</h1>} />
+
+            <Route
+              path="articles/article/:articleId"
+              element={<ArticleDetailsSection />}
+            />
+          </Route>
+
+          {/* InformationPage */}
           <Route path="/information" element={<InformationPage />}>
             <Route index element={<Navigate to="contractor-rules" replace />} />
             <Route
@@ -58,6 +78,8 @@ function App() {
               element={<ArticleDetailsSection />}
             />
           </Route>
+
+          {/* ContactsPage */}
           <Route path="/contacts" element={<ContactsPage />} />
         </Route>
         <Route path="*" element={<Navigate to="/" />} />

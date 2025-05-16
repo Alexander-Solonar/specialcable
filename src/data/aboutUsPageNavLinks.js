@@ -1,8 +1,8 @@
 export const aboutUsPageNavLinks = [
-  { path: 'us', label: 'aboutUsPageNav.about-us' },
-  { path: 'news', label: 'aboutUsPageNav.news' },
-  { path: 'gallery', label: 'aboutUsPageNav.gallery' },
-  { path: 'vacancies', label: 'aboutUsPageNav.vacancies' },
-  { path: 'articles', label: 'aboutUsPageNav.articles' },
-  { path: 'partners', label: 'aboutUsPageNav.partners' },
+  { path: 'us', label: 'nav.aboutUsNav.aboutUs' },
+  { path: 'news', label: 'nav.aboutUsNav.news' },
+  { path: 'gallery', label: 'nav.aboutUsNav.gallery' },
+  { path: 'vacancies', label: 'nav.aboutUsNav.vacancies' },
+  { path: 'articles', label: 'nav.aboutUsNav.articles' },
+  { path: 'partners', label: 'nav.aboutUsNav.partners' },
 ];

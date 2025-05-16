@@ -11,12 +11,12 @@ const StorageRulesSection = () => {
 
   return (
     <section>
-      <SectionTitle text={t('storage-rules.title')} />
+      <SectionTitle text={t('storageRulesSection.title')} />
       <ul className="mt-8 flex max-w-[700px] flex-col gap-8 text-sm ml:text-base">
-        <li>{t('storage-rules.paragraph1')}</li>
-        <li>{t('storage-rules.paragraph2')}</li>
-        <li>{t('storage-rules.paragraph3')}</li>
-        <li>{t('storage-rules.paragraph4')}</li>
+        <li>{t('storageRulesSection.paragraph1')}</li>
+        <li>{t('storageRulesSection.paragraph2')}</li>
+        <li>{t('storageRulesSection.paragraph3')}</li>
+        <li>{t('storageRulesSection.paragraph4')}</li>
       </ul>
     </section>
   );

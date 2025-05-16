@@ -13,10 +13,10 @@ const GallerySection = () => {
   return (
     <section className="pb-8 sm:pb-28 ml:pb-32">
       <Container>
-        <SectionTitle text={t('gallery.title')} />
+        <SectionTitle text={t('gallerySection.title')} />
         <div className="mt-3 sm:mt-7">
           <p className="text-xs uppercase tracking-widest sm:text-sm">
-            {t('gallery.text')}
+            {t('gallerySection.text')}
           </p>
         </div>
       </Container>

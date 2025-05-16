@@ -49,10 +49,10 @@ const ArticleDetailsSection = () => {
             scroll: scrollPosition,
             showAllArticles: location.state?.showAllArticles,
           }}
-          className="inline-flex items-center gap-2 rounded-sm border border-vivid-orange px-4 py-1 text-sm font-bold uppercase tracking-wide text-vivid-orange transition-colors duration-300 hover:bg-vivid-orange hover:text-white focus:outline-none focus:ring-2 focus:ring-vivid-orange focus:ring-offset-2"
+          className="inline-flex w-fit items-center gap-2 rounded-sm border border-vivid-orange px-4 py-1 text-sm font-bold uppercase tracking-wide text-vivid-orange transition-colors duration-300 hover:bg-vivid-orange hover:text-white focus:outline-none focus:ring-2 focus:ring-vivid-orange focus:ring-offset-2"
         >
           <SpriteIcon icon="icon-back" className="h-[20px] w-[20px]" />
-          {t('articles.btnBack')}
+          {t('articlesSection.btnBack')}
         </Link>
 
         {!isLoading && (

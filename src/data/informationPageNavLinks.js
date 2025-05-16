@@ -1,7 +1,7 @@
 export const informationPageNavLinks = [
-  { path: 'contractor-rules', label: 'informationPageNav.contractor-rules' },
-  { path: 'payment-rules', label: 'informationPageNav.payment-rules' },
-  { path: 'storage-rules', label: 'informationPageNav.storage-rules' },
-  { path: 'supplier-info', label: 'informationPageNav.supplier-info' },
-  { path: 'certificates', label: 'informationPageNav.certificates' },
+  { path: 'contractor-rules', label: 'nav.infoNav.contractorRequirements' },
+  { path: 'payment-rules', label: 'nav.infoNav.paymentTerms' },
+  { path: 'storage-rules', label: 'nav.infoNav.storageConditions' },
+  { path: 'supplier-info', label: 'nav.infoNav.supplierInfo' },
+  { path: 'certificates', label: 'nav.infoNav.certificates' },
 ];

@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
-const PageNavigation = ({ links, classNameList }) => {
+const PageNavigation = ({ links, classNameList, classNameItem = '' }) => {
   const { t } = useTranslation();
 
   const linkClassName = ({ isActive }) =>
@@ -13,7 +13,7 @@ const PageNavigation = ({ links, classNameList }) => {
     <nav className="pb-12 pt-10 text-sm font-bold uppercase tracking-widest">
       <ul className={classNameList}>
         {links.map(({ path, label }) => (
-          <li key={path} className="text-center">
+          <li key={path} className={`text-center ${classNameItem}`}>
             <NavLink to={path} className={linkClassName}>
               {t(label)}
             </NavLink>

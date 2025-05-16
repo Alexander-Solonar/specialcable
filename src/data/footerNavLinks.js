@@ -2,53 +2,24 @@ export const footerNavLinks = [
   {
     title: 'footer.sections.about.title',
     items: [
-      [{ label: 'footer.sections.about.items.aboutUs', href: '/about-us/us' }],
-      [{ label: 'footer.sections.about.items.news', href: '/about-us/news' }],
-      [
-        {
-          label: 'footer.sections.about.items.gallery',
-          href: '/about-us/gallery',
-        },
-      ],
-      [
-        {
-          label: 'footer.sections.about.items.vacancies',
-          href: '/about-us/vacancies',
-        },
-      ],
-      [
-        {
-          label: 'footer.sections.about.items.articles',
-          href: '/about-us/articles',
-        },
-      ],
-      [
-        {
-          label: 'footer.sections.about.items.partners',
-          href: '/about-us/partners',
-        },
-      ],
+      [{ label: 'nav.aboutUsNav.aboutUs', href: '/about-us/us' }],
+      [{ label: 'nav.aboutUsNav.news', href: '/about-us/news' }],
+      [{ label: 'nav.aboutUsNav.gallery', href: '/about-us/gallery' }],
+      [{ label: 'nav.aboutUsNav.vacancies', href: '/about-us/vacancies' }],
+      [{ label: 'nav.aboutUsNav.articles', href: '/about-us/articles' }],
+      [{ label: 'nav.aboutUsNav.partners', href: '/about-us/partners' }],
     ],
   },
   {
     title: 'footer.sections.catalog.title',
     items: [
       [
-        {
-          label: 'footer.sections.catalog.items.phoneAndBroadcastWires',
-          href: '##',
-        },
-        { label: 'footer.sections.catalog.items.heatingCables', href: '##' },
+        { label: 'nav.catalogNav.phoneAndBroadcastWires', href: '##' },
+        { label: 'nav.catalogNav.heatingCables', href: '##' },
       ],
       [
-        {
-          label: 'footer.sections.catalog.items.securityFireCables',
-          href: '##',
-        },
-        {
-          label: 'footer.sections.catalog.items.videoSurveillanceCables',
-          href: '##',
-        },
+        { label: 'nav.catalogNav.securityFireCables', href: '##' },
+        { label: 'nav.catalogNav.videoSurveillanceCables', href: '##' },
       ],
     ],
   },
@@ -57,25 +28,25 @@ export const footerNavLinks = [
     items: [
       [
         {
-          label: 'footer.sections.information.items.contractorRequirements',
+          label: 'nav.infoNav.contractorRequirements',
           href: '/information/contractor-rules',
         },
         {
-          label: 'footer.sections.information.items.paymentTerms',
+          label: 'nav.infoNav.paymentTerms',
           href: '/information/payment-rules',
         },
         {
-          label: 'footer.sections.information.items.certificates',
+          label: 'nav.infoNav.certificates',
           href: '/information/certificates',
         },
       ],
       [
         {
-          label: 'footer.sections.information.items.storageConditions',
+          label: 'nav.infoNav.storageConditions',
           href: '/information/storage-rules',
         },
         {
-          label: 'footer.sections.information.items.supplierInfo',
+          label: 'nav.infoNav.supplierInfo',
           href: '/information/supplier-info',
         },
       ],

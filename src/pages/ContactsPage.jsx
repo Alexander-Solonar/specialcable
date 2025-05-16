@@ -15,11 +15,11 @@ const ContactsPage = () => {
   }, []);
 
   return (
-    <div className="flex flex-auto flex-col">
+    <div className="flex flex-auto flex-col pt-6">
       <Container>
         <BackgroundWrapper addStyle="bg-bg-aboutUs bg-contain bg-position-contacts">
           <SectionTitle text="Контакти" />
-          <div className="pb-14 ml:pb-44 lg:pb-64">
+          <div className="pb-14 ml:pb-40 lg:pb-56">
             <ul className="mt-5 flex flex-col gap-y-4 font-main text-xs font-bold tracking-widest ml:text-sm">
               <li>
                 <a href="tel:+380963506413">8 (096) 350 64 13</a>

@@ -13,10 +13,10 @@ const NewsSection = () => {
   return (
     <section className="pb-8 sm:pb-28 ml:pb-32">
       <Container>
-        <SectionTitle text={t('news.title')} />
+        <SectionTitle text={t('newsSection.title')} />
         <div className="mt-3 sm:mt-7">
           <p className="text-xs uppercase tracking-widest sm:text-sm">
-            {t('news.text')}
+            {t('newsSection.text')}
           </p>
         </div>
       </Container>

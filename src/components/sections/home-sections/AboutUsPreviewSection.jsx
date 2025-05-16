@@ -20,11 +20,13 @@ const AboutUsPreviewSection = () => {
       <Container>
         <div className="flex items-center justify-between gap-x-5">
           <div className="indent-7 text-xs sm:max-w-[600px] sm:text-base ml:min-w-[400px] ml:max-w-[582px]">
-            <SectionTitle text={t('aboutUs.title')} />
-            <p className="mb-4 mt-3 sm:mt-8">{t('aboutUs.paragraph1')}</p>
-            <p className="hidden sm:block">{t('aboutUs.paragraph2')}</p>
+            <SectionTitle text={t('aboutUsSection.title')} />
+            <p className="mb-4 mt-3 sm:mt-8">
+              {t('aboutUsSection.paragraph1')}
+            </p>
+            <p className="hidden sm:block">{t('aboutUsSection.paragraph2')}</p>
             {isReadMoreShown && (
-              <p className="sm:hidden">{t('aboutUs.paragraph2')}</p>
+              <p className="sm:hidden">{t('aboutUsSection.paragraph2')}</p>
             )}
             <button
               onClick={() => setIsReadMoreShown(!isReadMoreShown)}
@@ -32,8 +34,8 @@ const AboutUsPreviewSection = () => {
             >
               <span className="underline">
                 {isReadMoreShown
-                  ? t('aboutUs.buttonHide')
-                  : t('aboutUs.buttonMore')}
+                  ? t('aboutUsSection.buttonHide')
+                  : t('aboutUsSection.buttonMore')}
               </span>
               <SpriteIcon
                 icon={isReadMoreShown ? 'rectangle-up' : 'rectangle-down'}

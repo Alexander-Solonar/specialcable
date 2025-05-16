@@ -23,7 +23,7 @@ const FeedBackForm = () => {
   return (
     <section className="bg-gray py-8 text-white sm:py-14 ml:py-24">
       <Container>
-        <SectionTitle text={t('feedBack.title')} />
+        <SectionTitle text={t('feedBackForm.title')} />
         <div className="mt-4 flex flex-col items-center sm:mt-7 ml:mt-12">
           <Formik
             initialValues={initialValues}
@@ -38,7 +38,7 @@ const FeedBackForm = () => {
                     type="text"
                     name="name"
                     className="relative h-9 sm:flex-grow ml:h-14"
-                    placeholder={t('feedBack.input')}
+                    placeholder={t('feedBackForm.input')}
                   />
                   <FormikControl
                     control="phone"
@@ -52,13 +52,17 @@ const FeedBackForm = () => {
                     type="submit"
                     className="ml-auto flex h-9 items-center justify-center bg-vivid-orange px-5 font-bold tracking-widest text-white transition-opacity duration-300 hover:opacity-85 disabled:cursor-not-allowed disabled:opacity-50 sm:ml-0 ml:h-14 ml:flex-grow"
                   >
-                    {t('feedBack.button')}
+                    {t('feedBackForm.button')}
                   </button>
                 </div>
                 <div className="mt-4 flex items-start gap-3">
-                  <FormikControl control="checkbox" type="checkbox" name="checkbox" />
+                  <FormikControl
+                    control="checkbox"
+                    type="checkbox"
+                    name="checkbox"
+                  />
                   <p className="text-xs !leading-none sm:text-sm ml:text-base">
-                    {t('feedBack.text')}
+                    {t('feedBackForm.text')}
                   </p>
                 </div>
               </Form>

@@ -5,11 +5,11 @@ import SectionTitle from 'components/common/SectionTitle';
 import image from 'assets/images/aboutUs/copper.webp';
 
 const PARAGRAPHS = [
-  'aboutUs.paragraph1',
-  'aboutUs.paragraph2',
-  'aboutUs.paragraph3',
-  'aboutUs.paragraph4',
-  'aboutUs.paragraph5',
+  'aboutUsSection.paragraph1',
+  'aboutUsSection.paragraph2',
+  'aboutUsSection.paragraph3',
+  'aboutUsSection.paragraph4',
+  'aboutUsSection.paragraph5',
 ];
 
 const AboutUsDetailsSection = () => {
@@ -22,7 +22,7 @@ const AboutUsDetailsSection = () => {
   return (
     <section className="pb-8 sm:pb-28 ml:pb-32">
       <Container>
-        <SectionTitle text={t('aboutUs.title')} />
+        <SectionTitle text={t('aboutUsSection.title')} />
         <div className="mt-3 flex flex-wrap-reverse items-start justify-center gap-5 sm:mt-7 xl:flex-nowrap xl:justify-between">
           <div className="flex max-w-[780px] flex-col space-y-4 indent-8 text-xs sm:text-base">
             {PARAGRAPHS.map((paragraph, index) => (

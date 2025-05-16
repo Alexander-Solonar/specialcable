@@ -35,7 +35,7 @@ const ArticlesSection = () => {
               state={{ from: location }}
               className="bg-vivid-orange px-5 py-2 text-xs uppercase tracking-widest text-white transition duration-300 hover:brightness-90 sm:text-sm"
             >
-              {t('articles.btnReadArticle')}
+              {t('articlesSection.btnReadArticle')}
             </Link>
           </div>
           <div className="hidden sm:flex sm:flex-col">
@@ -50,7 +50,7 @@ const ArticlesSection = () => {
             onClick={toggleArticles}
           >
             {t(
-              `articles.${showAllArticles ? 'btnHide' : 'btnShowAllArticles'}`
+              `articlesSection.${showAllArticles ? 'btnHide' : 'btnShowAllArticles'}`
             )}
           </button>
         </div>
