@@ -3,7 +3,6 @@ import { Outlet } from 'react-router-dom';
 import { Context } from 'context/Context';
 import { aboutUsPageNavLinks } from 'data/aboutUsPageNavLinks';
 import * as APIFirebase from 'services/APIFirebase';
-import Container from 'components/common/Container';
 import PageNavigation from 'components/common/PageNavigation';
 
 const AboutCompanyPage = () => {
@@ -35,12 +34,11 @@ const AboutCompanyPage = () => {
 
   return (
     <div>
-      <Container>
-        <PageNavigation
-          links={aboutUsPageNavLinks}
-          classNameList="grid grid-cols-3 gap-4 text-center ml:grid-cols-6"
-        />
-      </Container>
+      <PageNavigation
+        links={aboutUsPageNavLinks}
+        classNameList="grid grid-cols-3 gap-4 text-center ml:grid-cols-6"
+      />
+
       <Outlet />
     </div>
   );

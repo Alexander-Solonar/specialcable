@@ -30,11 +30,13 @@ module.exports = {
       "bg-aboutUs": "url('/src/assets/images/aboutUs/bg.webp')",
       "bg-footer": "url('/src/assets/images/bg-footer.webp')",
       "bg-information": "url('/src/assets/images/logo-bg.webp')",
+      "bg-catalog": "url('/src/assets/images/catalog-bg.webp')",
     },
     backgroundPosition: {
       "position-aboutUs": "right 10px top 35px",
       "position-contacts": "right 550px bottom -350px",
       "position-information": "left 0 bottom 0",
+      "position-catalog": "right -4rem bottom -5rem",
     },
 
     extend: {

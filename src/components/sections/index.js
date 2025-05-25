@@ -37,3 +37,10 @@ export const SupplierInfoSection = lazy(
 export const CertificatesSection = lazy(
   () => import('./information-sections/CertificatesSection')
 );
+
+// catalog section
+export const ContentCatalogSection = lazy(
+  () => import('./catalog-sections/ContentCatalogSection')
+);
+
+// productInfo-sections

@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import Container from 'components/common/Container';
 import SectionTitle from 'components/common/SectionTitle';
 
 const SupplierInfoSection = () => {
@@ -11,12 +12,14 @@ const SupplierInfoSection = () => {
 
   return (
     <section>
-      <SectionTitle text={t('supplierInfoSection.title')} />
-      <div className="mt-3 sm:mt-7">
-        <p className="text-xs uppercase tracking-widest sm:text-sm">
-          {t('supplierInfoSection.text')}
-        </p>
-      </div>
+      <Container>
+        <SectionTitle text={t('supplierInfoSection.title')} />
+        <div className="mt-3 sm:mt-7">
+          <p className="text-xs uppercase tracking-widest sm:text-sm">
+            {t('supplierInfoSection.text')}
+          </p>
+        </div>
+      </Container>
     </section>
   );
 };

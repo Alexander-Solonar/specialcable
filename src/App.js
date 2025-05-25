@@ -18,12 +18,14 @@ import {
   StorageRulesSection,
   SupplierInfoSection,
   CertificatesSection,
+  ContentCatalogSection,
 } from './components/sections';
 
 const AboutCompanyPage = lazy(() => import('./pages/AboutCompanyPage'));
 const CatalogPage = lazy(() => import('./pages/CatalogPage'));
 const InformationPage = lazy(() => import('./pages/InformationPage'));
 const ContactsPage = lazy(() => import('./pages/ContactsPage'));
+const ProductInfoPage = lazy(() => import('./pages/ProductInfoPage'));
 
 function App() {
   return (
@@ -45,22 +47,19 @@ function App() {
               path="articles/article/:articleId"
               element={<ArticleDetailsSection />}
             />
+
             <Route path="partners" element={<PartnersSection />} />
           </Route>
 
           {/* CatalogPage */}
           <Route path="/catalog" element={<CatalogPage />}>
             <Route index element={<Navigate to="sec-fire-cables" replace />} />
-            <Route path="sec-fire-cables" element={<h1>Hello</h1>} />
-            <Route path="heating-cables" element={<h1>Hello1</h1>} />
-            <Route path="telecom-wires" element={<h1>Hello2</h1>} />
-            <Route path="cctv-cables" element={<h1>Hello3</h1>} />
-
-            <Route
-              path="articles/article/:articleId"
-              element={<ArticleDetailsSection />}
-            />
+            <Route path=":catalogId" element={<ContentCatalogSection />} />
           </Route>
+          <Route
+            path="/catalog/:catalogId/:productId"
+            element={<ProductInfoPage />}
+          />
 
           {/* InformationPage */}
           <Route path="/information" element={<InformationPage />}>

@@ -3,7 +3,14 @@ import PropTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
 
-const ArticleCard = ({ id, title, imgPreviewSm, imgPreviewMl, imgPreviewXl, showAllArticles }) => {
+const ArticleCard = ({
+  id,
+  title,
+  imgPreviewSm,
+  imgPreviewMl,
+  imgPreviewXl,
+  showAllArticles,
+}) => {
   const scrollPositionRef = useRef(0);
   const { i18n } = useTranslation();
   const location = useLocation();
@@ -28,7 +35,11 @@ const ArticleCard = ({ id, title, imgPreviewSm, imgPreviewMl, imgPreviewXl, show
     <li className="relative flex flex-col">
       <Link
         to={`article/${id}`}
-        state={{ from: location, scrollPosition: scrollPositionRef, showAllArticles }}
+        state={{
+          from: location,
+          scrollPosition: scrollPositionRef,
+          showAllArticles,
+        }}
         className="relative flex w-[152px] flex-col border border-transparent transition duration-300 hover:border-vivid-orange hover:brightness-90 ml:w-[160px] lg:w-[280px]"
         aria-label={title[lng]}
       >

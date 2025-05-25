@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Context } from 'context/Context';
 import { certificates } from 'data/certificates.js';
+import Container from 'components/common/Container';
 import SectionTitle from 'components/common/SectionTitle';
 import FullScreenLetter from 'components/utils/FullScreenLetter';
 
@@ -30,39 +31,41 @@ const CertificatesSection = () => {
 
   return (
     <section>
-      <SectionTitle text={t('certificatesSection.title')} />
-      <div className="mt-3 flex justify-center gap-x-20 sm:mt-7 ml:justify-start xl:gap-x-32">
-        <div className="flex flex-col ml:flex-row">
-          <img
-            onClick={() => handleImageClick(certificate.certificate1)}
-            src={certificate.certificate1}
-            alt="certificate"
-            className="cursor-pointer"
-            width={380}
-          />
-          <img
-            onClick={() => handleImageClick(certificate.certificate2)}
-            src={certificate.certificate2}
-            alt="certificate"
-            className="cursor-pointer"
-            width={380}
-          />
+      <Container>
+        <SectionTitle text={t('certificatesSection.title')} />
+        <div className="mt-3 flex justify-center gap-x-20 sm:mt-7 ml:justify-start xl:gap-x-32">
+          <div className="flex flex-col ml:flex-row">
+            <img
+              onClick={() => handleImageClick(certificate.certificate1)}
+              src={certificate.certificate1}
+              alt="certificate"
+              className="cursor-pointer"
+              width={380}
+            />
+            <img
+              onClick={() => handleImageClick(certificate.certificate2)}
+              src={certificate.certificate2}
+              alt="certificate"
+              className="cursor-pointer"
+              width={380}
+            />
+          </div>
+          <ul className="flex flex-col justify-between text-sm font-bold tracking-widest">
+            {certificates.map(({ id, name }) => (
+              <li
+                key={id}
+                onClick={() => handleCertificateSelect(id)}
+                className={`cursor-pointer ${
+                  selectedId === id ? 'underline' : 'no-underline'
+                }`}
+              >
+                {name}
+              </li>
+            ))}
+          </ul>
         </div>
-        <ul className="flex flex-col justify-between text-sm font-bold tracking-widest">
-          {certificates.map(({ id, name }) => (
-            <li
-              key={id}
-              onClick={() => handleCertificateSelect(id)}
-              className={`cursor-pointer ${
-                selectedId === id ? 'underline' : 'no-underline'
-              }`}
-            >
-              {name}
-            </li>
-          ))}
-        </ul>
-      </div>
-      <FullScreenLetter image={modalImage} />
+        <FullScreenLetter image={modalImage} />
+      </Container>
     </section>
   );
 };

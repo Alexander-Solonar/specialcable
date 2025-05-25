@@ -36,7 +36,7 @@ const PromoSlider = () => {
       </Swiper>
 
       {/* Навігація Слайдера */}
-      <PromoSliderControls />
+      <PromoSliderControls addStyle="absolute bottom-2 left-1/2 z-10 flex w-full max-w-[1200px] -translate-x-1/2 justify-start gap-x-2 pl-4 text-xs text-white sm:bottom-11 sm:gap-x-4 sm:text-base ml:bottom-[54px]" />
     </section>
   );
 };
