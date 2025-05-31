@@ -2,24 +2,36 @@ export const footerNavLinks = [
   {
     title: 'footer.sections.about.title',
     items: [
-      [{ label: 'nav.aboutUsNav.aboutUs', href: '/about-us/us' }],
-      [{ label: 'nav.aboutUsNav.news', href: '/about-us/news' }],
-      [{ label: 'nav.aboutUsNav.gallery', href: '/about-us/gallery' }],
-      [{ label: 'nav.aboutUsNav.vacancies', href: '/about-us/vacancies' }],
-      [{ label: 'nav.aboutUsNav.articles', href: '/about-us/articles' }],
-      [{ label: 'nav.aboutUsNav.partners', href: '/about-us/partners' }],
+      [{ label: 'nav.aboutUsNav.aboutUs', path: '/about-us/us' }],
+      [{ label: 'nav.aboutUsNav.news', path: '/about-us/news' }],
+      [{ label: 'nav.aboutUsNav.gallery', path: '/about-us/gallery' }],
+      [{ label: 'nav.aboutUsNav.vacancies', path: '/about-us/vacancies' }],
+      [{ label: 'nav.aboutUsNav.articles', path: '/about-us/articles' }],
+      [{ label: 'nav.aboutUsNav.partners', path: '/about-us/partners' }],
     ],
   },
   {
     title: 'footer.sections.catalog.title',
     items: [
       [
-        { label: 'nav.catalogNav.phoneAndBroadcastWires', href: '##' },
-        { label: 'nav.catalogNav.heatingCables', href: '##' },
+        {
+          label: 'nav.catalogNav.phoneAndBroadcastWires',
+          path: '/catalog/telecom-wires',
+        },
+        {
+          label: 'nav.catalogNav.heatingCables',
+          path: '/catalog/heating-cables',
+        },
       ],
       [
-        { label: 'nav.catalogNav.securityFireCables', href: '##' },
-        { label: 'nav.catalogNav.videoSurveillanceCables', href: '##' },
+        {
+          label: 'nav.catalogNav.securityFireCables',
+          path: '/catalog/sec-fire-cables',
+        },
+        {
+          label: 'nav.catalogNav.videoSurveillanceCables',
+          path: '/catalog/cctv-cables',
+        },
       ],
     ],
   },
@@ -29,25 +41,25 @@ export const footerNavLinks = [
       [
         {
           label: 'nav.infoNav.contractorRequirements',
-          href: '/information/contractor-rules',
+          path: '/information/contractor-rules',
         },
         {
           label: 'nav.infoNav.paymentTerms',
-          href: '/information/payment-rules',
+          path: '/information/payment-rules',
         },
         {
           label: 'nav.infoNav.certificates',
-          href: '/information/certificates',
+          path: '/information/certificates',
         },
       ],
       [
         {
           label: 'nav.infoNav.storageConditions',
-          href: '/information/storage-rules',
+          path: '/information/storage-rules',
         },
         {
           label: 'nav.infoNav.supplierInfo',
-          href: '/information/supplier-info',
+          path: '/information/supplier-info',
         },
       ],
     ],
@@ -56,13 +68,28 @@ export const footerNavLinks = [
     title: 'footer.sections.contacts.title',
     items: [
       [
-        { label: 'footer.sections.contacts.items.phone', href: '##' },
-        { label: 'footer.sections.contacts.items.email', href: '##' },
-        { label: 'footer.sections.contacts.items.storage', href: '##' },
+        {
+          label: 'footer.sections.contacts.items.phone',
+          path: 'tel:+380963506413',
+        },
+        {
+          label: 'footer.sections.contacts.items.email',
+          path: 'mailto: info@resurscable.com',
+        },
+        {
+          label: 'footer.sections.contacts.items.storage',
+          path: 'https://maps.app.goo.gl/azuLqn6587QL4ExC8',
+        },
       ],
       [
-        { label: 'footer.sections.contacts.items.office', href: '##' },
-        { label: 'footer.sections.contacts.items.factory', href: '##' },
+        {
+          label: 'footer.sections.contacts.items.office',
+          path: 'https://maps.app.goo.gl/YEQvqiNmspU37LuJ8',
+        },
+        {
+          label: 'footer.sections.contacts.items.factory',
+          path: 'https://maps.app.goo.gl/4tCYT66kMebaW6cQ7',
+        },
       ],
     ],
   },

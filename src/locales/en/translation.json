@@ -26,12 +26,12 @@
       "certificates": "Certificates",
       "storageConditions": "Storage Conditions",
       "supplierInfo": "Information for Suppliers"
-    },
-    "contactsNav": {
-      "office": "Office",
-      "storage": "Warehouse",
-      "factory": "Factory"
     }
+  },
+  "contactsTabs": {
+    "office": "Office",
+    "storage": "Warehouse",
+    "factory": "Factory"
   },
 
   "footer": {
@@ -91,6 +91,11 @@
       "title": "Flexible Discount System",
       "description": ""
     }
+  },
+
+  "ourProductsSection": {
+    "title": "Our Products",
+    "btnShowAll": "Show All"
   },
 
   "aboutUsSection": {
