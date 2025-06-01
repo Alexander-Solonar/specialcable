@@ -23,7 +23,7 @@ const FeedBackForm = () => {
   return (
     <section className="bg-gray py-8 text-white sm:py-14 ml:py-24">
       <Container>
-        <SectionTitle text={t('feedBackForm.title')} />
+        <SectionTitle title={t('feedBackForm.title')} />
         <div className="mt-4 flex flex-col items-center sm:mt-7 ml:mt-12">
           <Formik
             initialValues={initialValues}
@@ -56,11 +56,7 @@ const FeedBackForm = () => {
                   </button>
                 </div>
                 <div className="mt-4 flex items-start gap-3">
-                  <FormikControl
-                    control="checkbox"
-                    type="checkbox"
-                    name="checkbox"
-                  />
+                  <FormikControl control="checkbox" type="checkbox" name="checkbox" />
                   <p className="text-xs !leading-none sm:text-sm ml:text-base">
                     {t('feedBackForm.text')}
                   </p>

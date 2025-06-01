@@ -13,7 +13,7 @@ const ContractorRulesPage = () => {
   return (
     <section>
       <Container>
-        <SectionTitle text={t('contractorRulesSection.title')} />
+        <SectionTitle title={t('contractorRulesSection.title')} />
         <div className="mt-8 flex max-w-[700px] flex-col gap-8 text-sm ml:text-base">
           <p>{t('contractorRulesSection.description')}</p>
           <ol className="list-inside list-decimal">

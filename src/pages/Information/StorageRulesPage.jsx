@@ -13,7 +13,7 @@ const StorageRulesPage = () => {
   return (
     <section>
       <Container>
-        <SectionTitle text={t('storageRulesSection.title')} />
+        <SectionTitle title={t('storageRulesSection.title')} />
         <ul className="mt-8 flex max-w-[700px] flex-col gap-8 text-sm ml:text-base">
           <li>{t('storageRulesSection.paragraph1')}</li>
           <li>{t('storageRulesSection.paragraph2')}</li>

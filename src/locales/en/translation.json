@@ -135,7 +135,7 @@
   },
   "partnersSection": {
     "title": "Partners",
-    "text": "Currently, there are no active vacancies."
+    "text": "This section is under development."
   },
   "articlesSection": {
     "btnReadArticle": "Read Article",
@@ -183,5 +183,8 @@
   },
   "contactsPage": {
     "title": "Contacts"
+  },
+  "breadcrumbs": {
+    "catalog": "Catalog"
   }
 }

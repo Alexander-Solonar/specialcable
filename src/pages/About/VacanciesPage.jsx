@@ -14,7 +14,7 @@ const VacanciesPage = () => {
   return (
     <section className="pb-8 sm:pb-28 ml:pb-32">
       <Container>
-        <SectionTitle text={t('vacanciesSection.title')} />
+        <SectionTitle title={t('vacanciesSection.title')} />
         <div className="mt-3 flex flex-wrap items-start justify-center gap-x-5 sm:mt-7 ml:flex-nowrap ml:justify-between">
           <div className="mb-7">
             <p className="text-xs uppercase tracking-widest sm:text-sm">

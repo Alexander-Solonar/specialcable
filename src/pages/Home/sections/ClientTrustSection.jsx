@@ -40,7 +40,7 @@ const ClientTrustSection = () => {
     <section className="our-clients mx-auto pt-6 sm:pt-[70px] ml:pb-16 ml:pt-[120px]">
       <Container>
         <div className="max-w-[300px] sm:max-w-[420px]">
-          <SectionTitle text={t('clientTrustSection.title')} />
+          <SectionTitle title={t('clientTrustSection.title')} />
           <p className="mt-4 text-xs leading-4 sm:mt-10 sm:text-base sm:leading-7">
             {t('clientTrustSection.description')}
           </p>

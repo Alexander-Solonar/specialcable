@@ -32,7 +32,7 @@ const CertificatesPage = () => {
   return (
     <section>
       <Container>
-        <SectionTitle text={t('certificatesSection.title')} />
+        <SectionTitle title={t('certificatesSection.title')} />
         <div className="mt-3 flex justify-center gap-x-20 sm:mt-7 ml:justify-start xl:gap-x-32">
           <div className="flex flex-col ml:flex-row">
             <img

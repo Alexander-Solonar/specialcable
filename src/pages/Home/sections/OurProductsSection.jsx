@@ -12,7 +12,7 @@ const OurProductsSection = () => {
     <section className="pb-6 pt-6 sm:pb-12 sm:pt-32 ml:pb-14 xl:pb-[90px]">
       <Container>
         <div className="flex flex-col">
-          <SectionTitle text={t('ourProductsSection.title')} />
+          <SectionTitle title={t('ourProductsSection.title')} />
           <ProductList />
           <PageLinkButton
             path="/catalog"

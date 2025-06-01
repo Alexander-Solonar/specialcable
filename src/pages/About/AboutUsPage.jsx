@@ -22,7 +22,7 @@ const AboutUsPage = () => {
   return (
     <section className="pb-8 sm:pb-28 ml:pb-32">
       <Container>
-        <SectionTitle text={t('aboutUsSection.title')} />
+        <SectionTitle title={t('aboutUsSection.title')} />
         <div className="mt-3 flex flex-wrap-reverse items-start justify-center gap-5 sm:mt-7 xl:flex-nowrap xl:justify-between">
           <div className="flex max-w-[780px] flex-col space-y-4 indent-8 text-xs sm:text-base">
             {PARAGRAPHS.map((paragraph, index) => (

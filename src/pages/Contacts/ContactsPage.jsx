@@ -17,7 +17,7 @@ const ContactsPage = () => {
   return (
     <div className="flex flex-auto flex-col bg-bg-aboutUs bg-contain bg-position-contacts bg-no-repeat pt-6">
       <Container>
-        <SectionTitle text={t('contactsPage.title')} />
+        <SectionTitle title={t('contactsPage.title')} />
       </Container>
       <div className="pb-14 ml:pb-40 lg:pb-56">
         <Container>

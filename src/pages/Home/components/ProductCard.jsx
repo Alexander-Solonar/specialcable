@@ -9,7 +9,7 @@ const ProductCard = ({ path, imageSm, imageMl, imageXl, title }) => {
   return (
     <li className="relative flex w-[152px] flex-col ml:w-[160px] lg:w-[280px]">
       <Link
-        to={path}
+        to={`catalog/${path}`}
         className="inline-block shadow-custom transition-transform duration-300 hover:scale-105"
         aria-label={title}
       >

@@ -23,7 +23,7 @@ const ArticlesPage = () => {
       <Container>
         <div className="flex w-full flex-wrap-reverse justify-center gap-10 pb-8 ml:flex-nowrap ml:justify-between">
           <div className="flex flex-col items-start gap-y-4 sm:gap-y-8">
-            <SectionTitle text="статьи" />
+            <SectionTitle title="статьи" />
             <h2 className="text-xs font-bold uppercase tracking-wider sm:text-sm">
               {localArticle[0].title[lng]}
             </h2>

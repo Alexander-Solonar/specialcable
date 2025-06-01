@@ -136,7 +136,7 @@
   },
   "partnersSection": {
     "title": "Партнери",
-    "text": "На даний момент у нас немає активних вакансій."
+    "text": "Данний розділ знаходиться в розробці"
   },
   "articlesSection": {
     "btnReadArticle": "Читати статтю",
@@ -186,5 +186,8 @@
 
   "contactsPage": {
     "title": "Контакти"
+  },
+  "breadcrumbs": {
+    "catalog": "Каталог"
   }
 }

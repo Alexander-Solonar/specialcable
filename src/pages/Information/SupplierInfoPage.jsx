@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Container from 'components/common/Container';
-import SectionTitle from 'components/common/SectionTitle';
+import UnderConstruction from 'components/common/UnderConstruction';
 
 const SupplierInfoPage = () => {
   const { t } = useTranslation();
@@ -13,12 +13,10 @@ const SupplierInfoPage = () => {
   return (
     <section>
       <Container>
-        <SectionTitle text={t('supplierInfoSection.title')} />
-        <div className="mt-3 sm:mt-7">
-          <p className="text-xs uppercase tracking-widest sm:text-sm">
-            {t('supplierInfoSection.text')}
-          </p>
-        </div>
+        <UnderConstruction
+          title={t('supplierInfoSection.title')}
+          text={t('supplierInfoSection.text')}
+        />
       </Container>
     </section>
   );
