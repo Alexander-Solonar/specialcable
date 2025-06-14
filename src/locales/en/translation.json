@@ -186,5 +186,13 @@
   },
   "breadcrumbs": {
     "catalog": "Catalog"
+  },
+  "productInfoPage": {
+    "twinCore": "Twin-core twist",
+    "fourCore": "Four-core twist",
+    "termsOfUse": "Terms of use:",
+    "construction": "Construction:",
+    "characteristics": "Characteristics",
+    "macrosizes": "Macro dimensions"
   }
 }

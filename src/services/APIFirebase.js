@@ -18,6 +18,11 @@ export const getProductList = async () => {
   return response.data;
 };
 
+export const getProduct = async productId => {
+  const response = await axios.get(`${databaseURL}/productDescription/${productId}.json`);
+  return response.data;
+};
+
 export const getArticleList = async () => {
   const response = await axios.get(`${databaseURL}/articles.json`);
   return response.data;

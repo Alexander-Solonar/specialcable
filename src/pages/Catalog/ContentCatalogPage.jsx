@@ -33,8 +33,8 @@ const ContentCatalogPage = () => {
             {productItems.category.map(({ cableTitle, cableTypes }, id) => (
               <CatalogCategorySection
                 key={id}
-                cableTitle={cableTitle[lng]}
-                cableTypes={cableTypes[lng]}
+                cableTitle={cableTitle}
+                cableTypes={cableTypes}
               />
             ))}
           </ul>

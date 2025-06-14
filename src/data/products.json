@@ -12,35 +12,25 @@
     "category": [
       {
         "cableTitle": {
-          "ua": "Кабелі для систем охоронної сигналізації",
-          "en": "Cables for security alarm systems"
-        },
-        "cableTypes": {
-          "ua": ["КСПВ", "КСПЭВ"],
-          "en": ["KSPV", "KSPÉV"]
-        }
-      },
-      {
-        "cableTitle": {
           "ua": "Не поширюють горіння при груповому прокладанні",
           "en": "Non-flammable during group installation"
         },
         "cableTypes": {
           "ua": [
             "КПСнг(А)-FRLS",
-            "КПСЭнг(А)-FRLS",
+            "КПСЕнг(А)-FRLS",
             "КПСнг(А)-FRLSLTx",
-            "КПСЭнг(А)-FRLSLTx",
+            "КПСЕнг(А)-FRLSLTx",
             "КПСнг(А)-FRHF",
-            "КПСЭнг(А)-FRHF"
+            "КПСЕнг(А)-FRHF"
           ],
           "en": [
             "KPSng(A)-FRLS",
-            "KPSÉng(A)-FRLS",
+            "KPSЕng(A)-FRLS",
             "KPSng(A)-FRLSLTx",
-            "KPSÉng(A)-FRLSLTx",
+            "KPSЕng(A)-FRLSLTx",
             "KPSng(A)-FRHF",
-            "KPSÉng(A)-FRHF"
+            "KPSЕng(A)-FRHF"
           ]
         }
       },
@@ -50,8 +40,8 @@
           "en": "Non-flammable during single installation"
         },
         "cableTypes": {
-          "ua": ["КПСВВ", "КПСВЭВ", "КСВВ", "КСВЭВ"],
-          "en": ["KPSVV", "KPSVÉV", "KSVV", "KSVÉV"]
+          "ua": ["КПСВВ", "КПСВЕВ", "КСВВ", "КСВЕВ"],
+          "en": ["KPSVV", "KPSVЕV", "KSVV", "KSVЕV"]
         }
       },
       {
@@ -62,23 +52,23 @@
         "cableTypes": {
           "ua": [
             "КПСВВнг(А)-LS",
-            "КПСВЭВнг(А)-LS",
+            "КПСВЕВнг(А)-LS",
             "КПСВВнг(А)-LSLTx",
-            "КПСВЭВнг(А)-LSLTx",
+            "КПСВЕВнг(А)-LSLTx",
             "КСВВнг(А)-LS",
-            "КСВЭВнг(А)-LS",
+            "КСВЕВнг(А)-LS",
             "КСВВнг(А)-LSLTx",
-            "КСВЭВнг(А)-LSLTx"
+            "КСВЕВнг(А)-LSLTx"
           ],
           "en": [
             "KPSVVng(A)-LS",
-            "KPSVÉVng(A)-LS",
+            "KPSVЕVng(A)-LS",
             "KPSVVng(A)-LSLTx",
-            "KPSVÉVng(A)-LSLTx",
+            "KPSVЕVng(A)-LSLTx",
             "KSVVng(A)-LS",
-            "KSVÉVng(A)-LS",
+            "KSVЕVng(A)-LS",
             "KSVVng(A)-LSLTx",
-            "KSVÉVng(A)-LSLTx"
+            "KSVЕVng(A)-LSLTx"
           ]
         }
       }

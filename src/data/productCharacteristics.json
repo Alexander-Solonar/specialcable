@@ -1,0 +1,1659 @@
+{
+  "KPSng(A)-FRLS": {
+    "id": 3,
+    "title": {
+      "ua": "КПСнг(А)-FRLS",
+      "en": "KPSng(A)-FRLS"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Діапазон робочих температур: -20 ... +70 °С; прокладання: -5 … +50 °С.",
+        "Радіус вигину – не менше 12-кратного зовнішнього діаметра кабелю.",
+        "Розривне навантаження – не більше 55 Н/мм² загального перерізу струмопровідних жил.",
+        "Мінімальний термін служби – 20 років.",
+        "Прокладка: у приміщеннях з підвищеними вимогами до пожежної безпеки.",
+        "Клас пожежної небезпеки: FRLS – знижене димовиділення та обмежене поширення полум’я."
+      ],
+      "en": [
+        "Operating temperature range: -20 ... +70 °C; laying: -5 … +50 °C.",
+        "Bending radius – at least 12 times the outer diameter of the cable.",
+        "Tensile load – not more than 55 N/mm² of the total conductor cross-section.",
+        "Minimum service life – 20 years.",
+        "Laying: indoors with increased fire safety requirements.",
+        "Fire hazard class: FRLS – reduced smoke emission and limited flame spread."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: однодротяні алюмінієві",
+        "Ізоляція: ПВХ з антипіреном",
+        "Скрутка: в четвірках",
+        "Термін служби – 20 років.",
+        "Оболонка: негорючий ПВХ"
+      ],
+      "en": [
+        "Conductors: single-wire aluminum",
+        "Insulation: flame retardant PVC",
+        "Twisting: in fours",
+        "Service life – 20 years.",
+        "Sheath: non-flammable PVC"
+      ]
+    },
+    "twinCore": {
+      "ua": [
+        "КПСнг(А)-FRLS 1х2х0,5",
+        "КПСнг(А)-FRLS 1х2х0,75",
+        "КПСнг(А)-FRLS 1х2х1",
+        "КПСнг(А)-FRLS 1х2х1,5",
+        "КПСнг(А)-FRLS 1х2х2,5"
+      ],
+      "en": [
+        "KPSng(A)-FRLS 1x2x0.5",
+        "KPSng(A)-FRLS 1x2x0.75",
+        "KPSng(A)-FRLS 1x2x1",
+        "KPSng(A)-FRLS 1x2x1.5",
+        "KPSng(A)-FRLS 1x2x2.5"
+      ]
+    },
+    "fourCore": {
+      "ua": [
+        "КПСнг(А)-FRLS 2х2х0,5",
+        "КПСнг(А)-FRLS 2х2х0,75",
+        "КПСнг(А)-FRLS 2х2х1",
+        "КПСнг(А)-FRLS 2х2х1,5",
+        "КПСнг(А)-FRLS 2х2х2,5"
+      ],
+      "en": [
+        "KPSng(A)-FRLS 2x2x0.5",
+        "KPSng(A)-FRLS 2x2x0.75",
+        "KPSng(A)-FRLS 2x2x1",
+        "KPSng(A)-FRLS 2x2x1.5",
+        "KPSng(A)-FRLS 2x2x2.5"
+      ]
+    },
+    "description": {
+      "ua": "КПСнг(А)-FRLS призначений для внутрішнього монтажу в будівлях із підвищеними вимогами до пожежної безпеки. Забезпечує знижене димовиділення і не підтримує горіння при одиночній прокладці.",
+      "en": "KPSng(A)-FRLS is intended for indoor installation in buildings with high fire safety requirements. Provides low smoke emission and limited flame spread in single installations."
+    }
+  },
+  "KPSЕng(A)-FRLS": {
+    "id": 4,
+    "title": {
+      "ua": "КПСЕнг(А)-FRLS",
+      "en": "KPSЕng(A)-FRLS"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Діапазон робочих температур: -25 ... +75 °С; прокладання: -10 … +55 °С.",
+        "Радіус вигину – не менше 15-кратного зовнішнього діаметра кабелю.",
+        "Розривне навантаження – не більше 60 Н/мм² загального перерізу струмопровідних жил.",
+        "Мінімальний термін служби – 25 років.",
+        "Прокладка: у приміщеннях з підвищеними пожежними вимогами та під відкритим небом.",
+        "Клас пожежної небезпеки: FRLS – знижене димовиділення, стійкість до полум’я."
+      ],
+      "en": [
+        "Operating temperature range: -25 ... +75 °C; laying: -10 … +55 °C.",
+        "Bending radius – at least 15 times the outer diameter of the cable.",
+        "Tensile load – not more than 60 N/mm² of the total conductor cross-section.",
+        "Minimum service life – 25 years.",
+        "Laying: indoors with high fire safety requirements and outdoors.",
+        "Fire hazard class: FRLS – reduced smoke emission, flame resistant."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: багатодротяні алюмінієві",
+        "Ізоляція: самозатухаючий ПВХ",
+        "Скрутка: в четвірках",
+        "Термін служби – 25 років.",
+        "Оболонка: спеціальний негорючий матеріал"
+      ],
+      "en": [
+        "Conductors: multi-wire aluminum",
+        "Insulation: self-extinguishing PVC",
+        "Twisting: in fours",
+        "Service life – 25 years.",
+        "Sheath: special non-flammable material"
+      ]
+    },
+    "twinCore": {
+      "ua": [
+        "КПСЕнг(А)-FRLS 1х2х0,5",
+        "КПСЕнг(А)-FRLS 1х2х0,75",
+        "КПСЕнг(А)-FRLS 1х2х1",
+        "КПСЕнг(А)-FRLS 1х2х1,5",
+        "КПСЕнг(А)-FRLS 1х2х2,5"
+      ],
+      "en": [
+        "KPSEng(A)-FRLS 1x2x0.5",
+        "KPSEng(A)-FRLS 1x2x0.75",
+        "KPSEng(A)-FRLS 1x2x1",
+        "KPSEng(A)-FRLS 1x2x1.5",
+        "KPSEng(A)-FRLS 1x2x2.5"
+      ]
+    },
+    "fourCore": {
+      "ua": [
+        "КПСЕнг(А)-FRLS 2х2х0,5",
+        "КПСЕнг(А)-FRLS 2х2х0,75",
+        "КПСЕнг(А)-FRLS 2х2х1",
+        "КПСЕнг(А)-FRLS 2х2х1,5",
+        "КПСЕнг(А)-FRLS 2х2х2,5"
+      ],
+      "en": [
+        "KPSEng(A)-FRLS 2x2x0.5",
+        "KPSEng(A)-FRLS 2x2x0.75",
+        "KPSEng(A)-FRLS 2x2x1",
+        "KPSEng(A)-FRLS 2x2x1.5",
+        "KPSEng(A)-FRLS 2x2x2.5"
+      ]
+    },
+    "description": {
+      "ua": "КПСЕнг(А)-FRLS використовується у відповідальних пожежобезпечних об'єктах, як в приміщеннях, так і на відкритому повітрі. Має високу стійкість до полум’я та тривалий термін служби.",
+      "en": "KPSEng(A)-FRLS is used in critical fire-protected facilities, both indoors and outdoors. Offers high flame resistance and a long service life."
+    }
+  },
+  "KPSng(A)-FRLSLTx": {
+    "id": 5,
+    "title": {
+      "ua": "КПСнг(А)-FRLSLTx",
+      "en": "KPSng(A)-FRLSLTx"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Діапазон робочих температур: -40 ... +90 °С; прокладання: -20 … +60 °С.",
+        "Радіус вигину – не менше 12-кратного зовнішнього діаметра кабелю.",
+        "Розривне навантаження – не більше 60 Н/мм² загального перерізу струмопровідних жил.",
+        "Мінімальний термін служби – 20 років.",
+        "Прокладка: у приміщенні, у кабельних каналах або на відкритому повітрі із захистом від механічних пошкоджень.",
+        "Клас пожежної небезпеки: ПРГО 1 – обмежене поширення полум’я з низьким димовиділенням та відсутністю токсичних газів."
+      ],
+      "en": [
+        "Operating temperature range: -40 ... +90 °C; laying: -20 … +60 °C.",
+        "Bending radius – at least 12 times the outer diameter of the cable.",
+        "Tensile load – not more than 60 N/mm² of the total conductor cross-section.",
+        "Minimum service life – 20 years.",
+        "Laying: indoors, in cable ducts or outdoors with protection against mechanical damage.",
+        "Fire hazard class: PRGO 1 – limited flame spread with low smoke emission and absence of toxic gases."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: багатодротяні мідні",
+        "Ізоляція: спеціальний полімер з покращеними вогнезахисними властивостями",
+        "Скрутка: попарно з додатковим екраном",
+        "Термін служби – 20 років.",
+        "Оболонка: безгалогенні матеріали з низьким димовиділенням"
+      ],
+      "en": [
+        "Conductors: stranded copper",
+        "Insulation: special polymer with enhanced fire-retardant properties",
+        "Twisting: in pairs with additional shielding",
+        "Service life – 20 years.",
+        "Sheath: halogen-free materials with low smoke emission"
+      ]
+    },
+    "twinCore": {
+      "ua": [
+        "КПСнг(А)-FRLSLTx 1х2х0,5",
+        "КПСнг(А)-FRLSLTx 1х2х0,75",
+        "КПСнг(А)-FRLSLTx 1х2х1",
+        "КПСнг(А)-FRLSLTx 1х2х1,5",
+        "КПСнг(А)-FRLSLTx 1х2х2,5"
+      ],
+      "en": [
+        "KPSng(A)-FRLSLTx 1x2x0.5",
+        "KPSng(A)-FRLSLTx 1x2x0.75",
+        "KPSng(A)-FRLSLTx 1x2x1",
+        "KPSng(A)-FRLSLTx 1x2x1.5",
+        "KPSng(A)-FRLSLTx 1x2x2.5"
+      ]
+    },
+    "fourCore": {
+      "ua": [
+        "КПСнг(А)-FRLSLTx 2х2х0,5",
+        "КПСнг(А)-FRLSLTx 2х2х0,75",
+        "КПСнг(А)-FRLSLTx 2х2х1",
+        "КПСнг(А)-FRLSLTx 2х2х1,5",
+        "КПСнг(А)-FRLSLTx 2х2х2,5"
+      ],
+      "en": [
+        "KPSng(A)-FRLSLTx 2x2x0.5",
+        "KPSng(A)-FRLSLTx 2x2x0.75",
+        "KPSng(A)-FRLSLTx 2x2x1",
+        "KPSng(A)-FRLSLTx 2x2x1.5",
+        "KPSng(A)-FRLSLTx 2x2x2.5"
+      ]
+    },
+    "description": {
+      "ua": "КПСнг(А)-FRLSLTx — універсальний кабель для систем пожежної сигналізації, призначений для монтажу у внутрішніх та зовнішніх умовах із механічним захистом. Характеризується зниженим димовиділенням і відсутністю токсичних газів.",
+      "en": "KPSng(A)-FRLSLTx is a universal cable for fire alarm systems, suitable for indoor and outdoor installation with mechanical protection. Characterized by low smoke emission and absence of toxic gases."
+    }
+  },
+  "KPSЕng(A)-FRLSLTx": {
+    "id": 6,
+    "title": {
+      "ua": "КПСЕнг(А)-FRLSLTx",
+      "en": "KPSЕng(A)-FRLSLTx"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Діапазон робочих температур: -40 ... +85 °С; прокладання: -20 … +55 °С.",
+        "Радіус вигину – не менше 14-кратного зовнішнього діаметра кабелю.",
+        "Розривне навантаження – не більше 55 Н/мм² загального перерізу жил.",
+        "Мінімальний термін служби – 18 років.",
+        "Прокладка: у приміщенні, у кабельних каналах або відкрито з механічним захистом.",
+        "Клас пожежної небезпеки: ПРГО 1 – низьке димовиділення, без галогенів."
+      ],
+      "en": [
+        "Operating temperature range: -40 ... +85 °C; laying: -20 … +55 °C.",
+        "Bending radius – at least 14 times the outer diameter of the cable.",
+        "Tensile load – not more than 55 N/mm² of the total conductor cross-section.",
+        "Minimum service life – 18 years.",
+        "Laying: indoors, in cable ducts or open with mechanical protection.",
+        "Fire hazard class: PRGO 1 – low smoke emission, halogen-free."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: багатодротяні мідні",
+        "Ізоляція: полівінілхлоридний безгалогенний матеріал",
+        "Скрутка: попарно з екраном алюмінієвої фольги",
+        "Термін служби – 18 років.",
+        "Оболонка: безгалогенні матеріали з покращеним вогнезахистом"
+      ],
+      "en": [
+        "Conductors: stranded copper",
+        "Insulation: halogen-free polyvinyl chloride material",
+        "Twisting: in pairs with aluminum foil shielding",
+        "Service life – 18 years.",
+        "Sheath: halogen-free materials with improved fire resistance"
+      ]
+    },
+    "twinCore": {
+      "ua": [
+        "КПСЕнг(А)-FRLSLTx 1х2х0,5",
+        "КПСЕнг(А)-FRLSLTx 1х2х0,75",
+        "КПСЕнг(А)-FRLSLTx 1х2х1",
+        "КПСЕнг(А)-FRLSLTx 1х2х1,5",
+        "КПСЕнг(А)-FRLSLTx 1х2х2,5"
+      ],
+      "en": [
+        "KPSЕng(A)-FRLSLTx 1x2x0.5",
+        "KPSЕng(A)-FRLSLTx 1x2x0.75",
+        "KPSЕng(A)-FRLSLTx 1x2x1",
+        "KPSЕng(A)-FRLSLTx 1x2x1.5",
+        "KPSЕng(A)-FRLSLTx 1x2x2.5"
+      ]
+    },
+    "fourCore": {
+      "ua": [
+        "КПСЕнг(А)-FRLSLTx 2х2х0,5",
+        "КПСЕнг(А)-FRLSLTx 2х2х0,75",
+        "КПСЕнг(А)-FRLSLTx 2х2х1",
+        "КПСЕнг(А)-FRLSLTx 2х2х1,5",
+        "КПСЕнг(А)-FRLSLTx 2х2х2,5"
+      ],
+      "en": [
+        "KPSЕng(A)-FRLSLTx 2x2x0.5",
+        "KPSЕng(A)-FRLSLTx 2x2x0.75",
+        "KPSЕng(A)-FRLSLTx 2x2x1",
+        "KPSЕng(A)-FRLSLTx 2x2x1.5",
+        "KPSЕng(A)-FRLSLTx 2x2x2.5"
+      ]
+    },
+    "description": {
+      "ua": "Опис для КПСЕнг(А)-FRLSLTx типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for KPSЕng(A)-FRLSLTx cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "KPSng(A)-FRHF": {
+    "id": 7,
+    "title": {
+      "ua": "КПСнг(А)-FRHF",
+      "en": "KPSng(A)-FRHF"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Температурний діапазон: -30 ... +75 °С; прокладання: -15 … +45 °С.",
+        "Радіус вигину – не менше 10-кратного зовнішнього діаметра.",
+        "Розривне навантаження – до 45 Н/мм².",
+        "Термін служби – 16 років.",
+        "Прокладка: в сухих приміщеннях та на відкритому повітрі з додатковим захистом.",
+        "Клас пожежної небезпеки: ПРГО 2 – знижене виділення диму, безгалогенність."
+      ],
+      "en": [
+        "Temperature range: -30 ... +75 °C; laying: -15 … +45 °C.",
+        "Bending radius – at least 10 times the outer diameter.",
+        "Tensile load – up to 45 N/mm².",
+        "Service life – 16 years.",
+        "Laying: in dry rooms and outdoors with additional protection.",
+        "Fire hazard class: PRGO 2 – reduced smoke emission, halogen-free."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: однодротяні мідні",
+        "Ізоляція: безгалогеновий полімер",
+        "Скрутка: попарно",
+        "Термін служби – 16 років.",
+        "Оболонка: безгалогенова з поліпшеним захистом від займання"
+      ],
+      "en": [
+        "Conductors: single-wire copper",
+        "Insulation: halogen-free polymer",
+        "Twisting: in pairs",
+        "Service life – 16 years.",
+        "Sheath: halogen-free with improved flame resistance"
+      ]
+    },
+    "twinCore": {
+      "ua": [
+        "КПСнг(А)-FRHF 1х2х0,5",
+        "КПСнг(А)-FRHF 1х2х0,75",
+        "КПСнг(А)-FRHF 1х2х1",
+        "КПСнг(А)-FRHF 1х2х1,5",
+        "КПСнг(А)-FRHF 1х2х2,5"
+      ],
+      "en": [
+        "KPSng(A)-FRHF 1x2x0.5",
+        "KPSng(A)-FRHF 1x2x0.75",
+        "KPSng(A)-FRHF 1x2x1",
+        "KPSng(A)-FRHF 1x2x1.5",
+        "KPSng(A)-FRHF 1x2x2.5"
+      ]
+    },
+    "fourCore": {
+      "ua": [
+        "КПСнг(А)-FRHF 2х2х0,5",
+        "КПСнг(А)-FRHF 2х2х0,75",
+        "КПСнг(А)-FRHF 2х2х1",
+        "КПСнг(А)-FRHF 2х2х1,5",
+        "КПСнг(А)-FRHF 2х2х2,5"
+      ],
+      "en": [
+        "KPSng(A)-FRHF 2x2x0.5",
+        "KPSng(A)-FRHF 2x2x0.75",
+        "KPSng(A)-FRHF 2x2x1",
+        "KPSng(A)-FRHF 2x2x1.5",
+        "KPSng(A)-FRHF 2x2x2.5"
+      ]
+    },
+    "description": {
+      "ua": "Опис для КПСнг(А)-FRHF типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for KPSng(A)-FRHF cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "KPSЕng(A)-FRHF": {
+    "id": 8,
+    "title": {
+      "ua": "КПСЕнг(А)-FRHF",
+      "en": "KPSЕng(A)-FRHF"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Робочий температурний діапазон: -30 ... +80 °С; прокладання: -15 … +50 °С.",
+        "Радіус вигину – не менше 13-кратного діаметра.",
+        "Розривне навантаження – до 50 Н/мм².",
+        "Термін служби – 17 років.",
+        "Прокладка: всередині приміщень та в захищених кабельних каналах.",
+        "Клас пожежної небезпеки: ПРГО 1 – низький рівень диму, без галогенів."
+      ],
+      "en": [
+        "Operating temperature range: -30 ... +80 °C; laying: -15 … +50 °C.",
+        "Bending radius – at least 13 times the diameter.",
+        "Tensile load – up to 50 N/mm².",
+        "Service life – 17 years.",
+        "Laying: indoors and in protected cable ducts.",
+        "Fire hazard class: PRGO 1 – low smoke emission, halogen-free."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: багатодротяні мідні",
+        "Ізоляція: безгалогенова полімерна суміш",
+        "Скрутка: попарна з алюмінієвим екраном",
+        "Термін служби – 17 років.",
+        "Оболонка: безгалогенова з підвищеною вогнестійкістю"
+      ],
+      "en": [
+        "Conductors: stranded copper",
+        "Insulation: halogen-free polymer compound",
+        "Twisting: in pairs with aluminum shielding",
+        "Service life – 17 years.",
+        "Sheath: halogen-free with enhanced fire resistance"
+      ]
+    },
+    "twinCore": {
+      "ua": [
+        "КПСЕнг(А)-FRHF 1х2х0,5",
+        "КПСЕнг(А)-FRHF 1х2х0,75",
+        "КПСЕнг(А)-FRHF 1х2х1",
+        "КПСЕнг(А)-FRHF 1х2х1,5",
+        "КПСЕнг(А)-FRHF 1х2х2,5"
+      ],
+      "en": [
+        "KPSЕng(A)-FRHF 1x2x0.5",
+        "KPSЕng(A)-FRHF 1x2x0.75",
+        "KPSЕng(A)-FRHF 1x2x1",
+        "KPSЕng(A)-FRHF 1x2x1.5",
+        "KPSЕng(A)-FRHF 1x2x2.5"
+      ]
+    },
+    "fourCore": {
+      "ua": [
+        "КПСЕнг(А)-FRHF 2х2х0,5",
+        "КПСЕнг(А)-FRHF 2х2х0,75",
+        "КПСЕнг(А)-FRHF 2х2х1",
+        "КПСЕнг(А)-FRHF 2х2х1,5",
+        "КПСЕнг(А)-FRHF 2х2х2,5"
+      ],
+      "en": [
+        "KPSЕng(A)-FRHF 2x2x0.5",
+        "KPSЕng(A)-FRHF 2x2x0.75",
+        "KPSЕng(A)-FRHF 2x2x1",
+        "KPSЕng(A)-FRHF 2x2x1.5",
+        "KPSЕng(A)-FRHF 2x2x2.5"
+      ]
+    },
+    "description": {
+      "ua": "Опис для КПСЕнг(А)-FRHF типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for KPSЕng(A)-FRHF cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "KPSVV": {
+    "id": 9,
+    "title": {
+      "ua": "КПСВВ",
+      "en": "KPSVV"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Температурний діапазон: -25 ... +70 °С; прокладання: -10 … +45 °С.",
+        "Радіус вигину – не менше 12-кратного діаметра кабелю.",
+        "Розривне навантаження – не більше 48 Н/мм².",
+        "Термін служби – 15 років.",
+        "Прокладка: відкрито та в кабельних каналах без спеціального захисту.",
+        "Клас пожежної небезпеки: ПРГО 3 – середній рівень диму, містить галогени."
+      ],
+      "en": [
+        "Temperature range: -25 ... +70 °C; laying: -10 … +45 °C.",
+        "Bending radius – at least 12 times the cable diameter.",
+        "Tensile load – no more than 48 N/mm².",
+        "Service life – 15 years.",
+        "Laying: open and in cable ducts without special protection.",
+        "Fire hazard class: PRGO 3 – medium smoke level, contains halogens."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: багатодротяні мідні",
+        "Ізоляція: полівінілхлоридний матеріал",
+        "Скрутка: в пучки по 4",
+        "Термін служби – 15 років.",
+        "Оболонка: полівінілхлоридна"
+      ],
+      "en": [
+        "Conductors: stranded copper",
+        "Insulation: polyvinyl chloride material",
+        "Twisting: in bundles of 4",
+        "Service life – 15 years.",
+        "Sheath: polyvinyl chloride"
+      ]
+    },
+    "twinCore": {
+      "ua": [
+        "КПСВВ 1х2х0,5",
+        "КПСВВ 1х2х0,75",
+        "КПСВВ 1х2х1",
+        "КПСВВ 1х2х1,5",
+        "КПСВВ 1х2х2,5"
+      ],
+      "en": [
+        "KPSVV 1x2x0.5",
+        "KPSVV 1x2x0.75",
+        "KPSVV 1x2x1",
+        "KPSVV 1x2x1.5",
+        "KPSVV 1x2x2.5"
+      ]
+    },
+    "fourCore": {
+      "ua": [
+        "КПСВВ 2х2х0,5",
+        "КПСВВ 2х2х0,75",
+        "КПСВВ 2х2х1",
+        "КПСВВ 2х2х1,5",
+        "КПСВВ 2х2х2,5"
+      ],
+      "en": [
+        "KPSVV 2x2x0.5",
+        "KPSVV 2x2x0.75",
+        "KPSVV 2x2x1",
+        "KPSVV 2x2x1.5",
+        "KPSVV 2x2x2.5"
+      ]
+    },
+    "description": {
+      "ua": "Опис для КПСВВ типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for KPSVV cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "KPSVЕV": {
+    "id": 10,
+    "title": {
+      "ua": "КПСВЕВ",
+      "en": "KPSVЕV"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Робочий діапазон температур: -35 ... +90 °С; прокладання: -20 … +55 °С.",
+        "Радіус вигину – не менше 15-кратного зовнішнього діаметра.",
+        "Розривне навантаження – до 60 Н/мм².",
+        "Термін служби – 19 років.",
+        "Прокладка: у приміщеннях з підвищеними вимогами до пожежної безпеки.",
+        "Клас пожежної небезпеки: ПРГО 1 – мінімальне димовиділення, без галогенів."
+      ],
+      "en": [
+        "Operating temperature range: -35 ... +90 °C; laying: -20 … +55 °C.",
+        "Bending radius – at least 15 times the outer diameter.",
+        "Tensile load – up to 60 N/mm².",
+        "Service life – 19 years.",
+        "Laying: indoors with high fire safety requirements.",
+        "Fire hazard class: PRGO 1 – minimal smoke emission, halogen-free."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: багатодротяні мідні",
+        "Ізоляція: безгалогеновий полімер",
+        "Скрутка: попарна з алюмінієвим екраном",
+        "Термін служби – 19 років.",
+        "Оболонка: безгалогенова, стійка до займання"
+      ],
+      "en": [
+        "Conductors: stranded copper",
+        "Insulation: halogen-free polymer",
+        "Twisting: in pairs with aluminum shielding",
+        "Service life – 19 years.",
+        "Sheath: halogen-free, flame resistant"
+      ]
+    },
+    "twinCore": {
+      "ua": [
+        "КПСВЕВ 1х2х0,5",
+        "КПСВЕВ 1х2х0,75",
+        "КПСВЕВ 1х2х1",
+        "КПСВЕВ 1х2х1,5",
+        "КПСВЕВ 1х2х2,5"
+      ],
+      "en": [
+        "KPSVЕV 1x2x0.5",
+        "KPSVЕV 1x2x0.75",
+        "KPSVЕV 1x2x1",
+        "KPSVЕV 1x2x1.5",
+        "KPSVЕV 1x2x2.5"
+      ]
+    },
+    "fourCore": {
+      "ua": [
+        "КПСВЕВ 2х2х0,5",
+        "КПСВЕВ 2х2х0,75",
+        "КПСВЕВ 2х2х1",
+        "КПСВЕВ 2х2х1,5",
+        "КПСВЕВ 2х2х2,5"
+      ],
+      "en": [
+        "KPSVЕV 2x2x0.5",
+        "KPSVЕV 2x2x0.75",
+        "KPSVЕV 2x2x1",
+        "KPSVЕV 2x2x1.5",
+        "KPSVЕV 2x2x2.5"
+      ]
+    },
+    "description": {
+      "ua": "Опис для КПСВЕВ типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for KPSVЕV cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "KSVV": {
+    "id": 11,
+    "title": {
+      "ua": "КСВВ",
+      "en": "KSVV"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Робоча температура: від -40 до +70 °С.",
+        "Температура монтажу: не нижче -10 °С.",
+        "Мінімальний радіус вигину: 10 зовнішніх діаметрів.",
+        "Термін експлуатації – не менше 12 років.",
+        "Прокладка дозволена тільки в приміщеннях.",
+        "Пожежна безпека: не підтримує горіння при одиночному прокладанні."
+      ],
+      "en": [
+        "Operating temperature: from -40 to +70 °C.",
+        "Installation temperature: not lower than -10 °C.",
+        "Minimum bending radius: 10 times the outer diameter.",
+        "Service life – at least 12 years.",
+        "Laying allowed only indoors.",
+        "Fire safety: non-flammable in single installation."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: багатодротяні мідні",
+        "Ізоляція: ПВХ-пластикат",
+        "Скрутка: кілька жил у пучку",
+        "Оболонка: ПВХ з низьким димовиділенням"
+      ],
+      "en": [
+        "Conductors: multi-wire copper",
+        "Insulation: PVC compound",
+        "Twisting: multiple cores in a bundle",
+        "Sheath: PVC with low smoke emission"
+      ]
+    },
+    "twinCore": {
+      "ua": ["КСВВ 2х0,5", "КСВВ 2х0,75", "КСВВ 2х1"],
+      "en": ["KSVV 2x0.5", "KSVV 2x0.75", "KSVV 2x1"]
+    },
+    "fourCore": {
+      "ua": ["КСВВ 4х0,5", "КСВВ 4х0,75", "КСВВ 4х1"],
+      "en": ["KSVV 4x0.5", "KSVV 4x0.75", "KSVV 4x1"]
+    },
+    "description": {
+      "ua": "Опис для КСВВ типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for KSVV cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "KSVЕV": {
+    "id": 12,
+    "title": {
+      "ua": "КСВЕВ",
+      "en": "KSVЕV"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Робоча температура: -30 ... +60 °С.",
+        "Прокладання: не нижче -5 °С.",
+        "Радіус вигину: не менше 10 зовнішніх діаметрів.",
+        "Строк служби – 10 років.",
+        "Підходить для приміщень з помірною вологістю.",
+        "Не призначений для зовнішньої прокладки."
+      ],
+      "en": [
+        "Operating temperature: -30 ... +60 °C.",
+        "Laying: not below -5 °C.",
+        "Bending radius: at least 10 times the cable diameter.",
+        "Service life – 10 years.",
+        "Suitable for moderately humid environments.",
+        "Not designed for outdoor installation."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: мідні багатодротяні",
+        "Ізоляція: поліетилен",
+        "Скрутка: по парах",
+        "Оболонка: ПВХ-пластикат"
+      ],
+      "en": [
+        "Conductors: multi-stranded copper",
+        "Insulation: polyethylene",
+        "Twisting: in pairs",
+        "Sheath: PVC compound"
+      ]
+    },
+    "twinCore": {
+      "ua": ["КСВЕВ 2х0,5", "КСВЕВ 2х0,75", "КСВЕВ 2х1"],
+      "en": ["KSVEV 2x0.5", "KSVEV 2x0.75", "KSVEV 2x1"]
+    },
+    "fourCore": {
+      "ua": ["КСВЕВ 4х0,5", "КСВЕВ 4х0,75", "КСВЕВ 4х1"],
+      "en": ["KSVEV 4x0.5", "KSVEV 4x0.75", "KSVEV 4x1"]
+    },
+    "description": {
+      "ua": "Опис для КСВЕВ типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for KSVEV cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "KPSVVng(A)-LS": {
+    "id": 13,
+    "title": {
+      "ua": "КПСВВнг(А)-LS",
+      "en": "KPSVVng(A)-LS"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Температура експлуатації: -30 ... +70 °С.",
+        "Температура монтажу: не нижче -15 °С.",
+        "Радіус вигину – не менше 10-кратного діаметра.",
+        "Термін служби – до 25 років.",
+        "Не підтримує горіння при пучковій прокладці.",
+        "Виділяє малу кількість диму та газів при горінні."
+      ],
+      "en": [
+        "Operating temperature: -30 ... +70 °C.",
+        "Installation temperature: not below -15 °C.",
+        "Bending radius – at least 10 times the diameter.",
+        "Service life – up to 25 years.",
+        "Non-flammable in bundled installation.",
+        "Low smoke and gas emission when burning."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: однодротяні мідні",
+        "Ізоляція: поліетилен",
+        "Оболонка: LS-компаунд",
+        "Скрутка: парна"
+      ],
+      "en": [
+        "Conductors: solid copper",
+        "Insulation: polyethylene",
+        "Sheath: LS compound",
+        "Twisting: paired"
+      ]
+    },
+    "twinCore": {
+      "ua": ["КПСВВнг(А)-LS 2х0,75", "КПСВВнг(А)-LS 2х1", "КПСВВнг(А)-LS 2х1,5"],
+      "en": ["KPSVVng(A)-LS 2x0.75", "KPSVVng(A)-LS 2x1", "KPSVVng(A)-LS 2x1.5"]
+    },
+    "fourCore": {
+      "ua": ["КПСВВнг(А)-LS 4х0,75", "КПСВВнг(А)-LS 4х1", "КПСВВнг(А)-LS 4х1,5"],
+      "en": ["KPSVVng(A)-LS 4x0.75", "KPSVVng(A)-LS 4x1", "KPSVVng(A)-LS 4x1.5"]
+    },
+    "description": {
+      "ua": "Опис для КПСВВнг(А)-LS типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for KPSVVng(A)-LS cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "KPSVЕVng(A)-LS": {
+    "id": 14,
+    "title": {
+      "ua": "КПСВЕВнг(А)-LS",
+      "en": "KPSVЕVng(A)-LS"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Робоча температура: -30 ... +70 °С.",
+        "Монтаж при температурі не нижче -10 °С.",
+        "Підвищена вогнестійкість.",
+        "Призначений для систем пожежної сигналізації.",
+        "Стійкий до дії вологи і корозії.",
+        "Знижене димовиділення при горінні."
+      ],
+      "en": [
+        "Operating temperature: -30 ... +70 °C.",
+        "Installation temperature: not below -10 °C.",
+        "Enhanced fire resistance.",
+        "Designed for fire alarm systems.",
+        "Resistant to moisture and corrosion.",
+        "Reduced smoke emission during combustion."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: багатодротяні мідні",
+        "Ізоляція: термостійкий полімер",
+        "Скрутка: по парах",
+        "Оболонка: LS-компаунд"
+      ],
+      "en": [
+        "Conductors: multi-stranded copper",
+        "Insulation: heat-resistant polymer",
+        "Twisting: in pairs",
+        "Sheath: LS compound"
+      ]
+    },
+    "twinCore": {
+      "ua": ["КПСВЕВнг(А)-LS 2х0,5", "КПСВЕВнг(А)-LS 2х0,75"],
+      "en": ["KPSVEVng(A)-LS 2x0.5", "KPSVEVng(A)-LS 2x0.75"]
+    },
+    "fourCore": {
+      "ua": ["КПСВЕВнг(А)-LS 4х0,5", "КПСВЕВнг(А)-LS 4х0,75"],
+      "en": ["KPSVEVng(A)-LS 4x0.5", "KPSVEVng(A)-LS 4x0.75"]
+    },
+    "description": {
+      "ua": "Опис для КПСВЕВнг(А)-LS типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for KPSVEVng(A)-LS cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "KPSVVng(A)-LSLTx": {
+    "id": 15,
+    "title": {
+      "ua": "КПСВВнг(А)-LSLTx",
+      "en": "KPSVVng(A)-LSLTx"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Температурний діапазон: -30 ... +70 °С.",
+        "Підвищена гнучкість для монтажу у важкодоступних місцях.",
+        "Прокладання при температурі не нижче -15 °С.",
+        "Стійкість до вологи та ультрафіолету.",
+        "Пожежна безпека: знижене димоутворення і токсичність.",
+        "Рекомендований для систем безпеки."
+      ],
+      "en": [
+        "Temperature range: -30 ... +70 °C.",
+        "Enhanced flexibility for hard-to-reach installations.",
+        "Laying allowed at temperatures not below -15 °C.",
+        "Resistant to moisture and UV.",
+        "Fire safety: low smoke and toxicity.",
+        "Recommended for security systems."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: мідні гнучкі",
+        "Ізоляція: зшитий поліетилен",
+        "Скрутка: по парах",
+        "Оболонка: LS з низькою токсичністю"
+      ],
+      "en": [
+        "Conductors: flexible copper",
+        "Insulation: cross-linked polyethylene",
+        "Twisting: in pairs",
+        "Sheath: low-toxicity LS material"
+      ]
+    },
+    "twinCore": {
+      "ua": ["КПСВВнг(А)-LSLTx 2х0,5", "КПСВВнг(А)-LSLTx 2х0,75"],
+      "en": ["KPSVVng(A)-LSLTx 2x0.5", "KPSVVng(A)-LSLTx 2x0.75"]
+    },
+    "fourCore": {
+      "ua": ["КПСВВнг(А)-LSLTx 4х0,5", "КПСВВнг(А)-LSLTx 4х0,75"],
+      "en": ["KPSVVng(A)-LSLTx 4x0.5", "KPSVVng(A)-LSLTx 4x0.75"]
+    },
+    "description": {
+      "ua": "Опис для КПСВВнг(А)-LSLTx типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for KPSVVng(A)-LSLTx cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "KPSVЕVng(A)-LSLTx": {
+    "id": 16,
+    "title": {
+      "ua": "КПСВЕВнг(А)-LSLTx",
+      "en": "KPSVЕVng(A)-LSLTx"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Температурний діапазон експлуатації: -30 ... +70 °С.",
+        "Прокладка дозволена при температурі не нижче -10 °С.",
+        "Мінімальний радіус вигину — 7,5 зовнішніх діаметрів.",
+        "Стійкий до дії агресивних середовищ.",
+        "Не поширює горіння при прокладці в пучках.",
+        "Призначений для систем пожежної сигналізації та автоматизації."
+      ],
+      "en": [
+        "Operating temperature range: -30 ... +70 °C.",
+        "Laying is allowed at temperatures not below -10 °C.",
+        "Minimum bending radius — 7.5 times the outer diameter.",
+        "Resistant to aggressive environments.",
+        "Does not propagate combustion when laid in bundles.",
+        "Designed for fire alarm and automation systems."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: мідні багатодротяні",
+        "Ізоляція: ПВХ з низьким димовиділенням",
+        "Скрутка: екраніровані пари",
+        "Оболонка: LS-пластикат",
+        "Захисний екран: алюмополімерна стрічка"
+      ],
+      "en": [
+        "Conductors: multi-wire copper",
+        "Insulation: low smoke PVC",
+        "Twisting: shielded pairs",
+        "Sheath: LS-plastic",
+        "Protective shield: aluminum-polymer tape"
+      ]
+    },
+    "twinCore": {
+      "ua": ["КПСВЕВнг(А)-LSLTx 1х2х0,75", "КПСВЕВнг(А)-LSLTx 1х2х1,0"],
+      "en": ["KPSVЕVng(A)-LSLTx 1x2x0.75", "KPSVЕVng(A)-LSLTx 1x2x1.0"]
+    },
+    "fourCore": {
+      "ua": ["КПСВЕВнг(А)-LSLTx 2х2х0,75", "КПСВЕВнг(А)-LSLTx 2х2х1,0"],
+      "en": ["KPSVЕVng(A)-LSLTx 2x2x0.75", "KPSVЕVng(A)-LSLTx 2x2x1.0"]
+    },
+    "description": {
+      "ua": "Опис для КПСВЕВнг(А)-LSLTx типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for KPSVЕVng(A)-LSLTx cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "KSVVng(A)-LS": {
+    "id": 17,
+    "title": {
+      "ua": "КСВВнг(А)-LS",
+      "en": "KSVVng(A)-LS"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Діапазон робочих температур: -25 ... +60 °С.",
+        "Допускається прокладання при температурі не нижче -10 °С.",
+        "Не поширює горіння у разі одиночного прокладання.",
+        "Стійкий до механічних навантажень середньої інтенсивності.",
+        "Застосовується в охоронних та пожежних системах."
+      ],
+      "en": [
+        "Operating temperature range: -25 ... +60 °C.",
+        "Laying is allowed at temperatures not lower than -10 °C.",
+        "Does not propagate flame in single installation.",
+        "Resistant to medium mechanical stress.",
+        "Used in security and fire systems."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: мідні однодротяні",
+        "Ізоляція: поліетилен",
+        "Скрутка: парна",
+        "Оболонка: LS-пластикат"
+      ],
+      "en": [
+        "Conductors: single-wire copper",
+        "Insulation: polyethylene",
+        "Twisting: paired",
+        "Sheath: LS plastic"
+      ]
+    },
+    "twinCore": {
+      "ua": ["КСВВнг(А)-LS 1х2х0,5", "КСВВнг(А)-LS 1х2х0,75"],
+      "en": ["KSVVng(A)-LS 1x2x0.5", "KSVVng(A)-LS 1x2x0.75"]
+    },
+    "fourCore": {
+      "ua": ["КСВВнг(А)-LS 2х2х0,5", "КСВВнг(А)-LS 2х2х0,75"],
+      "en": ["KSVVng(A)-LS 2x2x0.5", "KSVVng(A)-LS 2x2x0.75"]
+    },
+    "description": {
+      "ua": "Опис для цього типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for this cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "KSVЕVng(A)-LS": {
+    "id": 18,
+    "title": {
+      "ua": "КСВЕВнг(А)-LS",
+      "en": "KSVЕVng(A)-LS"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Робоча температура: -25 ... +70 °С.",
+        "Прокладка дозволена без попереднього підігріву до -5 °С.",
+        "Стійкість до низьких рівнів вібрації.",
+        "Не підтримує горіння при одиночній прокладці.",
+        "Призначений для систем охоронної сигналізації."
+      ],
+      "en": [
+        "Operating temperature: -25 ... +70 °C.",
+        "Laying allowed without preheating down to -5 °C.",
+        "Resistant to low-level vibration.",
+        "Does not support combustion in single installation.",
+        "Intended for security alarm systems."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: мідні багатодротяні",
+        "Ізоляція: LS полімер",
+        "Скрутка: пари з екраном",
+        "Оболонка: LS-пластикат"
+      ],
+      "en": [
+        "Conductors: multi-wire copper",
+        "Insulation: LS polymer",
+        "Twisting: shielded pairs",
+        "Sheath: LS plastic"
+      ]
+    },
+    "twinCore": {
+      "ua": ["КСВЕВнг(А)-LS 1х2х0,5", "КСВЕВнг(А)-LS 1х2х0,75"],
+      "en": ["KSVЕVng(A)-LS 1x2x0.5", "KSVЕVng(A)-LS 1x2x0.75"]
+    },
+    "fourCore": {
+      "ua": ["КСВЕВнг(А)-LS 2х2х0,5", "КСВЕВнг(А)-LS 2х2х0,75"],
+      "en": ["KSVЕVng(A)-LS 2x2x0.5", "KSVЕVng(A)-LS 2x2x0.75"]
+    },
+    "description": {
+      "ua": "Опис для цього типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for this cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "KSVVng(A)-LSLTx": {
+    "id": 19,
+    "title": {
+      "ua": "КСВВнг(А)-LSLTx",
+      "en": "KSVVng(A)-LSLTx"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Робочий діапазон температур: -30 ... +75 °С.",
+        "Підвищена вогнестійкість і знижене димовиділення.",
+        "Для стаціонарного прокладання в житлових і громадських будівлях.",
+        "Стійкий до вологи та УФ-випромінювання при укладанні в коробах."
+      ],
+      "en": [
+        "Operating temperature range: -30 ... +75 °C.",
+        "Increased fire resistance and low smoke emission.",
+        "For fixed installation in residential and public buildings.",
+        "Resistant to moisture and UV when laid in ducts."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: мідні однодротяні",
+        "Ізоляція: зшитий поліетилен",
+        "Скрутка: пари без екрану",
+        "Оболонка: LS пластикат"
+      ],
+      "en": [
+        "Conductors: single-wire copper",
+        "Insulation: cross-linked polyethylene",
+        "Twisting: pairs without shield",
+        "Sheath: LS plastic"
+      ]
+    },
+    "twinCore": {
+      "ua": ["КСВВнг(А)-LSLTx 1х2х0,75"],
+      "en": ["KSVVng(A)-LSLTx 1x2x0.75"]
+    },
+    "fourCore": {
+      "ua": ["КСВВнг(А)-LSLTx 2х2х0,75"],
+      "en": ["KSVVng(A)-LSLTx 2x2x0.75"]
+    },
+    "description": {
+      "ua": "Опис для цього типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for this cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "KSVЕVng(A)-LSLTx": {
+    "id": 20,
+    "title": {
+      "ua": "КСВЕВнг(А)-LSLTx",
+      "en": "KSVЕVng(A)-LSLTx"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Температурний режим: -40 ... +70 °С.",
+        "Підвищена гнучкість та стійкість до дії полум'я.",
+        "Застосовується у відповідальних системах пожежної сигналізації.",
+        "Знижене газо та димовиділення при горінні."
+      ],
+      "en": [
+        "Temperature range: -40 ... +70 °C.",
+        "Enhanced flexibility and flame resistance.",
+        "Used in critical fire alarm systems.",
+        "Low gas and smoke emission when burning."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: мідні багатодротяні",
+        "Ізоляція: LS-зшитий полімер",
+        "Скрутка: екрановані пари",
+        "Оболонка: LSLTx полімер"
+      ],
+      "en": [
+        "Conductors: multi-wire copper",
+        "Insulation: LS cross-linked polymer",
+        "Twisting: shielded pairs",
+        "Sheath: LSLTx polymer"
+      ]
+    },
+    "twinCore": {
+      "ua": ["КСВЕВнг(А)-LSLTx 1х2х0,75"],
+      "en": ["KSVЕVng(A)-LSLTx 1x2x0.75"]
+    },
+    "fourCore": {
+      "ua": ["КСВЕВнг(А)-LSLTx 2х2х0,75"],
+      "en": ["KSVЕVng(A)-LSLTx 2x2x0.75"]
+    },
+    "description": {
+      "ua": "Опис для цього типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for this cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "PTPZh": {
+    "id": 21,
+    "title": {
+      "ua": "ПТПЖ",
+      "en": "PTPZh"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Діапазон робочих температур: -40 ... +70 °С; прокладання: -15 … +50 °С.",
+        "Радіус вигину – не менше 7-кратного зовнішнього діаметра кабелю.",
+        "Максимальне розтягувальне навантаження – 40 Н/мм².",
+        "Термін служби – щонайменше 20 років.",
+        "Прокладка дозволена у сухих та вологих приміщеннях, а також зовні під захистом.",
+        "Клас пожежної безпеки: ПРГО 1 – обмежене поширення полум’я."
+      ],
+      "en": [
+        "Operating temperature range: -40 ... +70 °C; laying: -15 … +50 °C.",
+        "Bending radius – at least 7 times the outer cable diameter.",
+        "Maximum tensile load – 40 N/mm².",
+        "Service life – at least 20 years.",
+        "Laying allowed indoors in dry and damp environments, as well as outdoors under cover.",
+        "Fire hazard class: PRGO 1 – limited flame spread."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: багатодротяні мідні",
+        "Ізоляція: поліетиленова",
+        "Скрутка: поелементна",
+        "Оболонка: термостійкий ПВХ"
+      ],
+      "en": [
+        "Conductors: multi-wire copper",
+        "Insulation: polyethylene",
+        "Twisting: element-wise",
+        "Sheath: heat-resistant PVC"
+      ]
+    },
+    "twinCore": {
+      "ua": ["ПТПЖ 1x2x0,5", "ПТПЖ 1x2x0,75", "ПТПЖ 1x2x1,0"],
+      "en": ["PTPZh 1x2x0.5", "PTPZh 1x2x0.75", "PTPZh 1x2x1.0"]
+    },
+    "fourCore": {
+      "ua": ["ПТПЖ 1x4x0,5", "ПТПЖ 1x4x0,75", "ПТПЖ 1x4x1,0"],
+      "en": ["PTPZh 1x4x0.5", "PTPZh 1x4x0.75", "PTPZh 1x4x1.0"]
+    },
+    "description": {
+      "ua": "Опис для цього типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for this cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "PRPPM": {
+    "id": 22,
+    "title": {
+      "ua": "ПРППМ",
+      "en": "PRPPM"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Робоча температура: -25 ... +60 °С.",
+        "Радіус вигину – мінімум 6-кратний зовнішній діаметр.",
+        "Максимальне навантаження при розриві – 35 Н/мм².",
+        "Гарантійний термін експлуатації – 10 років.",
+        "Монтаж можливий у внутрішніх просторах.",
+        "Клас пожежонебезпеки: ПРГО 2."
+      ],
+      "en": [
+        "Operating temperature: -25 ... +60 °C.",
+        "Minimum bending radius – 6 times the outer diameter.",
+        "Maximum tensile load – 35 N/mm².",
+        "Guaranteed service life – 10 years.",
+        "Installation allowed indoors.",
+        "Fire hazard class: PRGO 2."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: однопровідні алюмінієві",
+        "Ізоляція: ПВХ",
+        "Скрутка: послідовна",
+        "Оболонка: ПВХ зі зниженою горючістю"
+      ],
+      "en": [
+        "Conductors: single-wire aluminum",
+        "Insulation: PVC",
+        "Twisting: sequential",
+        "Sheath: low-flammability PVC"
+      ]
+    },
+    "twinCore": {
+      "ua": ["ПРППМ 2x0,5", "ПРППМ 2x0,75", "ПРППМ 2x1,0"],
+      "en": ["PRPPM 2x0.5", "PRPPM 2x0.75", "PRPPM 2x1.0"]
+    },
+    "fourCore": {
+      "ua": ["ПРППМ 4x0,5", "ПРППМ 4x0,75", "ПРППМ 4x1,0"],
+      "en": ["PRPPM 4x0.5", "PRPPM 4x0.75", "PRPPM 4x1.0"]
+    },
+    "description": {
+      "ua": "Опис для цього типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for this cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "TRP": {
+    "id": 23,
+    "title": {
+      "ua": "ТРП",
+      "en": "TRP"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Температурний режим експлуатації: -30 ... +60 °С.",
+        "Радіус вигину – не менше 10 діаметрів кабелю.",
+        "Допустиме навантаження – до 30 Н/мм².",
+        "Службовий термін – 12 років.",
+        "Для прокладання всередині будівель або зовні у лотках.",
+        "Не поширює горіння (при одинарному прокладанні)."
+      ],
+      "en": [
+        "Operating temperature range: -30 ... +60 °C.",
+        "Bending radius – at least 10 cable diameters.",
+        "Allowable load – up to 30 N/mm².",
+        "Service life – 12 years.",
+        "For indoor installation or outdoor trays.",
+        "Does not propagate fire (in single installation)."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: мідні",
+        "Ізоляція: ПЕ",
+        "Скрутка: парна",
+        "Оболонка: ПВХ, світлостійка"
+      ],
+      "en": [
+        "Conductors: copper",
+        "Insulation: PE",
+        "Twisting: in pairs",
+        "Sheath: PVC, UV-resistant"
+      ]
+    },
+    "twinCore": {
+      "ua": ["ТРП 2x0,4", "ТРП 2x0,5"],
+      "en": ["TRP 2x0.4", "TRP 2x0.5"]
+    },
+    "fourCore": {
+      "ua": ["ТРП 4x0,4", "ТРП 4x0,5"],
+      "en": ["TRP 4x0.4", "TRP 4x0.5"]
+    },
+    "description": {
+      "ua": "Опис для цього типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for this cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "TRV": {
+    "id": 24,
+    "title": {
+      "ua": "ТРВ",
+      "en": "TRV"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Діапазон температур: -10 ... +70 °С.",
+        "Радіус вигину – від 5 зовнішніх діаметрів.",
+        "Максимальний розрив – 25 Н/мм².",
+        "Середній термін служби – 8 років.",
+        "Підходить для встановлення в телекомунікаційних системах.",
+        "Стійкий до вібрацій та механічного зносу."
+      ],
+      "en": [
+        "Temperature range: -10 ... +70 °C.",
+        "Bending radius – from 5 outer diameters.",
+        "Max tensile load – 25 N/mm².",
+        "Average service life – 8 years.",
+        "Suitable for installation in telecommunication systems.",
+        "Resistant to vibration and mechanical wear."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: одножильні",
+        "Ізоляція: поліетилен",
+        "Скрутка: зональна",
+        "Оболонка: термопластик"
+      ],
+      "en": [
+        "Conductors: single-core",
+        "Insulation: polyethylene",
+        "Twisting: zonal",
+        "Sheath: thermoplastic"
+      ]
+    },
+    "twinCore": {
+      "ua": ["ТРВ 2x0,4", "ТРВ 2x0,5"],
+      "en": ["TRV 2x0.4", "TRV 2x0.5"]
+    },
+    "fourCore": {
+      "ua": ["ТРВ 4x0,4", "ТРВ 4x0,5"],
+      "en": ["TRV 4x0.4", "TRV 4x0.5"]
+    },
+    "description": {
+      "ua": "Опис для цього типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for this cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "PKSV": {
+    "id": 25,
+    "title": {
+      "ua": "ПКСВ",
+      "en": "PKSV"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Робоча температура: -20 ... +60 °С.",
+        "Радіус вигину – щонайменше 6 зовнішніх діаметрів.",
+        "Навантаження на розрив – до 45 Н/мм².",
+        "Мінімальний термін служби – 15 років.",
+        "Застосовується для пожежної сигналізації.",
+        "Стійкий до займання та низьких температур."
+      ],
+      "en": [
+        "Operating temperature: -20 ... +60 °C.",
+        "Bending radius – at least 6 outer diameters.",
+        "Tensile load – up to 45 N/mm².",
+        "Minimum service life – 15 years.",
+        "Used in fire alarm systems.",
+        "Resistant to ignition and low temperatures."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жили: мідні, луджені",
+        "Ізоляція: термостійкий полімер",
+        "Скрутка: секторна",
+        "Оболонка: самозатухаюча композиція"
+      ],
+      "en": [
+        "Conductors: tinned copper",
+        "Insulation: heat-resistant polymer",
+        "Twisting: sectoral",
+        "Sheath: self-extinguishing compound"
+      ]
+    },
+    "twinCore": {
+      "ua": ["ПКСВ 2x0,5", "ПКСВ 2x0,75"],
+      "en": ["PKSV 2x0.5", "PKSV 2x0.75"]
+    },
+    "fourCore": {
+      "ua": ["ПКСВ 4x0,5", "ПКСВ 4x0,75"],
+      "en": ["PKSV 4x0.5", "PKSV 4x0.75"]
+    },
+    "description": {
+      "ua": "Опис для цього типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for this cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "PNSV": {
+    "id": 26,
+    "title": {
+      "ua": "ПНСВ",
+      "en": "PNSV"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Призначений для нагрівання бетону і залізобетону.",
+        "Робоча температура: до +70 °С.",
+        "Монтаж у бетоні з урахуванням температурного режиму.",
+        "Гарантійний термін експлуатації – 10 років."
+      ],
+      "en": [
+        "Designed for heating concrete and reinforced concrete.",
+        "Operating temperature: up to +70 °C.",
+        "Installation inside concrete considering temperature regime.",
+        "Warranty service life – 10 years."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жила: мідна багатодротяна.",
+        "Ізоляція: термостійкий полімер.",
+        "Захисний покрив: металізована фольга.",
+        "Оболонка: полімерна."
+      ],
+      "en": [
+        "Conductor: multi-stranded copper.",
+        "Insulation: heat-resistant polymer.",
+        "Protective covering: metallized foil.",
+        "Sheath: polymer."
+      ]
+    },
+    "twinCore": {
+      "ua": ["ПНСВ 1х2х0,75", "ПНСВ 1х2х1"],
+      "en": ["PNSV 1x2x0.75", "PNSV 1x2x1"]
+    },
+    "fourCore": {
+      "ua": ["ПНСВ 2х2х0,75", "ПНСВ 2х2х1"],
+      "en": ["PNSV 2x2x0.75", "PNSV 2x2x1"]
+    },
+    "description": {
+      "ua": "Опис для цього типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for this cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "KVK-V-2": {
+    "id": 27,
+    "title": {
+      "ua": "КВК-В-2",
+      "en": "KVK-V-2"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Для використання в сухих приміщеннях.",
+        "Температурний режим: -10 ... +50 °С.",
+        "Максимальна напруга – 450 В.",
+        "Гарантійний термін – 20 років."
+      ],
+      "en": [
+        "For use in dry rooms.",
+        "Temperature range: -10 ... +50 °C.",
+        "Maximum voltage – 450 V.",
+        "Warranty period – 20 years."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жила: алюмінієва багатодротяна.",
+        "Ізоляція: полівінілхлорид (ПВХ).",
+        "Оболонка: полівінілхлорид (ПВХ)."
+      ],
+      "en": [
+        "Conductor: multi-stranded aluminum.",
+        "Insulation: polyvinyl chloride (PVC).",
+        "Sheath: polyvinyl chloride (PVC)."
+      ]
+    },
+    "twinCore": {
+      "ua": ["КВК-В-2 2х1,5", "КВК-В-2 2х2,5"],
+      "en": ["KVK-V-2 2x1.5", "KVK-V-2 2x2.5"]
+    },
+    "fourCore": {
+      "ua": ["КВК-В-2 4х1,5", "КВК-В-2 4х2,5"],
+      "en": ["KVK-V-2 4x1.5", "KVK-V-2 4x2.5"]
+    },
+    "description": {
+      "ua": "Опис для цього типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for this cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "KVK-P-2": {
+    "id": 28,
+    "title": {
+      "ua": "КВК-П-2",
+      "en": "KVK-P-2"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Для прокладки в каналах та трубах.",
+        "Температурний режим: -10 ... +50 °С.",
+        "Максимальна напруга – 450 В.",
+        "Гарантія 15 років."
+      ],
+      "en": [
+        "For installation in ducts and pipes.",
+        "Temperature range: -10 ... +50 °C.",
+        "Maximum voltage – 450 V.",
+        "15-year warranty."
+      ]
+    },
+    "construction": {
+      "ua": ["Жила: багатодротяна мідна.", "Ізоляція: поліетилен.", "Оболонка: ПВХ."],
+      "en": [
+        "Conductor: multi-stranded copper.",
+        "Insulation: polyethylene.",
+        "Sheath: PVC."
+      ]
+    },
+    "twinCore": {
+      "ua": ["КВК-П-2 2х1,5", "КВК-П-2 2х2,5"],
+      "en": ["KVK-P-2 2x1.5", "KVK-P-2 2x2.5"]
+    },
+    "fourCore": {
+      "ua": ["КВК-П-2 4х1,5", "КВК-П-2 4х2,5"],
+      "en": ["KVK-P-2 4x1.5", "KVK-P-2 4x2.5"]
+    },
+    "description": {
+      "ua": "Опис для цього типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for this cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  },
+  "KVK-V-2ng(A)-H": {
+    "id": 29,
+    "title": {
+      "ua": "КВК-В-2нг(А)-H",
+      "en": "KVK-V-2ng(A)-H"
+    },
+    "certificates": [
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_1.webp?alt=media&token=66af59f7-ad99-43f3-a453-820019830090",
+      "https://firebasestorage.googleapis.com/v0/b/vacation-time-a77a5.appspot.com/o/special-cable%2Fcertificates%2Fcertificate_2.webp?alt=media&token=025902be-5bf4-4b2e-bae1-255206eb026d"
+    ],
+    "termsOfUse": {
+      "ua": [
+        "Для прокладки в приміщеннях з підвищеними вимогами пожежної безпеки.",
+        "Температура експлуатації: -10 ... +50 °С.",
+        "Обмежене поширення горіння.",
+        "Гарантія – 25 років."
+      ],
+      "en": [
+        "For installation in premises with increased fire safety requirements.",
+        "Operating temperature: -10 ... +50 °C.",
+        "Limited flame spread.",
+        "Warranty – 25 years."
+      ]
+    },
+    "construction": {
+      "ua": [
+        "Жила: багатодротяна мідна.",
+        "Ізоляція: ПВХ з антипіренами.",
+        "Оболонка: ПВХ з антипіренами."
+      ],
+      "en": [
+        "Conductor: multi-stranded copper.",
+        "Insulation: PVC with flame retardants.",
+        "Sheath: PVC with flame retardants."
+      ]
+    },
+    "twinCore": {
+      "ua": ["КВК-В-2нг(А)-H 2х1,5", "КВК-В-2нг(А)-H 2х2,5"],
+      "en": ["KVK-V-2ng(A)-H 2x1.5", "KVK-V-2ng(A)-H 2x2.5"]
+    },
+    "fourCore": {
+      "ua": ["КВК-В-2нг(А)-H 4х1,5", "КВК-В-2нг(А)-H 4х2,5"],
+      "en": ["KVK-V-2ng(A)-H 4x1.5", "KVK-V-2ng(A)-H 4x2.5"]
+    },
+    "description": {
+      "ua": "Опис для КВК-В-2нг(А)-H типу кабелю наразі недоступний. Зверніться до виробника або перегляньте технічну документацію.",
+      "en": "Description for KVK-V-2ng(A)-H cable type is currently unavailable. Please refer to the manufacturer or technical documentation."
+    }
+  }
+}

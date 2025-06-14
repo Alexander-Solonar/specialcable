@@ -189,5 +189,13 @@
   },
   "breadcrumbs": {
     "catalog": "Каталог"
+  },
+  "productInfoPage": {
+    "twinCore": "Двожильна скрутка",
+    "fourCore": "Чотирижильна скрутка",
+    "termsOfUse": "Умови експлуатації:",
+    "construction": "Конструкція:",
+    "characteristics": "Характеристики",
+    "macrosizes": "Макророзміри"
   }
 }

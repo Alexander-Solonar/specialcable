@@ -1,29 +1,28 @@
-const ProductSize = () => {
+import { useTranslation } from 'react-i18next';
+
+const ProductSize = ({ twinCore, fourCore }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="flex justify-between gap-4 text-center tracking-widest">
       <div className="w-[calc(50%-1rem)] text-center">
         <h2 className="mb-4 text-xs font-bold uppercase ml:mb-6 ml:text-sm">
-          Двужильная скрутка
+          {t('productInfoPage.twinCore')}
         </h2>
         <ul className="flex flex-col gap-y-6 text-xs ml:text-base">
-          <li>КПСВВ 1х2х0,5</li>
-          <li>КПСВВ 1х2х0,5</li>
-          <li>КПСВВ 1х2х0,5</li>
-          <li>КПСВВ 1х2х0,5</li>
-          <li>КПСВВ 1х2х0,5</li>
-          <li>КПСВВ 1х2х0,5</li>
+          {twinCore.map((element, index) => (
+            <li key={index}>{element}</li>
+          ))}
         </ul>
       </div>
       <div className="w-[calc(50%-1rem)] text-center">
         <h2 className="mb-4 text-xs font-bold uppercase ml:mb-6 ml:text-sm">
-          Четырехжильная скрутка
+          {t('productInfoPage.fourCore')}
         </h2>
         <ul className="flex flex-col gap-y-6 text-xs ml:text-base">
-          <li>КПСВВ 1х2х0,5</li>
-          <li>КПСВВ 1х2х0,5</li>
-          <li>КПСВВ 1х2х0,5</li>
-          <li>КПСВВ 1х2х0,5</li>
-          <li>КПСВВ 1х2х0,5</li>
+          {fourCore.map((element, index) => (
+            <li key={index}>{element}</li>
+          ))}
         </ul>
       </div>
     </div>

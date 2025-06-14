@@ -1,10 +1,7 @@
-import React from 'react';
-import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
-import sertificate1 from '../../../assets/images/certificate_1.webp';
-import sertificate2 from '../../../assets/images/certificate_2.webp';
 import SliderControls from 'components/common/SliderControls';
+import 'swiper/css';
 
 const SWIPER_SETTINGS = {
   slidesPerView: '1',
@@ -19,16 +16,15 @@ const SWIPER_SETTINGS = {
   modules: [Pagination, Navigation],
 };
 
-const ProductCertificatesSlider = () => {
+const ProductCertificatesSlider = ({ certificates }) => {
   return (
     <div className="relative hidden ml:block ml:max-w-[40%]">
       <Swiper className="mySwiper" {...SWIPER_SETTINGS}>
-        <SwiperSlide>
-          <img className="ml-auto" src={sertificate1} alt="sertificate" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className="ml-auto" src={sertificate2} alt="sertificate" />
-        </SwiperSlide>
+        {certificates.map((certificate, index) => (
+          <SwiperSlide key={index}>
+            <img className="ml-auto" src={certificate} alt="certificate" />
+          </SwiperSlide>
+        ))}
       </Swiper>
       <SliderControls
         color="space-blue"
