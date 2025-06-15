@@ -13,7 +13,12 @@ const CatalogCategorySection = ({ cableTitle, cableTypes }) => {
       <ul>
         {cableTypes.en.map((engElement, index) => (
           <li key={engElement} className="text-xs sm:text-base">
-            <Link to={engElement}>{cableTypes[lng][index]}</Link>
+            <Link
+              to={engElement}
+              className="border-b-[1px] border-b-transparent transition-colors duration-300 hover:border-b-midnight-blue"
+            >
+              {cableTypes[lng][index]}
+            </Link>
           </li>
         ))}
       </ul>

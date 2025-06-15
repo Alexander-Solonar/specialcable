@@ -14,6 +14,7 @@ import ProductCertificatesMobile from './sections/ProductCertificatesMobile';
 const ProductInfoPage = () => {
   const [activeTab, setActiveTab] = useState('specs');
   const [product, setProduct] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
   const { productId } = useParams();
   const { i18n } = useTranslation();
   const lng = i18n.resolvedLanguage;
@@ -25,7 +26,7 @@ const ProductInfoPage = () => {
       } catch (error) {
         // setError(error.message);
       } finally {
-        // setIsLoading(false);
+        setIsLoading(false);
       }
     })();
   }, [productId, setProduct]);
@@ -34,7 +35,7 @@ const ProductInfoPage = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, []);
 
-  if (!product) {
+  if (isLoading) {
     return null;
   }
 

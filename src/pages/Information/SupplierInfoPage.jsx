@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import InfoPageBackground from './components/InfoPageBackground';
 import Container from 'components/common/Container';
 import UnderConstruction from 'components/common/UnderConstruction';
 
@@ -11,13 +12,17 @@ const SupplierInfoPage = () => {
   }, []);
 
   return (
-    <section>
-      <Container>
-        <UnderConstruction
-          title={t('supplierInfoSection.title')}
-          text={t('supplierInfoSection.text')}
-        />
-      </Container>
+    <section className="flex flex-auto">
+      <InfoPageBackground>
+        <Container>
+          <div>
+            <UnderConstruction
+              title={t('supplierInfoSection.title')}
+              text={t('supplierInfoSection.text')}
+            />
+          </div>
+        </Container>
+      </InfoPageBackground>
     </section>
   );
 };

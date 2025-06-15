@@ -19,7 +19,7 @@ const SWIPER_SETTINGS = {
     bulletClass: 'swiper-pagination-bullet bg-gray',
     bulletActiveClass: 'swiper-pagination-bullet-active bg-gray',
   },
-  centeredSlides: 'auto',
+  centeredSlides: true,
   modules: [Pagination],
 };
 
@@ -37,7 +37,7 @@ const ClientTrustSection = () => {
   };
 
   return (
-    <section className="our-clients mx-auto pt-6 sm:pt-[70px] ml:pb-16 ml:pt-[120px]">
+    <section className="our-clients pt-6 sm:pt-[70px] ml:pb-16 ml:pt-[120px]">
       <Container>
         <div className="max-w-[300px] sm:max-w-[420px]">
           <SectionTitle title={t('clientTrustSection.title')} />
