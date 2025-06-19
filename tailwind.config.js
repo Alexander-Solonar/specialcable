@@ -35,7 +35,7 @@ module.exports = {
     backgroundPosition: {
       "position-aboutUs": "right 10px top 35px",
       "position-contacts": "right 550px bottom -350px",
-      "position-information": "left 0 bottom 0",
+      "position-information": "right 0 bottom 0",
       "position-catalog": "right -4rem bottom -5rem",
     },
 
@@ -45,6 +45,10 @@ module.exports = {
       },
       boxShadow: {
         custom: "0px 10px 20px 0px rgba(0, 0, 0, 0.25)",
+      },
+
+      backgroundSize: {
+        70: "70%",
       },
     },
   },

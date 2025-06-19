@@ -1,6 +1,6 @@
 const InfoPageBackground = ({ children }) => {
   return (
-    <div className="mx-auto w-full max-w-[1210px] flex-auto bg-bg-information bg-contain bg-position-information bg-no-repeat pb-44">
+    <div className="bg-70 mx-auto w-full max-w-[1210px] flex-auto bg-bg-information bg-position-information bg-no-repeat pb-44">
       {children}
     </div>
   );

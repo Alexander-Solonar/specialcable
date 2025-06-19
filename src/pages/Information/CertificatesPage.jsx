@@ -36,20 +36,21 @@ const CertificatesPage = () => {
       <InfoPageBackground>
         <Container>
           <SectionTitle title={t('certificatesSection.title')} />
-          <div className="mt-3 flex justify-center gap-x-20 sm:mt-7 ml:justify-start xl:gap-x-32">
-            <div className="flex flex-col ml:flex-row">
+          <div className="mt-3 flex items-start justify-center gap-x-20 sm:mt-7 ml:justify-start xl:gap-x-32">
+            <div className="flex flex-col gap-7 ml:flex-row">
               {certificate.picture.map((element, index) => (
-                <img
-                  key={index}
-                  onClick={() => handleImageClick(element)}
-                  src={element}
-                  alt="certificate"
-                  className="cursor-pointer"
-                  width={380}
-                />
+                <div key={index} className="shadow-custom">
+                  <img
+                    onClick={() => handleImageClick(element)}
+                    src={element}
+                    alt="certificate"
+                    className="h-fit cursor-pointer"
+                    width={380}
+                  />
+                </div>
               ))}
             </div>
-            <ul className="flex flex-col justify-between text-sm font-bold tracking-widest">
+            <ul className="flex flex-col gap-y-4 text-sm font-bold tracking-widest">
               {certificates.map(({ id, name }) => (
                 <li
                   key={id}
@@ -63,9 +64,9 @@ const CertificatesPage = () => {
               ))}
             </ul>
           </div>
-          <FullScreenLetter image={modalImage} />
         </Container>
       </InfoPageBackground>
+      <FullScreenLetter image={modalImage} />
     </section>
   );
 };

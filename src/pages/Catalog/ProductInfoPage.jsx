@@ -10,10 +10,12 @@ import ProductSpecifications from './sections/ProductSpecifications';
 import ProductSize from './sections/ProductSize';
 import ProductCertificatesSlider from './sections/ProductCertificatesSlider';
 import ProductCertificatesMobile from './sections/ProductCertificatesMobile';
+import FullScreenLetter from 'components/common/FullScreenLetter';
 
 const ProductInfoPage = () => {
   const [activeTab, setActiveTab] = useState('specs');
   const [product, setProduct] = useState(null);
+  const [modalImage, setModalImage] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const { productId } = useParams();
   const { i18n } = useTranslation();
@@ -63,10 +65,17 @@ const ProductInfoPage = () => {
               />
             )}
           </div>
-          <ProductCertificatesSlider certificates={product.certificates} />
-          <ProductCertificatesMobile certificates={product.certificates} />
+          <ProductCertificatesSlider
+            certificates={product.certificates}
+            setModalImage={setModalImage}
+          />
+          <ProductCertificatesMobile
+            certificates={product.certificates}
+            setModalImage={setModalImage}
+          />
         </div>
       </Container>
+      <FullScreenLetter image={modalImage} />
     </section>
   );
 };
