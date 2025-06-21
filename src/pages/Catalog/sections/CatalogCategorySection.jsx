@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import PropTypes from 'prop-types';
 
 const CatalogCategorySection = ({ cableTitle, cableTypes }) => {
   const { i18n } = useTranslation();
@@ -27,3 +28,14 @@ const CatalogCategorySection = ({ cableTitle, cableTypes }) => {
 };
 
 export default CatalogCategorySection;
+
+CatalogCategorySection.propTypes = {
+  cableTitle: PropTypes.shape({
+    en: PropTypes.string.isRequired,
+    ua: PropTypes.string.isRequired,
+  }),
+  cableTypes: PropTypes.shape({
+    en: PropTypes.arrayOf(PropTypes.string).isRequired,
+    ua: PropTypes.arrayOf(PropTypes.string).isRequired,
+  }),
+};

@@ -1,9 +1,10 @@
+import { useContext } from 'react';
+import { Context } from 'context/Context';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
 import SliderControls from 'components/common/SliderControls';
+import PropTypes from 'prop-types';
 import 'swiper/css';
-import { useContext } from 'react';
-import { Context } from 'context/Context';
 
 const SWIPER_SETTINGS = {
   slidesPerView: '1',
@@ -50,3 +51,8 @@ const ProductCertificatesSlider = ({ certificates, setModalImage }) => {
 };
 
 export default ProductCertificatesSlider;
+
+ProductCertificatesSlider.propTypes = {
+  certificates: PropTypes.arrayOf(PropTypes.string).isRequired,
+  setModalImage: PropTypes.func.isRequired,
+};

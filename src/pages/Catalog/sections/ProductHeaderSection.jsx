@@ -1,4 +1,5 @@
 import catalogImg from 'assets/images/catalog-img.webp';
+import PropTypes from 'prop-types';
 
 const ProductHeaderSection = ({ description, title }) => {
   return (
@@ -18,3 +19,8 @@ const ProductHeaderSection = ({ description, title }) => {
 };
 
 export default ProductHeaderSection;
+
+ProductHeaderSection.propTypes = {
+  description: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+};

@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import { Context } from 'context/Context';
+import PropTypes from 'prop-types';
 
 const ProductCertificatesMobile = ({ certificates, setModalImage }) => {
   const { isModalOpen, setIsModalOpen } = useContext(Context);
@@ -14,7 +15,7 @@ const ProductCertificatesMobile = ({ certificates, setModalImage }) => {
       {certificates.map((certificate, index) => (
         <div key={index}>
           <img
-            className="cursor-pointer"
+            className="cursor-pointer shadow-custom"
             src={certificate}
             alt="certificate"
             width={336}
@@ -27,3 +28,8 @@ const ProductCertificatesMobile = ({ certificates, setModalImage }) => {
 };
 
 export default ProductCertificatesMobile;
+
+ProductCertificatesMobile.propTypes = {
+  certificates: PropTypes.arrayOf(PropTypes.string).isRequired,
+  setModalImage: PropTypes.func.isRequired,
+};

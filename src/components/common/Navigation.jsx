@@ -1,12 +1,9 @@
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { headerNavLinks } from 'data/headerNavLinks';
+import PropTypes from 'prop-types';
 
-const Navigation = ({
-  closeMobileMenu = null,
-  classNameNav,
-  classNameList,
-}) => {
+const Navigation = ({ closeMobileMenu = null, classNameNav, classNameList }) => {
   const { t } = useTranslation();
 
   const linkClassName = ({ isActive }) =>
@@ -34,3 +31,9 @@ const Navigation = ({
 };
 
 export default Navigation;
+
+Navigation.propTypes = {
+  closeMobileMenu: PropTypes.func,
+  classNameNav: PropTypes.string.isRequired,
+  classNameList: PropTypes.string.isRequired,
+};

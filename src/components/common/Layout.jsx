@@ -5,6 +5,7 @@ import * as APIFirebase from 'services/APIFirebase';
 import Header from './Header';
 import Footer from './Footer';
 import FeedBackForm from '../forms/FeedBackForm';
+import Loader from './Loader';
 
 const Layout = () => {
   // const [isLoading, setIsLoading] = useState(true);
@@ -27,7 +28,7 @@ const Layout = () => {
     <div className="relative flex min-h-full flex-col overflow-x-hidden">
       <Header />
       <main className="flex flex-auto flex-col">
-        <Suspense>
+        <Suspense fallback={<Loader />}>
           <Outlet />
         </Suspense>
       </main>

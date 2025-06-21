@@ -1,4 +1,5 @@
 import SpriteIcon from '../common/SpriteIcon';
+import PropTypes from 'prop-types';
 
 const SliderControls = ({ color = 'white', addStyle }) => {
   return (
@@ -25,3 +26,8 @@ const SliderControls = ({ color = 'white', addStyle }) => {
 };
 
 export default SliderControls;
+
+SliderControls.propTypes = {
+  color: PropTypes.string,
+  addStyle: PropTypes.string.isRequired,
+};

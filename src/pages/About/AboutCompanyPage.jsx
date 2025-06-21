@@ -22,16 +22,6 @@ const AboutCompanyPage = () => {
     })();
   }, [setArticleList]);
 
-  // if (isLoading) {
-  //   return (
-  //     <div className="h-full">
-  //       <Container>
-  //         <p>Загрузка...</p>
-  //       </Container>
-  //     </div>
-  //   );
-  // }
-
   return (
     <div>
       <PageNavigation

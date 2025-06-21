@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Container from './Container';
+import PropTypes from 'prop-types';
 
 const PageNavigation = ({ links, classNameList, classNameItem = '' }) => {
   const { t } = useTranslation();
@@ -28,3 +29,14 @@ const PageNavigation = ({ links, classNameList, classNameItem = '' }) => {
 };
 
 export default PageNavigation;
+
+PageNavigation.propTypes = {
+  links: PropTypes.arrayOf(
+    PropTypes.shape({
+      path: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+  classNameList: PropTypes.string.isRequired,
+  classNameItem: PropTypes.string,
+};

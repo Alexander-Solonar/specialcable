@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import PropTypes from 'prop-types';
 
 const ProductSpecifications = ({ termsOfUse, construction }) => {
   const { t } = useTranslation();
@@ -26,3 +27,8 @@ const ProductSpecifications = ({ termsOfUse, construction }) => {
 };
 
 export default ProductSpecifications;
+
+ProductSpecifications.propTypes = {
+  termsOfUse: PropTypes.arrayOf(PropTypes.string).isRequired,
+  construction: PropTypes.arrayOf(PropTypes.string).isRequired,
+};

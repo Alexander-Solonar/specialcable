@@ -32,7 +32,7 @@ const ArticleCard = ({
   }, [saveScroll]);
 
   return (
-    <li className="relative flex flex-col">
+    <li className="relative flex flex-col shadow-custom">
       <Link
         to={`article/${id}`}
         state={{
@@ -40,18 +40,13 @@ const ArticleCard = ({
           scrollPosition: scrollPositionRef,
           isShowAllArticles,
         }}
-        className="relative flex w-[152px] flex-col border border-transparent transition duration-300 hover:border-vivid-orange hover:brightness-90 ml:w-[160px] lg:w-[280px]"
+        className="relative box-border flex h-[184px] w-[152px] flex-col border border-white bg-gray transition duration-300 hover:border hover:border-vivid-orange hover:brightness-90 ml:h-[231px] ml:w-[160px] lg:h-[400px] lg:w-[280px]"
         aria-label={title[lng]}
       >
         <picture>
           <source media="(max-width: 767px)" srcSet={imgPreviewSm} />
           <source media="(max-width: 1199px)" srcSet={imgPreviewMl} />
-          <img
-            className="h-[184px] w-full ml:h-[231px] lg:h-[400px]"
-            src={imgPreviewXl}
-            alt="cable"
-            loading="lazy"
-          />
+          <img src={imgPreviewXl} alt="cable" loading="lazy" />
         </picture>
       </Link>
       <p className="pointer-events-none mt-3 w-[150px] text-[10px] font-bold uppercase leading-[1.3] tracking-[0.20em] ml:w-[160px] ml:text-xs lg:absolute lg:bottom-1 lg:left-5 lg:right-8 lg:h-16 lg:w-[280px] lg:text-sm lg:text-white">

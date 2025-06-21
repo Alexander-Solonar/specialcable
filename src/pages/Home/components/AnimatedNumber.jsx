@@ -39,5 +39,5 @@ const AnimatedNumber = ({ targetNumber }) => {
 export default AnimatedNumber;
 
 AnimatedNumber.propTypes = {
-  targetNumber: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+  targetNumber: PropTypes.string.isRequired,
 };

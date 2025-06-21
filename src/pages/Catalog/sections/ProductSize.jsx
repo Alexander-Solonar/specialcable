@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import PropTypes from 'prop-types';
 
 const ProductSize = ({ twinCore, fourCore }) => {
   const { t } = useTranslation();
@@ -30,3 +31,8 @@ const ProductSize = ({ twinCore, fourCore }) => {
 };
 
 export default ProductSize;
+
+ProductSize.propTypes = {
+  twinCore: PropTypes.arrayOf(PropTypes.string).isRequired,
+  fourCore: PropTypes.arrayOf(PropTypes.string).isRequired,
+};

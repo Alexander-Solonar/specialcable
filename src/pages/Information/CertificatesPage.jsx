@@ -52,14 +52,15 @@ const CertificatesPage = () => {
             </div>
             <ul className="flex flex-col gap-y-4 text-sm font-bold tracking-widest">
               {certificates.map(({ id, name }) => (
-                <li
-                  key={id}
-                  onClick={() => handleCertificateSelect(id)}
-                  className={`cursor-pointer hover:underline ${
-                    selectedId === id ? 'underline' : 'no-underline'
-                  }`}
-                >
-                  {name[lng]}
+                <li key={id}>
+                  <button
+                    onClick={() => handleCertificateSelect(id)}
+                    className={`hover:underline ${
+                      selectedId === id ? 'underline' : 'no-underline'
+                    }`}
+                  >
+                    {name[lng]}
+                  </button>
                 </li>
               ))}
             </ul>

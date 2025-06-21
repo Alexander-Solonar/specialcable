@@ -27,7 +27,7 @@ const LangSwitcher = ({ className }) => {
           onClick={() => setIsLangOpen(!isLangOpen)}
           className="flex items-center p-2 focus:outline-none"
         >
-          <SpriteIcon icon={language} width={22} height={15} />
+          <SpriteIcon icon={language || 'ua'} width={22} height={15} />
           <SpriteIcon
             icon={isLangOpen ? 'ctrl-up' : 'ctrl-down'}
             width={22}

@@ -40,7 +40,15 @@ module.exports = {
     },
 
     extend: {
+      keyframes: {
+        slide: {
+          "0%": { left: "0%", width: "0%" },
+          "50%": { left: "0%", width: "100%" },
+          "100%": { left: "100%", width: "0%" },
+        },
+      },
       animation: {
+        slide: "slide 2s linear infinite",
         "spin-slow": "spin 2s linear infinite",
       },
       boxShadow: {
