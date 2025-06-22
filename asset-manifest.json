@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/specialcable/static/css/main.e26f74e2.css",
-    "main.js": "/specialcable/static/js/main.2b0ae2ba.js",
+    "main.js": "/specialcable/static/js/main.8e99a22f.js",
     "static/js/505.ea0bfc6e.chunk.js": "/specialcable/static/js/505.ea0bfc6e.chunk.js",
     "static/js/141.9bcbb932.chunk.js": "/specialcable/static/js/141.9bcbb932.chunk.js",
     "static/js/3.100c6f82.chunk.js": "/specialcable/static/js/3.100c6f82.chunk.js",
@@ -52,7 +52,7 @@
     "static/media/logoSmall.svg": "/specialcable/static/media/logoSmall.dbe5fcba58307868754dd48799a48140.svg",
     "index.html": "/specialcable/index.html",
     "main.e26f74e2.css.map": "/specialcable/static/css/main.e26f74e2.css.map",
-    "main.2b0ae2ba.js.map": "/specialcable/static/js/main.2b0ae2ba.js.map",
+    "main.8e99a22f.js.map": "/specialcable/static/js/main.8e99a22f.js.map",
     "505.ea0bfc6e.chunk.js.map": "/specialcable/static/js/505.ea0bfc6e.chunk.js.map",
     "141.9bcbb932.chunk.js.map": "/specialcable/static/js/141.9bcbb932.chunk.js.map",
     "3.100c6f82.chunk.js.map": "/specialcable/static/js/3.100c6f82.chunk.js.map",
@@ -75,6 +75,6 @@
   },
   "entrypoints": [
     "static/css/main.e26f74e2.css",
-    "static/js/main.2b0ae2ba.js"
+    "static/js/main.8e99a22f.js"
   ]
 }
