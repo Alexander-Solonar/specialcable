@@ -30,11 +30,7 @@ const ArticleList = ({ isShowAllArticles }) => {
   return (
     <ul className="mx-auto mb-12 mt-12 grid w-fit grid-cols-2 justify-items-center gap-5 sm:mt-10 ml:grid-cols-4">
       {articlesToShow.map(articleItem => (
-        <ArticleCard
-          key={articleItem.id}
-          {...articleItem}
-          isShowAllArticles={isShowAllArticles}
-        />
+        <ArticleCard key={articleItem.id} {...articleItem} isShowAllArticles={isShowAllArticles} />
       ))}
     </ul>
   );
