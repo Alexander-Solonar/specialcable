@@ -63,7 +63,11 @@
     "title": "Request a Call",
     "input": "Your Name",
     "button": "Request a Call",
-    "text": "By clicking the “Request a Callback” button, I give full consent to the processing of personal data and confirm that I have read the privacy policy."
+    "text": "By clicking the “Request a Callback” button, I give full consent to the processing of personal data",
+    "notiflix": {
+      "title": "Thank you",
+      "message": "Our representative will contact you shortly at your number"
+    }
   },
 
   "mainBanner": {

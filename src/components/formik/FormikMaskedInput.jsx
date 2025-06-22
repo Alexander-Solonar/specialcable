@@ -21,6 +21,7 @@ const FormikMaskedInput = props => {
               id={name}
               className={`h-full w-full border-2 ${borderColor} px-3 focus:border-vivid-red`}
               mask="+38 (099) 999-99-99"
+              placeholder="+38(099) 999-9999"
             ></InputMask>
           );
         }}

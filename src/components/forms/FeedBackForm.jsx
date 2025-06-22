@@ -1,22 +1,38 @@
 import { Form, Formik } from 'formik';
 import { useTranslation } from 'react-i18next';
 import { feedbackSchema } from '../formik/schemas';
+import Notiflix from 'notiflix';
 import FormikControl from '../formik/FormikControl';
 import Container from '../common/Container';
 import SectionTitle from '../common/SectionTitle';
+
+Notiflix.Report.init({
+  width: '360px',
+  svgSize: '60px',
+  messageFontSize: '16px',
+  success: {
+    svgColor: '#008000',
+    buttonBackground: '#FF7300',
+    backOverlayColor: '#0c243e33',
+  },
+});
 
 const FeedBackForm = () => {
   const { t } = useTranslation();
 
   const initialValues = {
     name: '',
-    phone: '1',
+    phone: '',
     checkbox: false,
   };
 
   const handleSubmit = (values, actions) => {
-    console.log(values);
-    initialValues.phone = '';
+    Notiflix.Report.success(
+      `${t('feedBackForm.notiflix.title')}, ${values.name}!`,
+      `${t('feedBackForm.notiflix.message')} ${values.phone}`,
+      'OK'
+    );
+
     actions.resetForm();
   };
 
@@ -45,7 +61,6 @@ const FeedBackForm = () => {
                     type="text"
                     name="phone"
                     className="relative h-9 sm:flex-grow ml:h-14"
-                    placeholder="+38(0XX) XXX-XXXX"
                   />
                   <button
                     disabled={!values.checkbox}
