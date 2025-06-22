@@ -1,4 +1,4 @@
-import { useContext, useEffect } from 'react';
+import { Suspense, useContext, useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Context } from 'context/Context';
 import { aboutUsPageNavLinks } from 'data/aboutUsPageNavLinks';
@@ -29,7 +29,9 @@ const AboutCompanyPage = () => {
         classNameList="grid grid-cols-3 gap-4 text-center ml:grid-cols-6"
       />
 
-      <Outlet />
+      <Suspense fallback={<></>}>
+        <Outlet />
+      </Suspense>
     </div>
   );
 };

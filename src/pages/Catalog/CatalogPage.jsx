@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { Suspense, useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
 import { catalogPageNavLinks } from 'data/catalogPageNavLinks';
 import PageNavigation from 'components/common/PageNavigation';
@@ -15,7 +15,9 @@ const CatalogPage = () => {
         classNameList="flex flex-wrap  gap-4 justify-center items-center ml:flex-nowrap ml:justify-between"
         classNameItem="max-w-[230px]"
       />
-      <Outlet />
+      <Suspense fallback={<></>}>
+        <Outlet />
+      </Suspense>
     </div>
   );
 };

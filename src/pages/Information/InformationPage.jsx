@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import { informationPageNavLinks } from 'data/informationPageNavLinks';
 import PageNavigation from 'components/common/PageNavigation';
@@ -9,7 +10,9 @@ const InformationPage = () => {
         links={informationPageNavLinks}
         classNameList="flex flex-wrap  gap-4 justify-center ml:flex-nowrap ml:justify-between"
       />
-      <Outlet />
+      <Suspense fallback={<></>}>
+        <Outlet />
+      </Suspense>
     </div>
   );
 };
